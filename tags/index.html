@@ -82,32 +82,54 @@ html body main div.thumb {font-size: 1.0em;
 
 ul.article { list-style: none; line-height: 1em; padding-top: .5em; }
 
-h1 { font-size: 1.8em; font-family:    title; } /* *        */
-h2 { font-size: 1.7em; font-family: heatline; } /* **       */
-h3 { font-size: 1.6em; font-family: heatline; } /* ***      */
-h4 { font-size: 1.5em; font-family: heatline; } /* ****     */
-h5 { font-size: 1.5em; font-family: heatline; } /* *****    */
-h6 { font-size: 1.5em; font-family: heatline; } /* ******   */
-h7 { font-size: 1.5em; font-family: heatline; } /* *******  */
-h8 { font-size: 1.5em; font-family: heatline; } /* ******** */
+h1 { color: var( --FGCtitle  ); font-size:   3em; font-family: title;    } /* TITLE    */
+h2 { color: var( --FGCstart1 ); font-size: 1.6em; font-family: heatline; } /* *        */
+h3 { color: var( --FGCstart2 ); font-size: 1.5em; font-family: heatline; } /* **       */
+h4 { color: var( --FGCstart3 ); font-size: 1.4em; font-family: heatline; } /* ***      */
+h5 { color: var( --FGCstart4 ); font-size: 1.3em; font-family: heatline; } /* ****     */
+h6 { color: var( --FGCstart5 ); font-size: 1.2em; font-family: heatline; } /* *****    */
+h7 { color: var( --FGCstart6 ); font-size: 1.1em; font-family: heatline; } /* ******   */
+h8 { color: var( --FGCstart7 ); font-size: 1.1em; font-family: heatline; } /* *******  */
+h9 { color: var( --FGCstart8 ); font-size: 1.1em; font-family: heatline; } /* ******** */
 
-h2 { text-align: center; color: var( --FGCstart1 ); }
-h3 { text-align: center; color: var( --FGCstart2 ); }
-h4 { text-align: center; color: var( --FGCstart3 ); }
-h5 { text-align: center; color: var( --FGCstart4 ); }
-h6 { text-align: center; color: var( --FGCstart5 ); }
-h7 { text-align: center; color: var( --FGCstart6 ); }
-h8 { text-align: center; color: var( --FGCstart7 ); }
-h9 { text-align: center; color: var( --FGCstart8 ); }
+h1 { line-height: 1.5em; text-align: center;      } /* TITLE    */
+h2 { border-bottom: 1px solid #ddd;               } /* *        */
+h3 {                                              } /* **       */
+h4 {                                              } /* ***      */
+h5 {                                              } /* ****     */
+h6 {                                              } /* *****    */
+h7 {                                              } /* ******   */
+h8 {                                              } /* *******  */
+h9 {                                              } /* ******** */
 
-h2::before { content: "卐 ";                       }
-h3::before { content: "卍卍 ";                      }
-h4::before { content: "卐卐卐 ";                     }
-h5::before { content: "卍卍卍卍 ";                    }
-h6::before { content: "卐卐卐卐卐 ";                   }
-h7::before { content: "卍卍卍卍卍卍 ";                  }
-h8::before { content: "卐卐卐卐卐卐卐 ";                 }
-h9::before { content: "卍卍卍卍卍卍卍卍 ";                }
+h1.subtitle { color: var( --FGCstart1 ); font-size:   2em; font-family: title;    }
+h2.subtitle { color: var( --FGCstart2 ); font-size: 1.5em; font-family: heatline; }
+h3.subtitle { color: var( --FGCstart3 ); font-size: 1.4em; font-family: heatline; }
+h4.subtitle { color: var( --FGCstart4 ); font-size: 1.3em; font-family: heatline; }
+h5.subtitle { color: var( --FGCstart5 ); font-size: 1.2em; font-family: heatline; }
+h6.subtitle { color: var( --FGCstart6 ); font-size: 1.1em; font-family: heatline; }
+h7.subtitle { color: var( --FGCstart7 ); font-size: 1.0em; font-family: heatline; }
+h8.subtitle { color: var( --FGCstart8 ); font-size: 1.0em; font-family: heatline; }
+h9.subtitle { color: var( --FGCtitle  ); font-size: 1.0em; font-family: heatline; }
+
+/* h2::before { content: "• ";                       } */
+/* h3::before { content: "•• ";                      } */
+/* h4::before { content: "••• ";                     } */
+/* h5::before { content: "•••• ";                    } */
+/* h6::before { content: "••••• ";                   } */
+/* h7::before { content: "•••••• ";                  } */
+/* h8::before { content: "••••••• ";                 } */
+/* h9::before { content: "•••••••• ";                } */
+
+/* ###################### TEXT */
+p-2 { color: #ffffff; text-align: justify; margin-left: 1em; } /* *        */
+/* .hBody-3 { color: #ffffff; text-align: justify; margin-left: 1em; } /\* **       *\/ */
+/* .hBody-4 { color: #ffffff; text-align: justify; margin-left: 1em; } /\* ***      *\/ */
+/* .hBody-5 { color: #ffffff; text-align: justify; margin-left: 1em; } /\* ****     *\/ */
+/* .hBody-6 { color: #ffffff; text-align: justify; margin-left: 1em; } /\* *****    *\/ */
+/* .hBody-7 { color: #ffffff; text-align: justify; margin-left: 1em; } /\* ******   *\/ */
+/* .hBody-8 { color: #ffffff; text-align: justify; margin-left: 1em; } /\* *******  *\/ */
+/* .hBody-9 { color: #ffffff; text-align: justify; margin-left: 1em; } /\* ******** *\/ */
 
 h1 { line-height: 1.5em; text-align: center; }
 
@@ -362,7 +384,7 @@ img:hover { border: 0.05em solid #fff; }
   
   <li>
     <p>
-      11 19 <a class="title" href="https://nasciiboy.github.io/tags/init/">Init</a>
+      <span style="color:#888" >22 11 19</span> <a class="title" href="https://nasciiboy.github.io/tags/init/">Init</a>
     </p>
   </li>
   
