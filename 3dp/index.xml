@@ -66,7 +66,7 @@ un conjunto ensamblado&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Impresora 3D de filamento. Debe medir al menos 100x100 milimetros, aunque se
-recomienda una base minima de (220x220) para imprimir las banda flexible para
+recomienda una base minima de (220x220) para imprimir la banda flexible para
 la cabeza&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;100gr de filamento PETG&lt;/p&gt;&lt;/li&gt;
@@ -227,7 +227,7 @@ interior aproximadamente 70°&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-010.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Introdusca el fleje dentro de los puentes&amp;hellip; en caso de no llegar al final,
-golpee el fleje contra el puente com mucha delicadeza&amp;hellip; el
+golpee el fleje contra el puente con mucha delicadeza&amp;hellip; el
 maltrato podria despegar algunas capas&amp;hellip; ja, ja. Si tiene dudas, tambien podria
 calentar el fleje con un encendedor unos pocos segundos&lt;/p&gt;
 
@@ -267,7 +267,7 @@ fleje ya colocado sobre la cabeza&lt;/p&gt;
 &lt;p&gt;En el cuerpo de la copa retire los soportes y limpie a conciencia. Rosque el
 conector jack y asegure con la tuerca&lt;/p&gt;
 
-&lt;p&gt;Corte un poco de termofid (1 o 2~ centimentros) y coloquelo en los conectores
+&lt;p&gt;Corte un poco de termofit (1 o 2~ centimentros) y coloquelo en los conectores
 JST hembra&lt;/p&gt;
 
 &lt;p&gt;Solde al conector jack. El conector mas largo y al centro es el
@@ -301,7 +301,7 @@ un poco antes&lt;/p&gt;
 
 &lt;p&gt;Tenga MUCHO CUIDADO al manejar los drivers, sus imanes son bastante potentes. Si
 es negligente podrian atraerse entre si y fastidiar las membranas. Mantengalos
-alejados de cualquier elemento metalico. De preferencia manipulelos dendro de
+alejados de cualquier elemento metalico. De preferencia manipulelos dentro de
 los protectores que utilizan en su envio&lt;/p&gt;
 
 &lt;p&gt;Solde el JST macho a los controladores, por lo general el polo positivo esta del
@@ -317,6 +317,12 @@ para esta union&lt;/p&gt;
 correctamente (quedan flojos) tiene dos opciones, primero corte secciones de
 masquin para engrosar el diametro de los controladores o aplique un poco de
 pegamento de contacto transparente&lt;/p&gt;
+
+&lt;p&gt;Los modelos de adaptadores vienen indicados en &amp;ldquo;milimetros&amp;rdquo;. En general si va a
+utilizar por ejemplo altavoces de 40mm, use el adaptador marcado como &lt;code&gt;395&lt;/code&gt;
+(39.5mm), si utiliza de 50 el &lt;code&gt;495&lt;/code&gt; y asi. Hay verciones precisas si tiene
+dudas, aunque seguramente necesite sujetar aplicando pegamento (de contacto
+transparente preferiblemente)&lt;/p&gt;
 
 &lt;p&gt;El resto de componentes (requilla, tapa y tapa de las almohadillas) solo
 requiere roscar&lt;/p&gt;
@@ -365,7 +371,7 @@ amplificador, aunque el uso de uno beneficia el rendimiento&lt;/p&gt;
 Aunque tiene un posicionamiento apreciable, esta bastante lejano del desempeño
 que ofrece aquel&lt;/p&gt;
 
-&lt;p&gt;Por su parte las frequencias bajas estan mas equilibradas. Comparativamente es
+&lt;p&gt;Por su parte las frequencias bajas estan mas equilibradas. Comparativamente el
 sonido es mas frio, aunque me parece que flaquea en las frecuencias altas&lt;/p&gt;
 
 &lt;p&gt;Si este no es un inconveniente, el desempeño por el precio es bastante elevado y
@@ -456,7 +462,7 @@ configuracion sin exigencias ni particularidades es todo lo que se necesita&lt;/
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-060.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;incomodidad con las frecuencias agudas? buscas un sonido confortable y
+&lt;p&gt;Incomodidad con las frecuencias agudas? buscas un sonido confortable y
 &amp;ldquo;nostalgico&amp;rdquo;?&lt;/p&gt;
 
 &lt;p&gt;La contraparte del sonido brillante, un gusto sencillo y acogedor&lt;/p&gt;
