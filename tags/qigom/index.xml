@@ -199,7 +199,9 @@ bastante quebradizo. Podria imprimir todos los modelos con PLA, pero la
 combinacion recomendada es imprimir el cuerpo (la copa) en PLA y
 el resto en PETG.&lt;/p&gt;
 
-&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU, en caso de
+&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU &lt;strong&gt;completamente
+solida&lt;/strong&gt; a modo que parezca un cacho de cuero o camara&amp;hellip; cualquier patron de
+relleno interno disminuiria considerablemente la flexibilidad. En caso de
 necesidad y desesperacion, aunque no sea recomendable, utilice petg, reduciendo
 el numero de capas en la banda a no mas de 4 o las que su filamento le permitan
 mantener como una lamina flexible&lt;/p&gt;
@@ -210,7 +212,8 @@ material&lt;/p&gt;
 
 &lt;p&gt;Las regillas decorativas pueden imprimirse en cualquier material&lt;/p&gt;
 
-&lt;p&gt;Unicamente es necesario colocar soportes en la base para el cuerpo&lt;/p&gt;
+&lt;p&gt;Unicamente es necesario colocar soportes tocando la placa para el
+cuerpo&lt;/p&gt;
 
 &lt;p&gt;Se recomienda utilizar un borde de 2mm para los adaptadores de los drivers y las
 horquillas, pero en su impresora podrian no ser necesarios&lt;/p&gt;
@@ -485,6 +488,8 @@ drivers. Para conseguir modelos personalizados visite los siguientes enlaces&lt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;Customizable Speaker Spacer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/grid-002.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;modificacion&#34;&gt;Modificacion&lt;/h2&gt;
 
 &lt;p&gt;El sonido (ignorando la fuente) y compartiendo una misma carcasa, depende en su mayoria de la alhomadila y driver
@@ -517,6 +522,8 @@ interes&amp;hellip; je, je. Sintase libre de experimentar y compartir sus modifi
 &lt;h2 id=&#34;pd&#34;&gt;PD&lt;/h2&gt;
 
 &lt;p&gt;Disfrut!&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-076.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
