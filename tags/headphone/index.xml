@@ -210,6 +210,17 @@ juego&lt;/p&gt;
 de la banda. Una vez colocadas deben poder girar con un poco de esfuerzo y ser
 un tanto mas dificil el deslizamiento&lt;/p&gt;
 
+&lt;p&gt;Las piezas estan impresas en una configuracion estandar:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;boquilla .4&lt;/li&gt;
+&lt;li&gt;capa .2&lt;/li&gt;
+&lt;li&gt;paredes 3-4&lt;/li&gt;
+&lt;li&gt;inferior 3&lt;/li&gt;
+&lt;li&gt;superior 4&lt;/li&gt;
+&lt;li&gt;relleno 10-15% giroide (conectado)&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Para mis impresiones utilizo una artillery genius y cura como laminador. En los
 perimetros externos la presicion es exacta, pero en los orificios internos tengo
 establecido un valor de &lt;code&gt;0.2&lt;/code&gt; (&lt;em&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/em&gt;)&lt;/p&gt;
