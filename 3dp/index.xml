@@ -35,15 +35,14 @@ construccion robusta y un facil ensamblaje y modificacion&lt;/p&gt;
 
 &lt;p&gt;Si bien el modelo no resulta extraordinariamente atractivo&amp;hellip; no presenta
 complicaciones en su impresion. La union de las piezas se realiza mediante
-roscas y un poco de pegamento y/o un ajuste preciso&lt;/p&gt;
+roscas, un poco de pegamento y un ajuste preciso&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-029.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;La mayor dificultad en los audifonos impresos se concentra en la resistencia del
-material utilizado en la diadema. Se busco algo sencillo, barato y resistente&lt;/p&gt;
-
-&lt;p&gt;Para la diadema se utiliza el fleje de abrazaderas de acero inoxidable y para
-conectar las horquillas barras cilindricas de 5mm tambien de acero.&lt;/p&gt;
+material utilizado en la diadema. Se busco algo sencillo, barato y resistente.
+Para la diadema, se utiliza el fleje de abrazaderas de acero inoxidable. Para
+conectar las horquillas, barras cilindricas de 5mm tambien de acero.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-029.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
@@ -51,7 +50,7 @@ conectar las horquillas barras cilindricas de 5mm tambien de acero.&lt;/p&gt;
 directamente en la cabeza&amp;hellip; y si bien es posible acolcharla por uno mismo,
 comprar un recubrimiento o adaptar una cinta elastica, solo por mantener la
 sencilles en mente, se utiliza una banda flexible (que no elastica) impresa en
-TPU que por estetica y robustez se une mediante unos tornillos&lt;/p&gt;
+TPU que por estetica y robustez se une mediante tornillos&lt;/p&gt;
 
 &lt;p&gt;Las piezas impresas estan diseñadas en &lt;a href=&#34;https://openscad.org/&#34;&gt;OpenScad&lt;/a&gt;, lo que
 permite modificar y adaptar el modelo de forma parametrica mediante un programa
