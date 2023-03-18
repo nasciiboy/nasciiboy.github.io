@@ -33,36 +33,43 @@ una opcion mas para construir sus propios equipos utilizando componentes de
 &amp;ldquo;facil adquisicion&amp;rdquo; junto a impresion 3D (FDM) buscando un equilibrio entre una
 construccion robusta y un facil ensamblaje y modificacion&lt;/p&gt;
 
-&lt;p&gt;Si bien el modelo no resulta extraordinariamente atractivo&amp;hellip; no presenta
+&lt;p&gt;Si bien el modelo no resulta extraordinariamente llamativo&amp;hellip; no presenta
 complicaciones en su impresion. La union de las piezas se realiza mediante
 roscas, un poco de pegamento y un ajuste preciso&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-029.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;La mayor dificultad en los audifonos impresos se concentra en la resistencia del
-material utilizado en la diadema. Se busco algo sencillo, barato y resistente.
-Para la diadema, se utiliza el fleje de abrazaderas de acero inoxidable. Para
-conectar las horquillas, barras cilindricas de 5mm tambien de acero.&lt;/p&gt;
+material utilizado en la diadema, que por lo general se termina partiendo. Se
+busco algo sencillo, barato y resistente. Para la diadema, se utiliza el fleje
+de abrazaderas de acero inoxidable. Para conectar las horquillas, barras
+cilindricas de 5mm tambien de acero.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-022.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Aunque se puede utilizar sin mas, es algo rudo colocar la banda metalica
 directamente en la cabeza&amp;hellip; y si bien es posible acolcharla por uno mismo,
 comprar un recubrimiento o adaptar una cinta elastica, solo por mantener la
-sencilles en mente, se utiliza una banda flexible (que no elastica) impresa en
+sencilles, se utiliza una banda flexible (que no elastica) impresa en
 TPU que por estetica y robustez se une mediante tornillos&lt;/p&gt;
 
 &lt;p&gt;Las piezas impresas estan diseñadas en &lt;a href=&#34;https://openscad.org/&#34;&gt;OpenScad&lt;/a&gt;, lo que
 permite modificar y adaptar el modelo de forma parametrica mediante un programa
-de libre uso y distribucion, haciendo posible producir diseños para una ifinidad
+de libre uso y distribucion, haciendo posible producir diseños para una infinidad
 de parlantes, almohadillas o ajustar los componentes no impresos por otros de
 distinta especificacion&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-026.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;En esta ocacion se presentan tres variantes del mismo diseño (PTG) acompañadas
-de algunos componentes que ofrecen distintas firmas de sonido segun los propios
-gustos y experiencias de este quien escribe&lt;/p&gt;
+&lt;p&gt;En esta ocacion se presentan tres variantes del mismo diseño &amp;ldquo;PTG&amp;rdquo; diferenciadas
+por el alohamiento interno (presumiblemente el driver o un adaptador) y las
+almohadillas a utilizar
+(&lt;a href=&#34;https://www.printables.com/es/model/415613-nascii-ptg-75-100/files&#34;&gt;75-100&lt;/a&gt;,
+&lt;a href=&#34;https://www.printables.com/es/model/415621-nascii-ptg-60-80&#34;&gt;60-80&lt;/a&gt; y
+&lt;a href=&#34;https://www.printables.com/es/model/415563-nascii-ptg-50-70&#34;&gt;50-70&lt;/a&gt;)
+acompañadas de algunos componentes que ofrecen distintas firmas de sonido segun
+los propios gustos y experiencias de este quien escribe, por su puesto cada cual
+con su propio encanto&lt;/p&gt;
 
 &lt;p&gt;Si bien mis habilidades &amp;ldquo;audiofilas&amp;rdquo; son bastante escasas, he de manifestar mi
 satisfaccion con los resultados tanto en el diseño sencillo como asi tambien en
@@ -485,7 +492,7 @@ tu bocina&lt;/p&gt;
 hecho muchas sonaran mal en ellos y para esos y todos los casos esta
 configuracion sin exigencias ni particularidades es todo lo que se necesita&lt;/p&gt;
 
-&lt;h3 id=&#34;leagginal-seda-obscuro&#34;&gt;Leagginal (seda) obscuro&lt;/h3&gt;
+&lt;h3 id=&#34;leagginal-seda-obscuro&#34;&gt;Leagginal seda (obscuro)&lt;/h3&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-059.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
