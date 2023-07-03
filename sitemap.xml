@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nasciiboy.github.io/3dp/nkh/nkh/</loc>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nasciiboy.github.io/3dp/ptg/ptg/</loc>
     <lastmod>2023-02-03T15:54:05-06:00</lastmod>
   </url>
@@ -19,13 +24,13 @@
   
   <url>
     <loc>https://nasciiboy.github.io/categories/3dp/</loc>
-    <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nasciiboy.github.io/3dp/</loc>
-    <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,13 +42,13 @@
   
   <url>
     <loc>https://nasciiboy.github.io/categories/</loc>
-    <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nasciiboy.github.io/tags/fonos/</loc>
-    <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -55,13 +60,19 @@
   
   <url>
     <loc>https://nasciiboy.github.io/tags/headphone/</loc>
-    <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nasciiboy.github.io/tags/init/</loc>
     <lastmod>2022-11-19T22:41:07-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nasciiboy.github.io/tags/leaginal/</loc>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,7 +84,13 @@
   
   <url>
     <loc>https://nasciiboy.github.io/tags/nascii/</loc>
-    <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nasciiboy.github.io/tags/nkh/</loc>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,8 +113,14 @@
   </url>
   
   <url>
-    <loc>https://nasciiboy.github.io/tags/qigom/</loc>
+    <loc>https://nasciiboy.github.io/tags/ptg/</loc>
     <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nasciiboy.github.io/tags/qigom/</loc>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,7 +132,7 @@
   
   <url>
     <loc>https://nasciiboy.github.io/</loc>
-    <lastmod>2023-02-03T15:54:05-06:00</lastmod>
+    <lastmod>2023-06-25T00:19:30-06:00</lastmod>
     <priority>0</priority>
   </url>
   
