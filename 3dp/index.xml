@@ -20,14 +20,14 @@
       <guid>https://nasciiboy.github.io/3dp/nkh/nkh/</guid>
       <description>
 
+&lt;p&gt;Un anuncio gracioso para el nuevo diseño &amp;ldquo;&lt;strong&gt;NKH&lt;/strong&gt;&amp;rdquo; que&amp;hellip; son otra carcasa de
+audifonos (&amp;ldquo;parcialmente&amp;rdquo;) impresos en 3D con equipo &amp;ldquo;casero&amp;rdquo;&lt;/p&gt;
+
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Un anuncio gracioso para el nuevo diseño &amp;ldquo;&lt;strong&gt;NKH&lt;/strong&gt;&amp;rdquo; que&amp;hellip; son otra carcasa de
-audifonos (&amp;ldquo;parcialmente&amp;rdquo;) impresos en 3D de forma casera&lt;/p&gt;
-
-&lt;p&gt;El anterior diseño &lt;a href=&#34;https://nasciiboy.github.io/3dp/ptg/ptg/index.html&#34;&gt;&lt;strong&gt;PTG&lt;/strong&gt;&lt;/a&gt; brindo la formula para
-obtener un equilibrio entre una construccion robusta, elementos no impresos
-accesibles y un esamblaje sencillo.&lt;/p&gt;
+&lt;p&gt;El anterior diseño &lt;a href=&#34;https://nasciiboy.github.io/3dp/ptg/ptg/index.html&#34;&gt;PTG&lt;/a&gt; facilito la formula de
+equilibrio entre una construccion robusta, elementos no impresos accesibles y un
+esamblaje sencillo.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-039.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
@@ -36,9 +36,9 @@ de comodo&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-036.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;La idea tras el diseño se fundamento en dos ideas. Primero, reducir los
+&lt;p&gt;La idea tras el diseño se fundamento en dos pensamientos. Primero, reducir los
 componentes al minimo, manteniendo un sistema de union roscado entre el
-alohamiento del altavoz y el soporte de las almohadillas. Segundo, dentro de
+alojamiento del altavoz y el soporte de las almohadillas. Segundo, dentro de
 unas almohadillas &amp;ldquo;extra&amp;rdquo; anchas, acercar lo mas posible el conductor al oido&lt;/p&gt;
 
 &lt;p&gt;Por que de la segunda idea? si ha utilizado diademas on-ear con pequeños
@@ -141,7 +141,7 @@ roscados, puede unirse con tornillos utilizando cianocrilato&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;para conectar los controladores con los conectores jack es posible utilizar
-cualquier alambre/cable de cobre, aluminio que tenga a la mano&amp;hellip; por supuesto
+cualquier alambre/cable de cobre, aluminio que tenga a la mano&amp;hellip; por supuesto,
 utilizar conectores desmontables facilitaria intercambiar distintos
 controladores, aunque siempre puede imprimir la cantidad de carcasas necesarias
 para satisfacer a su corazon&lt;/p&gt;
@@ -164,13 +164,13 @@ la primera, pero la segunda tampoco ha presentado inconvenientes&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;podria tambien ensamblar sus propios cables consiguiendo conectores macho de 3.5
-y un cable de audio R/L a 3.5, no es una solucion demaciado fiable debido a la
+y un cable de audio R/L a 3.5. No es una solucion demaciado fiable debido a la
 poca calidad de los cables R/L pero&amp;hellip; funciona&lt;/p&gt;
 
 &lt;h2 id=&#34;impresion&#34;&gt;Impresion&lt;/h2&gt;
 
 &lt;p&gt;Aunque por la naturaleza de la impresion mediante filamento existen una
-tolerancia de entre .2/.3 mm en las piezas redondas (como las horquillas) debe
+tolerancia de entre .2/.3 mm en las piezas redondas (como las horquillas), deberia
 serciorarse que la presicion no difiera en mas de 0.05mm tanto en perimetros
 como orificios internos&lt;/p&gt;
 
@@ -178,18 +178,18 @@ como orificios internos&lt;/p&gt;
 &lt;a href=&#34;https://www.printables.com/es/model/258716-prueba-de-tolerancia-interna&#34;&gt;este&lt;/a&gt;
 modelo para realizar una prueba de presicion&lt;/p&gt;
 
-&lt;p&gt;Los puntos criticos en cuanto a la presicion son dos. Primero, el cuerpo y el
-soporte roscado para las almohadillas deben unirse suavidad y al mismo tiempo sin apenas
+&lt;p&gt;Los puntos criticos en cuanto al ajuste son dos. Primero, el cuerpo y el soporte
+roscado para las almohadillas deben unirse suavidad y al mismo tiempo sin apenas
 juego&lt;/p&gt;
 
 &lt;p&gt;Segundo, insertar las barras el puente debe requerir algo de esfuerzo, para una
 vez colocadas girar con un poco de esfuerzo e impedir suficientemente el
 deslizamiento&lt;/p&gt;
 
-&lt;p&gt;Las piezas estan impresas en una configuracion estandar:&lt;/p&gt;
+&lt;p&gt;Las piezas fueron impresas con la siguiente configuracion:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;boquilla .4 (anchura en el laminador de .44)&lt;/li&gt;
+&lt;li&gt;boquilla .4, ancho de linea (en el laminador de .44)&lt;/li&gt;
 &lt;li&gt;capa .2&lt;/li&gt;
 &lt;li&gt;paredes 3-4&lt;/li&gt;
 &lt;li&gt;inferior 3&lt;/li&gt;
@@ -203,9 +203,9 @@ deslizamiento&lt;/p&gt;
 perimetros externos la presicion es exacta, pero en los orificios internos tengo
 establecido un valor de &lt;code&gt;0.2&lt;/code&gt; (&lt;em&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/em&gt;)&lt;/p&gt;
 
-&lt;p&gt;Si bien el PLA suele ser el filamento con mayor resistencia, tambien suele ser
+&lt;p&gt;Si bien el PLA suele ser el filamento con mayor resistencia, tambien resulta
 bastante quebradizo. Podria imprimir todos los modelos con PLA, pero la
-combinacion recomendada es imprimir el soporte para las almohadillas en PLA y
+combinacion recomendada seria solo utilizar PLA en el soporte para las almohadillas y
 el resto en PETG.&lt;/p&gt;
 
 &lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU &lt;strong&gt;completamente
@@ -254,7 +254,7 @@ adaptador con el siguiente modelo personalizable
 
 &lt;h2 id=&#34;drivers&#34;&gt;Drivers&lt;/h2&gt;
 
-&lt;p&gt;En general esta diadema diadema proporciona un incremento en la sensacion de los
+&lt;p&gt;En general esta diadema proporciona un incremento en la sensacion de los
 grabes con respecto al modelo PTG 75-100 sin ser tan &amp;ldquo;energetica&amp;rdquo; como el
 modelo 50-70&lt;/p&gt;
 
