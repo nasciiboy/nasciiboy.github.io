@@ -56,13 +56,27 @@ claridad del sonido&lt;/p&gt;
 &lt;p&gt;Pobria haberse copiado la formula empleada tal cual de aquellos audifonos, pero,
 por que no aplicar aquello en un modelo over-ear con mayor confort?&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-001.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-A.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Bueno, habiendo logrado los objetivos nada limita utilizar una variedad de
-soluciones intermedias intercambiando el soporte roscado para las almohadillas,
-pero eso requerira su propia y legitima publicacion (proximamente o&amp;hellip; no)&lt;/p&gt;
+&lt;h2 id=&#34;pad-b&#34;&gt;PAD-B&lt;/h2&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-009.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;El bochornoso calor no se lleva excesivamente bien con las suaves almohadillas
+anchas&amp;hellip; si bien ese es el modelo recomendado, la variente del soporte para
+almohadillas &lt;em&gt;PAD-B&lt;/em&gt; es la respuesta &amp;ldquo;generica&amp;rdquo; que se adapta a cualquier tipo
+de almohadilla&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-045.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Unicamente se ha invertido la direccion de los soportes que fijan la
+almohadilla con un resultado estetico y sonoro ligeramente distinto. Al igual
+que la variente ancha, esta proporciona un realce en los graves, presumiblemente
+por el diseño conico donde se aloja el driver&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-B.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;El polimero es barato&amp;hellip; no pierda la oportunidad de imprimir un par extra de
+esta variante y diviertase intercambiando almohadillas mientras se esfuerza con
+todo su ser en elegir una u otra&lt;/p&gt;
 
 &lt;h2 id=&#34;materiales-y-equipo&#34;&gt;Materiales y equipo&lt;/h2&gt;
 
@@ -114,14 +128,23 @@ roscados, puede unirse con tornillos utilizando cianocrilato&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-034.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Los modelos incluidos permiten utilizar almohadillas de 100, 105 y 110mm. Se
+sugiere utilizar almohadillas de 105mm con una profundidad de 35mm&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;cianocrilato&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tambien puede optar por alguna variente &amp;ldquo;plana&amp;rdquo; si utiliza los modelos &lt;code&gt;PAD-B&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-046.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas de terciopelo de 100mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;cianocrilato&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Para unir la banda de la cabeza con el puente&lt;/p&gt;
@@ -245,6 +268,8 @@ tambien para las tapas decorativas de las barillas&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-002.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
+&lt;p&gt;(La variente del soporte para las almohadillas &lt;em&gt;PAD-B&lt;/em&gt; no requiere ningun soporte)&lt;/p&gt;
+
 &lt;p&gt;existen dos modelos para las horquillas, una con bastante tolerancia &lt;code&gt;PETG_X2_fork.stl&lt;/code&gt;
 y otra version mas ajustada &lt;code&gt;PETG_X2_fork_hcs_04.stl&lt;/code&gt;, esto se debe a un
 problema con el laminador y el tiempo de enfriamiento entre capas en mi impresora&lt;/p&gt;
@@ -270,21 +295,25 @@ adaptador con el siguiente modelo personalizable
 grabes con respecto al modelo PTG 75-100 sin ser tan &amp;ldquo;energetica&amp;rdquo; como el
 modelo 50-70&lt;/p&gt;
 
-&lt;p&gt;Se han probado desde controladores rescatados de equipos economicos y otros
-conseguidos en aliexpress, todos ellos con resultados agradables pero aun es
-pronto para una variedad de recomendaciones &amp;ldquo;confiables&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-049.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;El &lt;a href=&#34;https://s.click.aliexpress.com/e/_DFbIY33&#34;&gt;Qigom HD650 32Ω&lt;/a&gt; economico y con buen rendimiento es bastante agradable&lt;/p&gt;
+&lt;p&gt;Se han probado desde controladores rescatados de equipos economicos y la mayoria
+de los utilizados en el anterior diseño &lt;em&gt;PTG&lt;/em&gt;, todos ellos con resultados agradables&lt;/p&gt;
+
+&lt;p&gt;Si no desea complicarese en exceso adquiera el &lt;a href=&#34;https://s.click.aliexpress.com/e/_DFbIY33&#34;&gt;Qigom HD650 32Ω&lt;/a&gt;,
+economico y con buen rendimiento&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-048.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Por otro lado el &amp;ldquo;particular&amp;rdquo; &lt;a href=&#34;https://es.aliexpress.com/item/1005004026426062.html&#34;&gt;Qigom K100 500Ω&lt;/a&gt;,
-sigue siendo especial y en necesita ninguna modificacion en el afinador tal como
+sigue siendo especial y no necesita ninguna modificacion en el afinador tal como
 llega de la tienda. En las carcasas PTG fue nesesario intercambiar el afinador
 central por uno perforado para conseguir alguna sensacion de graves, mientras
 que en esta nueva diadema estos aparecen sin intervencion alguna&lt;/p&gt;
 
 &lt;p&gt;Disfrut!&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-001.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-009.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
