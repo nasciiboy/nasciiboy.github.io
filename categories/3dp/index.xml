@@ -47,17 +47,16 @@ unas almohadillas &amp;ldquo;extra&amp;rdquo; anchas, acercar lo mas posible el 
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-036.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Por que de la segunda idea? si ha utilizado diademas on-ear con pequeños
-altavoces y almohadillas compactas, por ejemplo &lt;em&gt;Yamaha RH-5MA&lt;/em&gt; y ha cambiado
-las almohadillas por otras de mayor grosor, comprobara en primer lugar que
-requiere mayor amplificacion para igualar el mismo nivel de volumen que con las
-almohadillas compactas, ademas una mayor distancia si bien puede agregar una
-sensacion mayor de escenario y posicionamiento, generalmente perjudica la
-claridad del sonido&lt;/p&gt;
+&lt;p&gt;Por que lo segundo? si ha utilizado diademas on-ear con pequeños altavoces y
+almohadillas compactas, por ejemplo &lt;em&gt;Yamaha RH-5MA&lt;/em&gt; y ha cambiado las
+almohadillas por otras de mayor grosor, comprobara que necesita incrementar la
+amplificacion para igualar el volumen de la configuracion original, ademas una
+mayor distancia si bien puede agregar una sensacion mayor de escenario y
+posicionamiento, generalmente perjudica la claridad del sonido&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/Yamaha-RH5MA.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Pobria haberse copiado la formula empleada tal cual de aquellos audifonos, pero,
+&lt;p&gt;Podria haberse copiado la formula empleada tal cual de aquellos audifonos, pero,
 por que no aplicar aquello en un modelo over-ear con mayor confort?&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-A.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
@@ -73,7 +72,7 @@ de almohadilla&lt;/p&gt;
 
 &lt;p&gt;Unicamente se ha invertido la direccion de los soportes que fijan la
 almohadilla con un resultado estetico y sonoro ligeramente distinto (menor
-realce en graves y un ligero incremento en el escenario)), con la ventaja
+realce en graves y un ligero incremento en el escenario), con la ventaja
 adicional de no requerir soportes durante la impresion.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-B.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
@@ -217,10 +216,10 @@ poca calidad de los cables R/L pero&amp;hellip; funciona&lt;/p&gt;
 
 &lt;h2 id=&#34;impresion&#34;&gt;Impresion&lt;/h2&gt;
 
-&lt;p&gt;Aunque por la naturaleza de la impresion mediante filamento existen una
-tolerancia de entre .2/.3 mm en las piezas redondas (como las horquillas), deberia
-serciorarse que la presicion no difiera en mas de 0.05mm tanto en perimetros
-como orificios internos&lt;/p&gt;
+&lt;p&gt;Aunque por la naturaleza de la impresion mediante filamento esta dentro de lo
+aceptable tolerancias de entre .2/.5 mm en las piezas, deberia serciorarse que
+la presicion no difiera en mas de 0.05mm tanto en perimetros como orificios
+internos&lt;/p&gt;
 
 &lt;p&gt;Puede utilizar
 &lt;a href=&#34;https://www.printables.com/es/model/258716-prueba-de-tolerancia-interna&#34;&gt;este&lt;/a&gt;
@@ -248,8 +247,9 @@ deslizamiento&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-000.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;esta es una recomendacion &amp;ldquo;minima&amp;rdquo;, puede incrementar un poco la resistencia de
-las piezas aumentando el numero de paredes o subiendo el relleno hasta
-generar una pieza solida, cosa que no incrementa demaciado el tiempo de imprecion.&lt;/p&gt;
+las piezas aumentando el numero de paredes o con mayor porcentaje del relleno
+hasta generar una pieza solida, cosa que no incrementa demaciado el tiempo de
+impresion.&lt;/p&gt;
 
 &lt;p&gt;En mi caso cuento con una artillery genius y por preferencia y conviccion uso
 cura como laminador. En los perimetros externos la presicion es exacta, pero en
@@ -257,7 +257,7 @@ los orificios internos tengo establecido un valor de &lt;code&gt;0.2&lt;/code&gt
 (&lt;em&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/em&gt;)&lt;/p&gt;
 
 &lt;p&gt;Si bien el PLA suele ser el filamento con mayor resistencia, tambien resulta
-quebradizo aunque existen diferencias entre provedores e inclusos de un rollo a
+quebradizo, aunque existen diferencias entre provedores e inclusos de un rollo a
 otro del mismo fabricante. Podria imprimir todos los modelos con PLA, pero la
 combinacion recomendada seria solo utilizar PLA en el soporte para las
 almohadillas y las horquillas, mientras que el cuerpo y puente en PETG.&lt;/p&gt;
@@ -268,26 +268,26 @@ modelos en PETG&lt;/p&gt;
 &lt;p&gt;Segun mis experimentos el PETG en el puente binda una mayor friccion en las
 barras/tubos. En las horquillas el PLA hace mas rigida la estructura lo que de
 alguna forma reduce &amp;ldquo;ruidos&amp;rdquo; en la diadema mientras la utiliza y de alguna forma
-el cuerpo en PETG proporciona tambien un poco de friccion en los movimientos de la
-horquilla. Sin embargo esto no es una ciencia exacta, en algunos casos funciona
-y en otros no&amp;hellip; la velocidad de imprecion, temperatura, humedad, refrigeracion
-y alto de capa (entre otros) generan distintas deformaciones en las impresiones
+el cuerpo en PETG proporciona tambien un poco de friccion en los movimientos de
+la horquilla. Sin embargo esto no es una ciencia exacta, en algunos casos
+funciona y en otros no&amp;hellip; la velocidad de imprecion, temperatura, humedad,
+refrigeracion y altura de capa (entre otros) generan distintas imperfecciones
 sobre todo en piezas redondeadas imprezas en horizontal&lt;/p&gt;
 
-&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU &lt;strong&gt;completamente
+&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU y &lt;strong&gt;completamente
 solida&lt;/strong&gt; a modo que parezca un cacho de cuero o camara&amp;hellip; cualquier patron de
 relleno interno disminuiria considerablemente la flexibilidad. En caso de
 necesidad y desesperacion, aunque no sea recomendable, utilice petg, reduciendo
-la altura del modelo en no mas de 4 capas (.8mm en la banda) o las que su filamento le permitan mantener
-como una lamina flexible&lt;/p&gt;
+la altura del modelo en no mas de 4 capas (.8mm en la banda) o las que su
+filamento le permitan mantener como una lamina flexible&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-003.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Para un fleje de (aproximadamente) 30, utilice el model &lt;code&gt;headstrap/260.stl&lt;/code&gt;,
-y apartir del resultado pruebe con una medida distinta, bien sea del fleje o de
-la banda para la cabeza. Puede generar una banda personalizada mediante el
-fichero &lt;code&gt;scr/headstrap.scad&lt;/code&gt;, el valor 260, 270 se mide en mm siendo la medida
-la distancia entre los orificios para los tornillos&lt;/p&gt;
+&lt;p&gt;Para un fleje de (aproximadamente) 30, utilice el model &lt;code&gt;headstrap/260.stl&lt;/code&gt;, y
+apartir del resultado pruebe con una medida distinta, bien sea del fleje o de la
+banda para la cabeza. Puede generar una banda personalizada mediante el fichero
+&lt;code&gt;scr/headstrap.scad&lt;/code&gt;, el valor 260, 270 se mide en mm e indican la separacion de
+los orificios para los tornillos&lt;/p&gt;
 
 &lt;p&gt;Se requieren soportes sobre la superficie para la base de las almohadillas. La
 variente del soporte para las almohadillas &lt;em&gt;PAD-B&lt;/em&gt; no requiere ningun soporte&lt;/p&gt;
@@ -326,7 +326,7 @@ agradado&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Importante:&lt;/em&gt; Aunque coloque enlaces (y alguno sea de afiliado&amp;hellip;) no los tome como
 una fuente confible de suministros. Si bien en ellas he conseguido los altavoces
 para mis modelos personales, no han estado excentos de defecto, problemas
-en el embalaje o envio. Si sus unidades precentan defectos, proceda de forma
+en el embalaje o envio. Si sus unidades precentan problemas, proceda de forma
 razonable a colocar la mala calificacion o exigir su justo reembolso&lt;/p&gt;
 
 &lt;h3 id=&#34;beats-solo-3&#34;&gt;Beats Solo 3&lt;/h3&gt;
@@ -338,7 +338,7 @@ razonable a colocar la mala calificacion o exigir su justo reembolso&lt;/p&gt;
 &lt;p&gt;Utilice los adaptadores de driver &lt;code&gt;400&lt;/code&gt;, las almohadillas anchas de 105mm en el
 pad de 105mm.&lt;/p&gt;
 
-&lt;p&gt;El resultado es un ampliamente disfrutable conjunto neutral brillante, que no
+&lt;p&gt;El resultado es un conjunto neutral brillante ampliamente disfrutable, que no
 exige una amplificacion especializada con unas de las bocinas mas economicas&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-071.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
@@ -365,7 +365,12 @@ pad de 105mm.&lt;/p&gt;
 tiene su encanto&lt;/p&gt;
 
 &lt;p&gt;Utilice, las almohadillas de terciopelo de 100 o 105mm en el
-pad-B de 105mm.&lt;/p&gt;
+pad-B correspondiente&lt;/p&gt;
+
+&lt;p&gt;En las imagenes se muestra el conjunto con almohadillas de 110mm,
+desafortunadamente resultan menos confortables que las de 100mm&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DELd5ax&#34;&gt;https://s.click.aliexpress.com/e/_DELd5ax&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-075.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
