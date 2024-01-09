@@ -7,10 +7,137 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Sun, 25 Jun 2023 00:19:30 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 19:56:28 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Guia de uso rapido</title>
+      <link>https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/</link>
+      <pubDate>Mon, 08 Jan 2024 19:56:28 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/</guid>
+      <description>
+
+&lt;p&gt;NASCII NKH? Audifonos HiFi DIY, fiables, baratos y faciles de producir&lt;/p&gt;
+
+&lt;p&gt;Las piezas plasticas de estos audifonos estan fabricados mediante &lt;a href=&#34;https://es.wikipedia.org/wiki/Impresi%C3%B3n_3D&#34;&gt;impresion 3D&lt;/a&gt;,
+que consiste en seccionar un modelo tridimencional en laminas (capas) para
+despues mediante la deposicion de algun material reproducir el modelo en el
+mundo real.&lt;/p&gt;
+
+&lt;p&gt;Este metodo de fabricacion tiene ventajas e inconvenientes. Entre las primeras
+se encuentran la produccion rapida, local y a medida de piezas personalizadas.&lt;/p&gt;
+
+&lt;p&gt;Entre las desventajas (en la tecnologia actual a nivel domestico) podemos
+mencionar el nivel de presicion, los acabados, la limitacion de materiales y como gran
+inconveniente una escasa resistencia de las piezas comparando con metodos tradicionales
+como el moldeo de plastico por inyeccion o el uso de madera o metal&lt;/p&gt;
+
+&lt;p&gt;Mucha de la mala fama de la impresion 3D es debida a su escasa resistencia,
+quedando relegada a piezas ornamentales, prototipado y un escaso uso practico en
+objetos del dia a dia&lt;/p&gt;
+
+&lt;p&gt;Asi pues, este el que escribe, considera que construir unos audifonos unicamente
+en impresion 3D es una loca necedad. Componentes como la banda que sera
+sometida a flexion constante impresa en 3D, termina por quebrarse al primer uso, luego de unos
+dias, semanas o meses.&lt;/p&gt;
+
+&lt;p&gt;Es por ello que algunos otros proyectos de audifonos caseros utilizan total o
+parcialmente componentes de audifonos comerciales. Relegando la impresion para
+modificiciones muy concretas o meramente esteticas&lt;/p&gt;
+
+&lt;p&gt;Para este diseño la idea general consistia en producir la mayor cantidad de
+piezas posibles con impresion 3d y utilizar componentes de facil adqisicion para
+los elementos mas criticos sin depender de un fabricante en especifico&lt;/p&gt;
+
+&lt;p&gt;El listado de componentes, proceso de fabricacion, montaje e informacion de los
+modelos lo encontrara en &amp;ldquo;(NASCII NKH) Manual De Usuario&amp;rdquo; (trabajo en proceso&amp;hellip;)&lt;/p&gt;
+
+&lt;h2 id=&#34;1-di-no-al-calor&#34;&gt;#1 Di no al calor!&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/sun-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Exponer tus audifonos directamente al sol o abandonarlos en un vehiculo puede arruinarlos!&lt;/p&gt;
+
+&lt;p&gt;En la impresion casera los filamentos mas populares, baratos y faciles de imprimir (en
+tecnologia FDM) son PLA y PETG.&lt;/p&gt;
+
+&lt;p&gt;El PLA suele ser de los materiales (relativamente) mas robustos, pero tiene como inconveniente
+su baja resistencia al calor, deformandose apartir de 50° Celcius&lt;/p&gt;
+
+&lt;p&gt;El PETG ofrece menor resistencia mecanica, un cierto grado de flexibilidad y una
+resistencia a temperaturas de alrededor de 70° Celcius que podria considerarse
+segura para la construccion de unos audifonos. El inconveniente con este
+material es su mayor nivel de flexibilidad y friccion que dificulta la union
+roscada entre dos piezas del mismo material&lt;/p&gt;
+
+&lt;p&gt;Porpiedades como la friccion, se aprovechan en piezas como el puente que une las
+&amp;ldquo;barras&amp;rdquo; con la diadema.&lt;/p&gt;
+
+&lt;p&gt;En componentes de union roscada de copa y el soporte de las almohadillas y la
+misma horquilla, esta intercalada por piezas en PLA (horquilla), PETG (copa) y
+de nuevo PLA (soporte de almohadillas)&lt;/p&gt;
+
+&lt;p&gt;Existen otros materiales para impresion 3D como ASA, ABS, Nylon o Policarbonato
+pero los riesgos para la salud imprimiendo a nivel domestico son varias veces
+superiores y requieren de equipos de impresion no tan accesibles&lt;/p&gt;
+
+&lt;h2 id=&#34;2-se-gentil&#34;&gt;#2 Se gentil!&lt;/h2&gt;
+
+&lt;p&gt;Cuidalos y dales su propio lugar&lt;/p&gt;
+
+&lt;p&gt;Aunque confiables y relativamente faciles de reparar, si lo intentas los puedes
+romper&amp;hellip; tambien una caida puede quebrar como cristal la impresion o dañar
+los conectores y cables.&lt;/p&gt;
+
+&lt;p&gt;El lugar para el que fueron ideados es el hogar, especificamente colocados en su
+propio soporte en tu escritorio&lt;/p&gt;
+
+&lt;p&gt;No son recomedables ni comodos para transportarlos ni dormir con ellos&lt;/p&gt;
+
+&lt;p&gt;Guardalos si no los planeas usar, el polvo y los altavoces no son buenos compañeros&lt;/p&gt;
+
+&lt;p&gt;Ocacionalmente utiliza un paño humedo o toallas desinfectantes para mantenerlos
+limpios y relucientes&lt;/p&gt;
+
+&lt;h2 id=&#34;3-con-aceite-por-favor&#34;&gt;#3 Con aceite por favor!&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/oil-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Unos audifonos recien impresos y armados presentan alguna resistencia en el giro
+de sus copas.&lt;/p&gt;
+
+&lt;p&gt;Con uso la friccion va desgastando la union de la horquilla y la copa a la vez
+que se va incrementando un crujido y ruidillos molestos, cuando esto suceda es
+tiempo de aplicar un poco de lubricante por ejemplo lubricante automotriz con
+silicona (de bicicleta tambien debe funcionar)&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/oil-00.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Aplica media gotita en la union de copa y horquilla, limpia los restos y tus
+audifonos estaran en perfecto funcionamiento mucho tiempo&lt;/p&gt;
+
+&lt;h2 id=&#34;4-si-funciona-no-los-toques&#34;&gt;#4 Si funciona no los toques!&lt;/h2&gt;
+
+&lt;p&gt;NASCII NKH es un proyecto abierto DIY enfocado en la experimentacion con un
+intercambio rapido de componentes y diseños 3D de codigo abierto&lt;/p&gt;
+
+&lt;p&gt;Prueba a hacer todos los cambios que consideres necesarios hasta encontrar tu
+configuracion ideal&lt;/p&gt;
+
+&lt;p&gt;Pero&amp;hellip; nunca desmontes las barras/tubos de los puentes que sujetan la banda
+metalica, esta accion hace que se pierda la friccion necesaria en estos
+componentes y tendras que imprimir e intercambiar los puentes por unos nuevos&lt;/p&gt;
+
+&lt;p&gt;Otra cosideracion importante es no quitar la banda flexible de los puentes, los
+tornillos roscados directamente sobre impresion 3D nunca vuelven a quedar con
+suficiente agarre al desmontarse. En caso de que sea necesario y no desees
+reimprimir los puentes, utiliza cianocrilato para fijar los tornillos o añadir
+algo de material en los orificios de los tornillos&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NASCII NKH</title>
@@ -23,6 +150,8 @@
 &lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;Ficheros en Printables &lt;em&gt;NKH 50&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;Ficheros en Printables &lt;em&gt;NKH Z65&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nasciiboy.github.io/3dp/nkh-gdur/index.html&#34;&gt;NASCII NKH – Guia de uso rapido&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Un anuncio gracioso para el nuevo diseño &amp;ldquo;&lt;strong&gt;NKH&lt;/strong&gt;&amp;rdquo; que&amp;hellip; son otra carcasa de
 audifonos (&amp;ldquo;parcialmente&amp;rdquo;) impresos en 3D con equipo &amp;ldquo;casero&amp;rdquo;&lt;/p&gt;
@@ -137,7 +266,10 @@ sugiere utilizar almohadillas de 105mm con una profundidad de 35mm&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBfZWFP&#34;&gt;almohadillas de 105mm angulas&lt;/a&gt;
+(mas vibrante, menos posicionamiento y escenario)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Tambien puede optar por alguna variente &amp;ldquo;plana&amp;rdquo; si utiliza los modelos &lt;code&gt;PAD-B&lt;/code&gt;&lt;/p&gt;
