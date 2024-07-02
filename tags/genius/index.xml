@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Genius on ⋲ᴹ∧cₛ ℜø∁κ§</title>
@@ -18,177 +17,124 @@
       <pubDate>Sun, 11 Dec 2022 18:35:26 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/3dp/artillery-z_mod/artillery-z_mod/</guid>
-      <description>
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;enlace&#34;&gt;Enlace&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/338016-artillery-z-mod&#34;&gt;https://www.printables.com/es/model/338016-artillery-z-mod&lt;/a&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-02.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/338016-artillery-z-mod&#34;&gt;Modelos 3D&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-
 &lt;p&gt;Aunque las impresoras de la marca Artillery tienen en general buenas cualidades
 y considerando el precio de venta se optiene lo que se paga, es innegable que
 presenta varios defectos sobretodo en sus primeros modelos&lt;/p&gt;
-
-&lt;p&gt;Este es un intento de corregir uno de ellos, el &lt;strong&gt;Bamboleo&lt;/strong&gt; (wobble) y &amp;ldquo;juego&amp;rdquo;
+&lt;p&gt;Este es un intento de corregir uno de ellos, el &lt;em&gt;Bamboleo&lt;/em&gt; (wobble) y &amp;ldquo;juego&amp;rdquo;
 del eje z. Para ello se ha diseñado un nuevo carro y conseguido algunas piezas
 variadas con la esperanza de que &amp;ldquo;por mera coincidencia&amp;rdquo; se comporten correctamente&lt;/p&gt;
-
 &lt;p&gt;Ciertamente, no estamos ante tecnologia de punta y es (se cree) que basta
 un poco de sentido comun para dar con la respuesta&lt;/p&gt;
-
 &lt;p&gt;Para este proyecto se conto con hartas influencias, la primera fue una
 modificacion de &lt;a href=&#34;https://www.thingiverse.com/thing:5268713&#34;&gt;Way2Do&lt;/a&gt; a un modelo
 &amp;ldquo;abandonado&amp;rdquo; por &lt;a href=&#34;https://www.thingiverse.com/thing:4344699&#34;&gt;Ctr3D&lt;/a&gt;, aunque
 nunca se llego a imprimir&lt;/p&gt;
-
 &lt;p&gt;El otro proyecto que literalmente sirvio de plantilla fue realizado por parte de
 &lt;a href=&#34;https://www.printables.com/es/model/137175-artillery-genius-z-mod&#34;&gt;EnDiMa&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;Este diseño no se adaptaba a lo que tenia en mente, ni contaba con un fichero para poder
 realizar modificaciones como la gente, asi que se creo hechando mano de
 OpenScad.&lt;/p&gt;
-
 &lt;p&gt;Dicho modelo si fue impreso, en caso de que el mio fallara&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Sin embargo cuando se probo sobre el marco, ocurrio que la distancia a la que
 estan colocadas las ruedas en este modelo (como en el de Way2Do) quedan en exceso
 ajustadas, con un error aproximado de .6mm, ja, ja&lt;/p&gt;
-
 &lt;p&gt;Aun asi, el diseño es sencillo y facil de reproducir, por lo que se utilizo como &amp;ldquo;plantilla&amp;rdquo;&lt;/p&gt;
-
 &lt;p&gt;Creo que la primer influencia es el video que enlaza en por &lt;a href=&#34;https://www.thingiverse.com/thing:4853171&#34;&gt;aca&lt;/a&gt;&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/mqSQhwqSzvg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/mqSQhwqSzvg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;A decir verdad, encuentro la propuesta exagerada y el sistema de imanes &amp;ldquo;poco
 confiable&amp;rdquo;, ademas que no muestran la &amp;ldquo;diferencia&amp;rdquo; en forma de impresiones. Pese
 a ello, es un video muy ilustrativo con ideas (para mi) nuevas&lt;/p&gt;
-
 &lt;p&gt;y adicionalmente&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/s8-e9McOoFA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s8-e9McOoFA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;La conclusion de lo anterior fue&amp;hellip; 4 ruedas, acoplador oldham, tuerca T POM
 antiretroceso y acoplador flexible&lt;/p&gt;
-
 &lt;h3 id=&#34;carro&#34;&gt;Carro&lt;/h3&gt;
-
 &lt;p&gt;El carro original puesto por Artillery no cuenta con ninguna forma de ajustar
 las ruedas y al menos con el uso que he hecho de la impresora, no deberia
 haber ninguna razon para que tenga un mal funcionamiento, aunque ocacionalmente
 podria presenta un poco de juego&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ZNC.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ZNC.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Quien no reconece las miticas &lt;a href=&#34;https://www.thingiverse.com/thing:4444589&#34;&gt;&amp;ldquo;tapitas&amp;rdquo;&lt;/a&gt;
 que intentan corregir algunos inconvenientes de este carro?&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/z-upgrade.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/z-upgrade.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;realizando algunas pruebas, realmente no encontre algun cambio reseñable, pero
 al menos dan paz mental a quien las coloca&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;Dispuesto pues a la labor, por que no colocar 4 ruedas? Desconosco la razon de por que la mayoria
 de impresoras monta carros de 3 ruedas, quiza sea solo por ahorrar(?) o es quiza
 que en un eje con movimiento horizontal sea inecesario? Bueno, el eje Y cuenta
 con un carro con 4 ruedas y no le va mal&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-09.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-09.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Al igual que en el carro Y, para poder ajustar la tencion en las ruedas se
 colocaron dos tuercas exentricas&lt;/p&gt;
-
 &lt;p&gt;En un principio se contemplo el uso de tuercas de seguridad para mantener simpre
 fijas las ruedas, pero al intentar ajustar junto a las tuercas cuadradas que van
 en la extrusion 2040v, por alguna razon pense que era demaciado complejo
 hacer coincidir el ajuste de ambas y que quedaran seguras. Por ello la opcion
 por defecto es no contar con tuercas de seguridad, aunque es una caracteristica
 aun presente en el modelo. Si elije esta opcion, tal como en el diseño de
-&lt;strong&gt;EnDiMa&lt;/strong&gt; se cuenta con un par de orificios extra a cada lado exclusivamente
+&lt;em&gt;EnDiMa&lt;/em&gt; se cuenta con un par de orificios extra a cada lado exclusivamente
 para el ajuste de las tuercas T&lt;/p&gt;
-
 &lt;p&gt;Otra modificacion necesaria fue elevar el punto de union del carro con la tuerca
 T y el acoplador oldham&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-14.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Es &lt;strong&gt;IMPORTANTE&lt;/strong&gt; reseñar que este carro no es compatible con &amp;ldquo;los cuadrados
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-14.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es &lt;em&gt;IMPORTANTE&lt;/em&gt; reseñar que este carro no es compatible con &amp;ldquo;los cuadrados
 azules&amp;rdquo; del carro incluidos por artillery. Si eso es lo que necesita, mida y
 agregue un hueco en dicho espacio en el modelo&lt;/p&gt;
-
 &lt;h2 id=&#34;openscad&#34;&gt;OpenScad&lt;/h2&gt;
-
 &lt;p&gt;Sinceramente, me da pereza escribir mucho del tema por aqui, si tiene necesidad
 de modificar el diseño, al estar realizado en openscad tiene casi todo el
 trabajo hecho, ja, ja&lt;/p&gt;
-
 &lt;p&gt;Hace mucho que no tocaba un programa &amp;ldquo;programable&amp;rdquo;. Este esta lejos de ser motivo de horgullo,
 y la pereza, junto a gastar 1KG de filamento en continuas iteraciones deberian
 estas plasmadas en el, je, je, aun asi, me he divertido al escribirlo&lt;/p&gt;
-
 &lt;h2 id=&#34;impresion&#34;&gt;Impresion&lt;/h2&gt;
-
 &lt;p&gt;Tenga correctamente calibrada la impresora, asegurese que ademas de los
 perimetros externos los orificios internos tienen la medida correcta (dentro de
 lo posible)&lt;/p&gt;
-
 &lt;p&gt;En mi Artillery Genius tengo configurado el valor de &amp;ldquo;Expansion Horizontal de
 orificios&amp;rdquo; en &lt;code&gt;.25mm&lt;/code&gt;. Este Ajuste ocacionalmente es problematico en conjuncion
 con otros como lo son las correcciones de maya o las paredes delgadas, en este
 modelo dichos parametros no afectan en nada, pero simpre revise la vista previa
 de impresion&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;Recomendo no imprimir ambas piezas directamente. Pruebe antes imprimir uno de los lados
 con una configuracion &amp;ldquo;de prueba&amp;rdquo; (1 pared, 2 superior/inferior 5-15% de
 relleno) y revise el ajuste de los componentes o&amp;hellip; acorde a ellos y el
 resultado de la impresion, realize las modificaciones pertinentes&lt;/p&gt;
-
 &lt;p&gt;Mi impresion final la realice con 4 paredes, 4 superior/inferior, 20% giroide
 con lineas de relleno conectadas y un borde de 4mm. PETG, boquilla .4 altura .2&lt;/p&gt;
-
 &lt;p&gt;Sospecho que es una configuracion un poco excesiva, quiza con 3
 paredes/inferior/superior y un 15% de relleno sencillo es suficiente, pero por
 que escatimar?&lt;/p&gt;
-
 &lt;p&gt;Debido al &amp;ldquo;warping&amp;rdquo; (deformacion) en esquinas &amp;ldquo;puntiagudas&amp;rdquo;
 recomiendo encarecidamente que coloque soportes en el &amp;ldquo;puente de union&amp;rdquo; (nombre
 inventado). En mis impresiones, las piezas podian salir sin necesidad de ningun
 soporte o&amp;hellip; podia presentarse deformacion y desfasar un poco las capas o
 provocar que la pieza se despegase, tomelo en cuenta&lt;/p&gt;
-
 &lt;p&gt;Esta es el area donde recomiendo soportes&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/p.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/p.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Por cierto, durante las pruebas utilice un modelo impreso de la extrucion 2040
 V-Slot, puede encontrar ese y otros modelos interesantes aqui -&amp;gt;
 &lt;a href=&#34;https://www.thingiverse.com/thing:3973787&#34;&gt;https://www.thingiverse.com/thing:3973787&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;materiales&#34;&gt;Materiales&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-06.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-06.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Los enlaces son de afiliado a los materiales que he utilizado. Heche mano de su
 propio criterio y guiese por la reputacion, comentarios y experiencia en compras
 por aliexpress. Si puede o conoce mejores componentes no escatime en gastos.&lt;/p&gt;
-
 &lt;p&gt;Si decide comprar en esos sitios estara apoyando a este que escribe (y bla, bla,
 bla). Si encuentra algun inconveniente, queja, el envio tarda 2 meses en llegar
-o algo por el estilo, &lt;strong&gt;NO JODA&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
+o algo por el estilo, &lt;em&gt;NO JODA&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;8 Tornillo M5x40mm, 8 tornillo M3x12mm  (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DCkvj0B&#34;&gt;https://s.click.aliexpress.com/e/_DCkvj0B&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;8 Tuerca M3 con nylon (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DdRRKuF&#34;&gt;https://s.click.aliexpress.com/e/_DdRRKuF&lt;/a&gt;)&lt;/li&gt;
@@ -198,119 +144,82 @@ o algo por el estilo, &lt;strong&gt;NO JODA&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 &lt;li&gt;2 Coples Oldham 1204 (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DkF316j&#34;&gt;https://s.click.aliexpress.com/e/_DkF316j&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;4 Tuerca excentrica (7 diametro x 5mm internos x 6mm tuerca, en enlace &amp;ldquo;tipo B&amp;rdquo;) (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBoMTYn&#34;&gt;https://s.click.aliexpress.com/e/_DBoMTYn&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ACTUALIZACION [18-12-22]&lt;/strong&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ACTUALIZACION [18-12-22]&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Si bien el funcionamiento era correcto, tras una semana se retiraron los
 acopladores flexibles para recolocar los &amp;ldquo;rigidos&amp;rdquo; originales.&lt;/p&gt;
-
 &lt;p&gt;Aparentemente se hiso un poco mas uniforme la apariencia entre capas&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;armado&#34;&gt;Armado&lt;/h2&gt;
-
 &lt;p&gt;(si la vuelvo a desmontar, prometo tomar fotografias, realmente es un poco
 inutil detallar el proceso sin ellas, asi que unos pocos consejos. Pero&amp;hellip; mejor mire
 el siguiente video que al menos explica algunas cosas)&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Y7AGsfoA3Kw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Y7AGsfoA3Kw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;Para colocar los coples, utilice este &lt;a href=&#34;https://www.thingiverse.com/thing:3934158&#34;&gt;centrador&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;Para colocar y apretar los acopladores oldham utilice su ingenio, no es tan
-complicado&amp;hellip; &lt;strong&gt;No los deje caer&lt;/strong&gt;, son muy, muy delicados, un pequeño golpe
+complicado&amp;hellip; &lt;em&gt;No los deje caer&lt;/em&gt;, son muy, muy delicados, un pequeño golpe
 puede fastidiarlos&lt;/p&gt;
-
 &lt;p&gt;Coloque los nuevos carros sin apretar las tuercas cuadradas&lt;/p&gt;
-
 &lt;p&gt;El ajuste en las tuercas exentricas debe ser uniforme en todas ellas, tambien
 debe ser solo lo suficiente para evitar algun juego en el eje x, no los apriete
 al limite&lt;/p&gt;
-
 &lt;p&gt;Para alinear el eje X, recoloque el &amp;ldquo;marco&amp;rdquo; de plastico, apriete los 4 tornillos
 y suba el eje X al limite (quitando de en medio el cable del sensor de
-filamento). Esto se hace con los las barillas roscadas y coples apretados &lt;em&gt;sin
-la banda de sincronizacion superior&lt;/em&gt;. Hay otros metodos, pero este me
+filamento). Esto se hace con los las barillas roscadas y coples apretados &lt;strong&gt;sin
+la banda de sincronizacion superior&lt;/strong&gt;. Hay otros metodos, pero este me
 funciono&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;En este momento apriete las tuercas cuadradas&lt;/p&gt;
-
 &lt;p&gt;Una vez alineado con el tope libere los tornillos del lado izquierdo del marco
 (los que lo unen con la impresora), baje la altura de la cama con las ruedas de
 ajuste, encienda la maquina y realice un home en z. Apriete de nuevo los
 tornillos del marco de lado izquierdo&lt;/p&gt;
-
 &lt;p&gt;Mueva el eje z por todo el recorrido y asegure que no se escucha ningun
 &amp;ldquo;crujido&amp;rdquo; y todo el recorrido es suave&lt;/p&gt;
-
 &lt;p&gt;Revise todos los movimientos de las varillas y componentes, rehaga cualquier
 paso las veces que sea necesaria&lt;/p&gt;
-
 &lt;h2 id=&#34;conclucion&#34;&gt;Conclucion&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ppr-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ppr-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;La impresion superior fue la que motivo toda esta modificacion. Segun mis
 teorias, tenia un excesivo desgaste en la tuerca T de laton que en conjunto con
 el propio diseño del carro, ocacionalmente tras los &amp;ldquo;saltos en Z&amp;rdquo; el extrusor no
 regresaba a la altura correcta&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-19.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-20.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-19.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-20.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Realice algunas impresiones de piezas mas pequeñas, pero realmente no encontre
 ninguna diferencia destacable al estado de la maquina en buen funcionamiento&lt;/p&gt;
-
 &lt;p&gt;En muchos aspectos, las &amp;ldquo;modificaciones&amp;rdquo; afectan de forma insignificante (cuando
 no inapreciable) las impresiones, pero como pasa en el mundo de la modificacion
 de automoviles (supongo&amp;hellip;), esto es una parte muy importante del pasatiempo. A
 veces es necesaria, a veses desquisiante y ocacionalmente divertida&lt;/p&gt;
-
 &lt;p&gt;B-u-e-n-o&amp;hellip; tenia ese problema que termino por hacer fragil e inservible la
 impresion del pez koi&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-11.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-11.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Puedo decir con alegria y cierto horgullo, que al menos la modificacion no
 afecto para mal la impresora y de hecho soluciono el problema&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-04.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-02.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-03.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-04.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Con esto de las fotografias muchas veces se pueden hacer tomas para disimular
 las imperfecciones, pero he realizado lo mejor posible para exponer todos los detalles&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-05.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-06.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-07.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-05.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-06.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-07.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Valio la pena? Se corrigio el problema &amp;ldquo;a mi manera&amp;rdquo;, asi que si!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-15.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-15.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El filamento blanco y tamben el natural, son excelentes si se quieren disimular imperfecciones&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-13.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-14.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-15.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-17.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-13.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-14.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-15.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-17.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip; pero en negro tampoco queda nada mal&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-21.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-20.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-21.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-20.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;disfrut!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-13.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-13.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

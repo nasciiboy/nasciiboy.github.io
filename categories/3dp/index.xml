@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3dp on ⋲ᴹ∧cₛ ℜø∁κ§</title>
+    <title>3DP on ⋲ᴹ∧cₛ ℜø∁κ§</title>
     <link>https://nasciiboy.github.io/categories/3dp/</link>
-    <description>Recent content in 3dp on ⋲ᴹ∧cₛ ℜø∁κ§</description>
+    <description>Recent content in 3DP on ⋲ᴹ∧cₛ ℜø∁κ§</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Mon, 08 Jan 2024 19:56:28 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 02:13:20 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/categories/3dp/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,149 +14,102 @@
     <item>
       <title>NASCII NKH – Guia de uso rapido</title>
       <link>https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/</link>
-      <pubDate>Mon, 08 Jan 2024 19:56:28 -0600</pubDate>
+      <pubDate>Mon, 08 Jan 2024 02:13:20 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/</guid>
-      <description>
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/banner/Tinnitus_white.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/banner/Tinnitus_white.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;NASCII NKH? Audifonos HiFi DIY, fiables, baratos y faciles de producir&lt;/p&gt;
-
 &lt;p&gt;Las piezas plasticas de estos audifonos estan fabricados mediante &lt;a href=&#34;https://es.wikipedia.org/wiki/Impresi%C3%B3n_3D&#34;&gt;impresion 3D&lt;/a&gt;,
 que consiste en seccionar un modelo tridimencional en laminas (capas) para
 despues mediante la deposicion de algun material reproducir el modelo en el
 mundo real.&lt;/p&gt;
-
 &lt;p&gt;Este metodo de fabricacion tiene ventajas e inconvenientes. Entre las primeras
 se encuentran la produccion rapida, local y a medida de piezas personalizadas.&lt;/p&gt;
-
 &lt;p&gt;Entre las desventajas (en la tecnologia actual a nivel domestico) podemos
 mencionar el nivel de presicion, los acabados, la limitacion de materiales y como gran
 inconveniente una escasa resistencia de las piezas comparando con metodos tradicionales
 como el moldeo de plastico por inyeccion o el uso de madera o metal&lt;/p&gt;
-
 &lt;p&gt;Mucha de la mala fama de la impresion 3D es debida a su escasa resistencia,
 quedando relegada a piezas ornamentales, prototipado y un escaso uso practico en
 objetos del dia a dia&lt;/p&gt;
-
 &lt;p&gt;Asi pues, este el que escribe, considera que construir unos audifonos unicamente
 con impresion 3D es una loca necedad. Componentes como la banda que sera sometida
 a flexion constante, impresa en 3D termina por quebrarse al primer uso, luego de
 unos dias, semanas o meses.&lt;/p&gt;
-
 &lt;p&gt;Es por ello que algunos otros proyectos de audifonos caseros utilizan total o
 parcialmente componentes de audifonos comerciales. Relegando la impresion para
 modificiciones muy concretas o meramente esteticas&lt;/p&gt;
-
 &lt;p&gt;Para este diseño la idea general consistia en producir la mayor cantidad de
 piezas posibles con impresion 3d y utilizar componentes de facil adquisicion para
 los elementos mas criticos sin depender de un fabricante en especifico&lt;/p&gt;
-
 &lt;p&gt;El listado de componentes, proceso de fabricacion, montaje e informacion de los
 modelos lo encontrara en &amp;ldquo;(NASCII NKH) Manual De Usuario&amp;rdquo; (trabajo en
 proceso&amp;hellip;) Por el momento utilice esta &lt;a href=&#34;https://nasciiboy.github.io/3dp/nkh/nkh/index.html&#34;&gt;guia&lt;/a&gt;&lt;/p&gt;
-
 &lt;h2 id=&#34;1-di-no-al-calor&#34;&gt;#1 Di no al calor!&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/sun-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/sun-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Exponer tus audifonos directamente al sol o abandonarlos en un vehiculo puede arruinarlos!&lt;/p&gt;
-
 &lt;p&gt;En la impresion casera los filamentos mas populares, baratos y faciles de imprimir (en
 tecnologia FDM) son PLA y PETG.&lt;/p&gt;
-
 &lt;p&gt;El PLA suele ser de los materiales (relativamente) mas robustos, pero tiene como inconveniente
 su baja resistencia al calor, deformandose apartir de 50° Celcius&lt;/p&gt;
-
 &lt;p&gt;El PETG ofrece menor resistencia mecanica, un cierto grado de flexibilidad y una
 resistencia a temperaturas de alrededor de 70° Celcius que podria considerarse
 segura para la construccion de unos audifonos. El inconveniente con este
 material es su mayor nivel de flexibilidad y friccion que dificulta la union
 roscada entre dos piezas del mismo material&lt;/p&gt;
-
 &lt;p&gt;Propiedades como la friccion, se aprovecha en piezas como el puente que une las
 &amp;ldquo;barras&amp;rdquo; con la diadema.&lt;/p&gt;
-
 &lt;p&gt;En componentes de union roscada de copa y el soporte de las almohadillas y la
 misma horquilla, esta intercalada por piezas en PLA (horquilla), PETG (copa) y
 de nuevo PLA (soporte de almohadillas)&lt;/p&gt;
-
 &lt;p&gt;Existen otros materiales para impresion 3D como ASA, ABS, Nylon o Policarbonato
 pero los riesgos para la salud imprimiendo a nivel domestico son varias veces
 superiores y requieren de equipos de impresion no tan accesible&lt;/p&gt;
-
 &lt;h2 id=&#34;2-se-gentil&#34;&gt;#2 Se gentil!&lt;/h2&gt;
-
 &lt;p&gt;Cuidalos y dales su propio lugar&lt;/p&gt;
-
 &lt;p&gt;Aunque confiables y relativamente faciles de reparar, si lo intentas los puedes
 romper&amp;hellip; tambien una caida puede quebrar como cristal la impresion o dañar
 los conectores y cables.&lt;/p&gt;
-
 &lt;p&gt;Durante el uso habitual la almohadillas se pueden desenroscar, aprieta con
 gentileza para volver a ajustarlas. Ten cuidado de no aplicar fuerza en exceso o
 puedes romper la rejilla que retiene la bocina&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/sg-01.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/sg-01.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El lugar para el que fueron ideados es el hogar, especificamente colocados en su
 propio soporte en tu escritorio&lt;/p&gt;
-
 &lt;p&gt;No son recomedables ni comodos para transportarlos ni dormir con ellos&lt;/p&gt;
-
 &lt;p&gt;Guardalos si no los planeas usar. El polvo y los altavoces no son buenos compañeros&lt;/p&gt;
-
 &lt;p&gt;Ocacionalmente utiliza un paño humedo o toallas desinfectantes para mantenerlos
 limpios y relucientes&lt;/p&gt;
-
 &lt;h2 id=&#34;3-con-aceite-por-favor&#34;&gt;#3 Con aceite por favor!&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/oil-01-bw.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/oil-01-bw.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Unos audifonos recien impresos y armados presentan alguna resistencia en el giro
 de sus copas.&lt;/p&gt;
-
 &lt;p&gt;Con uso la friccion va desgastando la union de la horquilla y la copa a la vez
 que se va incrementando un crujido y ruidillos molestos, cuando esto suceda es
 tiempo de aplicar un poco de lubricante por ejemplo lubricante automotriz con
 silicona (de bicicleta tambien debe funcionar)&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/oil-00.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/oil-00.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Aplica media gotita en la union de copa y horquilla, limpia los restos y tus
 audifonos estaran en perfecto funcionamiento mucho tiempo&lt;/p&gt;
-
 &lt;h2 id=&#34;4-flexible-como-el-bambu&#34;&gt;#4 Flexible como el bambu&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/bambu-02-bw.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/bambu-02-bw.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;La precion de pinza que ejercen los audifonos sobre tu cabeza puede bien
 incrementarse o disminuirse&lt;/p&gt;
-
 &lt;p&gt;Con delicadeza toma con la mano izquierda la barra colocando el pulgar sobre el
 puente. Toma con la mano derecha la banda metalica colocando el pulgar lo mas
 cercano a puente, luego flexiona agrandando el angulo para disminuir la pinza o
 cerrando el angulo para aumentar la precion&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/bambu-04.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/bambu-04.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Realiza el mismo proceso en el lado contrario intentando mantener la simetria&lt;/p&gt;
-
 &lt;h2 id=&#34;5-si-funciona-no-lo-toques&#34;&gt;#5 Si funciona&amp;hellip; no lo toques!&lt;/h2&gt;
-
 &lt;p&gt;NASCII NKH es un proyecto abierto DIY enfocado en la experimentacion con un
 intercambio rapido de componentes y diseños 3D de codigo abierto&lt;/p&gt;
-
 &lt;p&gt;Prueba a hacer todos los cambios que consideres necesarios hasta encontrar tu
 configuracion ideal&lt;/p&gt;
-
 &lt;p&gt;Pero&amp;hellip; nunca desmontes las barras/tubos de los puentes que sujetan la banda
 metalica, esta accion hace que se pierda la friccion necesaria en estos
 componentes y tendras que imprimir e intercambiar los puentes por unos nuevos&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/sfnlt-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/gdur/sfnlt-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Otra cosideracion importante es no quitar la banda flexible de los puentes, los
 tornillos roscados directamente sobre impresion 3D nunca vuelven a quedar con
 suficiente agarre al desmontarse. En caso de que sea necesario y no desees
@@ -172,250 +124,188 @@ algo de material en los orificios de los tornillos&lt;/p&gt;
       <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/3dp/nkh/nkh/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;Ficheros en Printables &lt;em&gt;NKH 50&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;Ficheros en Printables &lt;em&gt;NKH Z65&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/index.html&#34;&gt;NASCII NKH – Guia de uso rapido&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Un anuncio gracioso para el nuevo diseño &amp;ldquo;&lt;strong&gt;NKH&lt;/strong&gt;&amp;rdquo; que&amp;hellip; son otra carcasa de
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;Ficheros en Printables &lt;strong&gt;NKH 50&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;Ficheros en Printables &lt;strong&gt;NKH Z65&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/&#34;&gt;NASCII NKH – Guia de uso rapido&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Un anuncio gracioso para el nuevo diseño &amp;ldquo;&lt;em&gt;NKH&lt;/em&gt;&amp;rdquo; que&amp;hellip; son otra carcasa de
 audifonos (&amp;ldquo;parcialmente&amp;rdquo;) impresos en 3D con equipo &amp;ldquo;casero&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;El anterior diseño &lt;a href=&#34;https://nasciiboy.github.io/3dp/ptg/ptg/index.html&#34;&gt;PTG&lt;/a&gt; facilito la formula de
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El anterior diseño &lt;a href=&#34;https://nasciiboy.github.io/3dp/ptg/ptg/&#34;&gt;PTG&lt;/a&gt; facilito la formula de
 equilibrio entre una construccion robusta, elementos no impresos accesibles y un
 esamblaje sencillo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-039.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;El modelo &lt;strong&gt;NKH&lt;/strong&gt; respeta estos principios con un aspecto mas llamativo a la par
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-039.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El modelo &lt;em&gt;NKH&lt;/em&gt; respeta estos principios con un aspecto mas llamativo a la par
 de comodo.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-089.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-089.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;La idea tras el diseño se fundamento en dos pensamientos. Primero, reducir los
 componentes al minimo, manteniendo un sistema de union roscado entre el
 alojamiento del altavoz y el soporte de las almohadillas. Segundo, dentro de
 unas almohadillas &amp;ldquo;extra&amp;rdquo; anchas, acercar lo mas posible el conductor al oido&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-036.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-036.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Por que lo segundo? si ha utilizado diademas on-ear con pequeños altavoces y
-almohadillas compactas, por ejemplo &lt;em&gt;Yamaha RH-5MA&lt;/em&gt; y ha cambiado las
+almohadillas compactas, por ejemplo &lt;strong&gt;Yamaha RH-5MA&lt;/strong&gt; y ha cambiado las
 almohadillas por otras de mayor grosor, comprobara que necesita incrementar la
 amplificacion para igualar el volumen de la configuracion original, ademas una
 mayor distancia si bien puede agregar una sensacion mayor de escenario y
 posicionamiento, generalmente perjudica la claridad del sonido&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/Yamaha-RH5MA.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/Yamaha-RH5MA.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Podria haberse copiado la formula empleada tal cual de aquellos audifonos, pero,
 por que no aplicar aquello en un modelo over-ear con mayor confort?&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-A.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-A.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;pad-b&#34;&gt;PAD-B&lt;/h2&gt;
-
 &lt;p&gt;El bochornoso calor no se lleva excesivamente bien con las suaves almohadillas
 anchas&amp;hellip; si bien ese es el modelo &amp;ldquo;estandar&amp;rdquo;, la variente del soporte para
-almohadillas &lt;em&gt;PAD-B&lt;/em&gt; es la respuesta &amp;ldquo;generica&amp;rdquo; que se adapta a cualquier tipo
+almohadillas &lt;strong&gt;PAD-B&lt;/strong&gt; es la respuesta &amp;ldquo;generica&amp;rdquo; que se adapta a cualquier tipo
 de almohadilla&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-045.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-045.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Unicamente se ha invertido la direccion de los soportes que fijan la
 almohadilla con un resultado estetico y sonoro ligeramente distinto (menor
 realce en graves y un ligero incremento en el escenario), con la ventaja
 adicional de no requerir soportes durante la impresion.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-B.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/op-B.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El polimero es barato&amp;hellip; no pierda la oportunidad de imprimir un par extra de
 esta variante y diviertase intercambiando almohadillas mientras se esfuerza con
 todo su ser en elegir una u otra variante&lt;/p&gt;
-
 &lt;h2 id=&#34;materiales-y-equipo&#34;&gt;Materiales y equipo&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Impresora 3D de filamento (220x220)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;100gr de filamento PETG&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;50gr de filamento PLA&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;50gr de filamento TPU&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Esmeril con disco de corte y abracion para metal&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Impresora 3D de filamento (220x220)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;100gr de filamento PETG&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;50gr de filamento PLA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;50gr de filamento TPU&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Esmeril con disco de corte y abracion para metal&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-005.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-005.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;30cm de fleje de acero inoxidable redondeado sin perforaciones de
 aproximadamente 12.7mm de ancho y .8mm de altura. Este puede ser recortado de
 abrazaderas en modelos de 127mm, que cuentan con una longitud aproximada a los
 30cm.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Para las barras que conectan las horquillas con la banda puede utilizar alguna
 de las siquientes opciones. En todos los casos el diametro de los modelos esta
 ajustado para 5mm. La longitud puede variar enormemente segun el usuario y
 modelo a imprimir, se recomiendan al menos 8cm de longitud, aunque podrian
 ser suficientes 6.5cm. Al rededor de 10cm seria una medida &amp;ldquo;segura&amp;rdquo;&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32970588289.html&#34;&gt;Espaciador de aluminio m3x85&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEPGv9X&#34;&gt;Tubo capilar redondo de acero inoxidable 304 5x3x500&lt;/a&gt;.
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32970588289.html&#34;&gt;Espaciador de aluminio m3x85&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEPGv9X&#34;&gt;Tubo capilar redondo de acero inoxidable 304 5x3x500&lt;/a&gt;.
 Se recomienda comprar al menos 4 piezas u optar por secciones mas pequeñas ya
-que es muy posible que se dañe durante el envio.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dn1fjF3&#34;&gt;Barra redonda de titanio de 1 pieza, 5x500MM&lt;/a&gt;.
+que es muy posible que se dañe durante el envio.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dn1fjF3&#34;&gt;Barra redonda de titanio de 1 pieza, 5x500MM&lt;/a&gt;.
 Se recomienda comprar al menos 2 piezas ya que es muy posible que se dañe
-durante el envio.&lt;/p&gt;&lt;/li&gt;
+durante el envio.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Cada opcione tiene su encanto. Los espaciadores ya vienen cortados y cuentan con
 rosca interna para tornillos m3. La barra de titanio tiene una resistencia
 excepcional. Los tubos capilares son la opcion mas economica y aunque no estan
 roscados, puede unirse con tornillos utilizando cianocrilato&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-034.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-034.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Los modelos incluidos permiten utilizar almohadillas de 100, 105 y 110mm. Se
 sugiere utilizar almohadillas de 105mm con una profundidad de 35mm&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBfZWFP&#34;&gt;almohadillas de 105mm angulas&lt;/a&gt;
-(mas vibrante, menos posicionamiento y escenario)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBfZWFP&#34;&gt;almohadillas de 105mm anguladas&lt;/a&gt; (mas vibrante, menos posicionamiento y escenario)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Tambien puede optar por alguna variente &amp;ldquo;plana&amp;rdquo; si utiliza los modelos &lt;code&gt;PAD-B&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-046.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-046.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas de terciopelo de 100mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Igualmente para la variante &amp;ldquo;plana&amp;rdquo; con igual sonoridad pero una mayor superficie de descanso de
 terciopelo con la parte externa en cuero sintetico perforado&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFJqvq3&#34;&gt;almohadillas de terciopelo de 100mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;cianocrilato&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Soldadura epoxi&amp;rdquo; JB Weld KwikWeld. Es opcional, pero una buena forma de fijar
-los cables en los altavoces&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFJqvq3&#34;&gt;almohadillas de terciopelo de 100mm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;cianocrilato&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Soldadura epoxi&amp;rdquo; JB Weld KwikWeld. Es opcional, pero una buena forma de fijar
+los cables en los altavoces&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-08.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-08.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;no es impresindible, pero sirve para fijar los cables al altavoz&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-066.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-066.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Para unir la banda de la cabeza con el puente&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x5mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DeMy97b&#34;&gt;arandelas planas grandes de acero inoxidable M3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x5mm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DeMy97b&#34;&gt;arandelas planas grandes de acero inoxidable M3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;opcionalmente&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x15mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DnPsydF&#34;&gt;Tornillo de cabeza de oblea plana M3x12&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x15mm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DnPsydF&#34;&gt;Tornillo de cabeza de oblea plana M3x12&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-05.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-05.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Conectores hembra jack&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFFkWA5&#34;&gt;PJ-392 5 piezas&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DeDRIJR&#34;&gt;PJ-392 100 piezas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;termofit&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DeDRIJR&#34;&gt;PJ-392 100 piezas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;termofit&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;para conectar los controladores con los conectores jack es posible utilizar
 cualquier alambre/cable de cobre, aluminio que tenga a la mano&amp;hellip; por supuesto,
 utilizar conectores desmontables facilitaria intercambiar distintos
 controladores, aunque siempre puede imprimir la cantidad de carcasas necesarias
 para satisfacer a su corazon&lt;/p&gt;
-
 &lt;p&gt;Cualquiera de las sigientes dos opciones es recomendable, aunque la
 coneccion/desconeccion es mas comoda en la primera&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32993743992.html&#34;&gt;10 pares JST SM&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dnq7gdP&#34;&gt;100 Micro JST 1.25mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32993743992.html&#34;&gt;10 pares JST SM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dnq7gdP&#34;&gt;100 Micro JST 1.25mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Para los cables jack de 3.5 presento 4 opciones.&lt;/p&gt;
-
 &lt;p&gt;Las dos primeresas y vistosas de parte de OPENHEART, cambia un poco el aspecto y la
 disponibilidad del modelo&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DD4xwjJ&#34;&gt;Cable OPENHEART de 8 núcleos para auriculares, conector de 1 a 2 3,5mm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dm8hTUR&#34;&gt;Cable OPENHEART de 8 núcleos para auriculares, conector de 1 a 2 3,5mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;De esta otra tienda un modelo mas discreto a un precio no tan competitivo&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://es.aliexpress.com/item/1005004039289320.html&#34;&gt;Cable de Audio Jack estéreo de 3,5mm de 1 a 2 3.5mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Y la opcion mas economica con una construccion sencilla pero solida, apta para
 comprar a granel&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://es.aliexpress.com/item/1005005047413445.html&#34;&gt;Cable macho OFC de 3,5mm a doble conector de 3,5mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;tambien podria ensamblar sus propios cables consiguiendo conectores macho de 3.5
 y un cable de audio R/L a 3.5. No es una solucion demaciado fiable debido a la
 poca calidad de los cables R/L pero&amp;hellip; funciona&lt;/p&gt;
-
 &lt;h2 id=&#34;impresion&#34;&gt;Impresion&lt;/h2&gt;
-
 &lt;p&gt;Aunque por la naturaleza de la impresion mediante filamento esta dentro de lo
 aceptable tolerancias de entre .2/.5 mm en las piezas, deberia serciorarse que
 la presicion no difiera en mas de 0.05mm tanto en perimetros como orificios
 internos&lt;/p&gt;
-
 &lt;p&gt;Puede utilizar
 &lt;a href=&#34;https://www.printables.com/es/model/258716-prueba-de-tolerancia-interna&#34;&gt;este&lt;/a&gt;
 modelo para realizar una prueba de presicion&lt;/p&gt;
-
 &lt;p&gt;Los puntos criticos en cuanto al ajuste son dos. Primero, el cuerpo y el soporte
 roscado para las almohadillas deben unirse suavidad y al mismo tiempo sin apenas
 juego&lt;/p&gt;
-
 &lt;p&gt;Segundo, insertar las barras el puente debe requerir algo de esfuerzo, para una
 vez colocadas girar con un poco de esfuerzo e impedir suficientemente el
 deslizamiento&lt;/p&gt;
-
 &lt;p&gt;Las piezas fueron impresas con la siguiente configuracion:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;boquilla .4, ancho de linea (en el laminador de .44)&lt;/li&gt;
 &lt;li&gt;capa .2&lt;/li&gt;
@@ -424,28 +314,22 @@ deslizamiento&lt;/p&gt;
 &lt;li&gt;superior 4&lt;/li&gt;
 &lt;li&gt;relleno 10-15% giroide (conectado)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-000.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-000.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;esta es una recomendacion &amp;ldquo;minima&amp;rdquo;, puede incrementar un poco la resistencia de
 las piezas aumentando el numero de paredes o con mayor porcentaje del relleno
 hasta generar una pieza solida, cosa que no incrementa demaciado el tiempo de
 impresion.&lt;/p&gt;
-
 &lt;p&gt;En mi caso cuento con una artillery genius y por preferencia y conviccion uso
 cura como laminador. En los perimetros externos la presicion es exacta, pero en
 los orificios internos tengo establecido un valor de &lt;code&gt;0.2&lt;/code&gt; de expancion horizontal
-(&lt;em&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/em&gt;)&lt;/p&gt;
-
+(&lt;strong&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/strong&gt;)&lt;/p&gt;
 &lt;p&gt;Si bien el PLA suele ser el filamento con mayor resistencia, tambien resulta
 quebradizo, aunque existen diferencias entre provedores e inclusos de un rollo a
 otro del mismo fabricante. Podria imprimir todos los modelos con PLA, pero la
 combinacion recomendada seria solo utilizar PLA en el soporte para las
 almohadillas y las horquillas, mientras que el cuerpo y puente en PETG.&lt;/p&gt;
-
 &lt;p&gt;Por la friccion entre componentes, se desaconseja imprimir todos los
 modelos en PETG&lt;/p&gt;
-
 &lt;p&gt;Segun mis experimentos el PETG en el puente binda una mayor friccion en las
 barras/tubos. En las horquillas el PLA hace mas rigida la estructura lo que de
 alguna forma reduce &amp;ldquo;ruidos&amp;rdquo; en la diadema mientras la utiliza y de alguna forma
@@ -454,144 +338,91 @@ la horquilla. Sin embargo esto no es una ciencia exacta, en algunos casos
 funciona y en otros no&amp;hellip; la velocidad de imprecion, temperatura, humedad,
 refrigeracion y altura de capa (entre otros) generan distintas imperfecciones
 sobre todo en piezas redondeadas imprezas en horizontal&lt;/p&gt;
-
-&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU y &lt;strong&gt;completamente
-solida&lt;/strong&gt; a modo que parezca un cacho de cuero o camara&amp;hellip; cualquier patron de
+&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU y &lt;em&gt;completamente
+solida&lt;/em&gt; a modo que parezca un cacho de cuero o camara&amp;hellip; cualquier patron de
 relleno interno disminuiria considerablemente la flexibilidad. En caso de
 necesidad y desesperacion, aunque no sea recomendable, utilice petg, reduciendo
 la altura del modelo en no mas de 4 capas (.8mm en la banda) o las que su
 filamento le permitan mantener como una lamina flexible&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-003.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-003.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Para un fleje de (aproximadamente) 30, utilice el model &lt;code&gt;headstrap/260.stl&lt;/code&gt;, y
 apartir del resultado pruebe con una medida distinta, bien sea del fleje o de la
 banda para la cabeza. Puede generar una banda personalizada mediante el fichero
 &lt;code&gt;scr/headstrap.scad&lt;/code&gt;, el valor 260, 270 se mide en mm e indican la separacion de
 los orificios para los tornillos&lt;/p&gt;
-
 &lt;p&gt;Se requieren soportes sobre la superficie para la base de las almohadillas. La
-variente del soporte para las almohadillas &lt;em&gt;PAD-B&lt;/em&gt; no requiere ningun soporte&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-001.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+variente del soporte para las almohadillas &lt;strong&gt;PAD-B&lt;/strong&gt; no requiere ningun soporte&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-001.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;tambien para las tapas decorativas de las barillas&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-002.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-002.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Ante cualquier adversidad, aunque tortuoso y no lo suficientemente estructurado,
 puede modificar el codigo en &lt;code&gt;NKH.scad&lt;/code&gt;. Tambien podria intentar modificar los
 parametros tanto para el tamaño de las almohadillas, la altura interna de la
 cuerda dentro de estas o el tamaño del driver. SUERTE!&lt;/p&gt;
-
-&lt;h2 id=&#34;drivers&#34;&gt;Drivers&lt;/h2&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Los modelos en printables incluyen algunos adaptadores de altavoces, si requiere
 un modelo personalizado, puede utilizar el siguiente proyecto&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;https://www.printables.com/es/model/249019-customizable-speaker-spacer&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;En general esta diadema proporciona un incremento en la sensacion de los
 graves con respecto al modelo PTG 75-100 sin ser tan &amp;ldquo;energetica&amp;rdquo; como el
 modelo 50-70&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-049.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-049.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Se han probado desde controladores rescatados de equipos economicos y la mayoria
-de los utilizados en el anterior diseño &lt;em&gt;PTG&lt;/em&gt;, todos ellos con resultados agradables&lt;/p&gt;
-
+de los utilizados en el anterior diseño &lt;strong&gt;PTG&lt;/strong&gt;, todos ellos con resultados agradables&lt;/p&gt;
 &lt;p&gt;Aunque los resultados entre distintas fuentes y el gusto personal casi
 inequivocamente lo haran diferir de mis configuraciones, dejo algunas que me han
 agradado&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Importante:&lt;/em&gt; Aunque coloque enlaces (y alguno sea de afiliado&amp;hellip;) no los tome como
+&lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; Aunque coloque enlaces (y alguno sea de afiliado&amp;hellip;) no los tome como
 una fuente confible de suministros. Si bien en ellas he conseguido los altavoces
 para mis modelos personales, no han estado excentos de defecto, problemas
 en el embalaje o envio. Si sus unidades precentan problemas, proceda de forma
 razonable a colocar la mala calificacion o exigir su justo reembolso&lt;/p&gt;
-
-&lt;h3 id=&#34;qigom-solo-qigom-4003-mamba&#34;&gt;Qigom Solo/Qigom 4003 (Mamba)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-mamba-nkh-plus3.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;h3 id=&#34;qigom-soloqigom-4003-mamba&#34;&gt;Qigom Solo/Qigom 4003 (Mamba)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-mamba-nkh-plus3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEJw3Q9&#34;&gt;Qigom Solo&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFbIY33&#34;&gt;Qigom 4003&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;&lt;em&gt;NKH 50&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-067.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;&lt;strong&gt;NKH 50&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-067.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Utilice los adaptadores de driver &lt;code&gt;400&lt;/code&gt;, las almohadillas anchas de 105mm en el
-pad de 105mm.&lt;/p&gt;
-
+&lt;code&gt;PLA_PAD&lt;/code&gt; de 105mm.&lt;/p&gt;
 &lt;p&gt;El resultado es un conjunto neutral brillante ampliamente disfrutable, que no
 exige una amplificacion especializada con una de las bocinas mas economicas&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-071.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-071.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;qigom-hd800&#34;&gt;Qigom HD800&lt;/h3&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DlO1CVR&#34;&gt;https://s.click.aliexpress.com/e/_DlO1CVR&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;&lt;em&gt;NKH 50&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-080.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;&lt;strong&gt;NKH 50&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-080.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;frio y un poco metalico, quiza seria mi configuracion menos recomendable, pero
 tiene su encanto&lt;/p&gt;
-
 &lt;p&gt;Utilice, las almohadillas de terciopelo de 100 o 105mm en el
 pad-B correspondiente&lt;/p&gt;
-
 &lt;p&gt;En las imagenes se muestra el conjunto con almohadillas de 110mm,
 desafortunadamente resultan menos confortables que las de 100mm&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DELd5ax&#34;&gt;https://s.click.aliexpress.com/e/_DELd5ax&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-075.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-075.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;qigom-n90q-quimera&#34;&gt;Qigom N90Q (Quimera)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-quimera.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-quimera.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DkaezxR&#34;&gt;https://s.click.aliexpress.com/e/_DkaezxR&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;em&gt;NKH Z65&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;La configuracion de almohadillas serian anchas de 105mm en pad-B de 105mm&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-04.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;strong&gt;NKH Z65&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La configuracion de almohadillas serian anchas de 105mm en &lt;code&gt;PLA_PAD&lt;/code&gt; de 105mm&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-04.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;el sonido es &amp;ldquo;neutral calido&amp;rdquo;. El controlador es el mas costoso entre las
 recomendaciones, pero tambien mi preferido. Las diferencias no son abismales con
 respecto al beats solo 3, pero&amp;hellip; gustos&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-05.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-05.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;jcd-m-50-mamut&#34;&gt;JCD m 50 (Mamut)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-mamut.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-mamut.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddn2Urt&#34;&gt;https://s.click.aliexpress.com/e/_Ddn2Urt&lt;/a&gt; (modelo m 50, revise con atencion la imagen)&lt;/p&gt;
-
-&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;em&gt;NKH Z65&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-18.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;strong&gt;NKH Z65&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-18.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El mas mundano y economico de los controladores, con graves reforzados, un
 sonido muy calido y sin ningun requerimiento especial de amplificacion&lt;/p&gt;
-
 &lt;p&gt;Los bajos son tan potentes que requiere utilizar almodillas compactas de
-terciopelo de 100mm en un &lt;code&gt;PAD-B&lt;/code&gt; o &lt;code&gt;PAD-BR&lt;/code&gt; de 105mm&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-20.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+terciopelo de 100mm en un &lt;code&gt;PLA_PAD-B&lt;/code&gt; o &lt;code&gt;PLA_PAD-BR&lt;/code&gt; de 105mm&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-20.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Disfrut!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-009.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-009.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -601,49 +432,37 @@ terciopelo de 100mm en un &lt;code&gt;PAD-B&lt;/code&gt; o &lt;code&gt;PAD-BR&lt
       <pubDate>Fri, 03 Feb 2023 15:54:05 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/3dp/ptg/ptg/</guid>
-      <description>
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-041.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-041.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Existen una gran variedad de controladores (drivers|altavoces|bocinas|parlantes)
 de gran calidad a precios (relativamente) accesibles a utilizar en un proyecto
 de modificacion o en la creacion de su propio conjunto de audifonos
 personalizado hecho en casa&lt;/p&gt;
-
 &lt;p&gt;Bien sea por mera divercion, por falta de presupuesto o por que le parece una
-locura el costo de equipos comerciales, el proyecto (&lt;strong&gt;NASCII&lt;/strong&gt;) &amp;ldquo;&lt;strong&gt;PTG&lt;/strong&gt;&amp;rdquo; es
+locura el costo de equipos comerciales, el proyecto (&lt;em&gt;NASCII&lt;/em&gt;) &amp;ldquo;&lt;em&gt;PTG&lt;/em&gt;&amp;rdquo; es
 una opcion mas para construir sus propios equipos utilizando componentes de
 &amp;ldquo;facil adquisicion&amp;rdquo; junto a impresion 3D (FDM) buscando un equilibrio entre una
 construccion robusta y un facil ensamblaje y modificacion&lt;/p&gt;
-
 &lt;p&gt;Si bien el modelo no resulta extraordinariamente llamativo&amp;hellip; no presenta
 complicaciones en su impresion. La union de las piezas se realiza mediante
 roscas, un poco de pegamento y un ajuste preciso&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-029.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-029.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;La mayor dificultad en los audifonos impresos se concentra en la resistencia del
 material utilizado en la diadema, que por lo general se termina partiendo. Se
 busco algo sencillo, barato y resistente. Para la diadema, se utiliza el fleje
 de abrazaderas de acero inoxidable. Para conectar las horquillas, barras
 cilindricas de 5mm tambien de acero.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-022.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-022.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Aunque se puede utilizar sin mas, es algo rudo colocar la banda metalica
 directamente en la cabeza&amp;hellip; y si bien es posible acolcharla por uno mismo,
 comprar un recubrimiento o adaptar una cinta elastica, solo por mantener la
 sencilles, se utiliza una banda flexible (que no elastica) impresa en
 TPU que por estetica y robustez se une mediante tornillos&lt;/p&gt;
-
 &lt;p&gt;Las piezas impresas estan diseñadas en &lt;a href=&#34;https://openscad.org/&#34;&gt;OpenScad&lt;/a&gt;, lo que
 permite modificar y adaptar el modelo de forma parametrica mediante un programa
 de libre uso y distribucion, haciendo posible producir diseños para una infinidad
 de parlantes, almohadillas o ajustar los componentes no impresos por otros de
 distinta especificacion&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-026.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-026.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;En esta ocacion se presentan tres variantes del mismo diseño &amp;ldquo;PTG&amp;rdquo; diferenciadas
 por el alohamiento interno (presumiblemente el driver o un adaptador) y las
 almohadillas a utilizar
@@ -653,156 +472,146 @@ almohadillas a utilizar
 acompañadas de algunos componentes que ofrecen distintas firmas de sonido segun
 los propios gustos y experiencias de este quien escribe, por su puesto cada cual
 con su propio encanto&lt;/p&gt;
-
 &lt;p&gt;Si bien mis habilidades &amp;ldquo;audiofilas&amp;rdquo; son bastante escasas, he de manifestar mi
 satisfaccion con los resultados tanto en el diseño sencillo como asi tambien en
 el sonido, aunque quiza sea este horgullo solo equiparable al sentimiento de los padres
 por su decendencia&lt;/p&gt;
-
 &lt;p&gt;Ni el diseño o los componentes y sus materiales son definitivos, podrian verse
 modificados sin aviso previo. Si desea conservar permanentemente la
 compativilidad de las piezas mantenga a buen resguardo los archivos que
 descargue&lt;/p&gt;
-
 &lt;p&gt;En caso de que cuente con alguna configuracion o componente que desee recomendar
 o publicitar puede revisar el fondo de la pagina. Igualmente, si vive en la
 republica Mexicana puede contactarme para adquirir piezas impresas, la carcasa o
 un conjunto ensamblado&lt;/p&gt;
-
 &lt;p&gt;Disfrut!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-008.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-008.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;materiales-y-equipo&#34;&gt;Materiales y equipo&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Impresora 3D de filamento. Debe medir al menos 100x100 milimetros, aunque se
+&lt;li&gt;
+&lt;p&gt;Impresora 3D de filamento. Debe medir al menos 100x100 milimetros, aunque se
 recomienda una base minima de (220x220) para imprimir la banda flexible para
-la cabeza&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;100gr de filamento PETG&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;50gr de filamento PLA&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;50gr de filamento TPU&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Esmeril con disco de corte y abracion para metal&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;30cm de fleje de acero inoxidable redondeado sin perforaciones de
+la cabeza&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;100gr de filamento PETG&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;50gr de filamento PLA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;50gr de filamento TPU&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Esmeril con disco de corte y abracion para metal&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;30cm de fleje de acero inoxidable redondeado sin perforaciones de
 aproximadamente 12.7mm de ancho y .8mm de altura. Este puede ser recortado de
 abrazaderas en modelos de 127mm, que cuentan con una longitud aproximada a los
-30cm.&lt;/p&gt;&lt;/li&gt;
+30cm.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-005.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-005.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Para las barras que conectan las horquillas con la banda puede utilizar alguna
 de las siquientes opciones. En todos los casos el diametro de los modelos esta
 ajustado para 5mm. La longitud puede variar enormemente segun el usuario y
 modelo a imprimir, se recomiendan al menos 10cm de longitud, aunque podrian
 ser suficientes 7cm. Al rededor de 12cm seria una medida &amp;ldquo;segura&amp;rdquo;&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32970588289.html&#34;&gt;Espaciador de aluminio m3x120&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEPGv9X&#34;&gt;Tubo capilar redondo de acero inoxidable 304 5x3x500&lt;/a&gt;.
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32970588289.html&#34;&gt;Espaciador de aluminio m3x120&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEPGv9X&#34;&gt;Tubo capilar redondo de acero inoxidable 304 5x3x500&lt;/a&gt;.
 Se recomienda comprar al menos 4 piezas u optar por secciones mas pequeñas ya
-que es muy posible que se dañe durante el envio.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dn1fjF3&#34;&gt;Barra redonda de titanio de 1 pieza, 5x500MM&lt;/a&gt;.
+que es muy posible que se dañe durante el envio.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dn1fjF3&#34;&gt;Barra redonda de titanio de 1 pieza, 5x500MM&lt;/a&gt;.
 Se recomienda comprar al menos 2 piezas ya que es muy posible que se dañe
-durante el envio.&lt;/p&gt;&lt;/li&gt;
+durante el envio.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Cada opcione tiene su encanto. Los espaciadores ya vienen cortados y cuentan con
 rosca interna para tornillos m3. La barra de titanio tiene una resistencia
 excepcional. Los tubos capilares son la opcion mas economica y aunque no estan
 roscados, puede unirse con tornillos utilizando cianocrilato&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;cianocrilato&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Para unir la banda de la cabeza con el puente&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x5mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DeMy97b&#34;&gt;arandelas planas grandes de acero inoxidable M3&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x5mm&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DeMy97b&#34;&gt;arandelas planas grandes de acero inoxidable M3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;opcionalmente&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x15mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DnPsydF&#34;&gt;Tornillo de cabeza de oblea plana M3x12&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dc93bu9&#34;&gt;tornillos hexagonales de acero inoxidable M3x15mm&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DnPsydF&#34;&gt;Tornillo de cabeza de oblea plana M3x12&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Para los conectores hembra jack se recomienda utilizar el modelo&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFFkWA5&#34;&gt;PJ-392 5 piezas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DeDRIJR&#34;&gt;PJ-392 100 piezas&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;aunque si lo prefiere, en las fuentes del modelo esta disponible la opcion de
 utilizar este otro conector&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DDZk0s1&#34;&gt;PJ-392A 5 piezas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;termofit&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DDZk0s1&#34;&gt;PJ-392A 5 piezas&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;termofit&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;para conectar los controladores con los conectores jack es posible utilizar
 cualquier alambre/cable de cobre, aluminio que tenga a la mano&amp;hellip; por supuesto
 utilizar conectores desmontables ayudaria muchisimo mas con el objetivo de tener
 una plataforma facilmente modificable. Aunque siempre podria imprimir la
 cantidad de carcasas necesarias para satisfacer a su corazon&lt;/p&gt;
-
 &lt;p&gt;Cualquiera de las sigientes dos opciones es recomendable, aunque la
 coneccion/desconeccion es mas comoda en la primera&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32993743992.html&#34;&gt;10 pares JST SM&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dnq7gdP&#34;&gt;100 Micro JST 1.25mm&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32993743992.html&#34;&gt;10 pares JST SM&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dnq7gdP&#34;&gt;100 Micro JST 1.25mm&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Para los cables jack de 3.5 hay tambien dos opciones. Particularmente prefiero
 la primera, pero la segunda tampoco ha presentado inconvenientes&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DD4xwjJ&#34;&gt;Cable OPENHEART de 8 núcleos para auriculares, conector de 1 a 2 3,5mm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://es.aliexpress.com/item/1005004039289320.html&#34;&gt;Cable de Audio Jack estéreo de 3,5mm de 1 a 2 3.5mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;podria tambien ensamblar sus propios cables consiguiendo conectores macho de 3.5
 y un cable de audio R/L a 3.5, no es una solucion demaciado fiable debido a la
 poca calidad de los cables R/L pero&amp;hellip; funciona&lt;/p&gt;
-
 &lt;h2 id=&#34;impresion&#34;&gt;Impresion&lt;/h2&gt;
-
 &lt;p&gt;Aunque por la naturaleza de la impresion mediante filamento existen una
 tolerancia de entre .2/.3 mm en las piezas redondas (como las horquillas) debe
 serciorarse que la presicion no difiera en mas de 0.05mm tanto en perimetros
 como orificios internos&lt;/p&gt;
-
 &lt;p&gt;Puede utilizar
 &lt;a href=&#34;https://www.printables.com/es/model/258716-prueba-de-tolerancia-interna&#34;&gt;este&lt;/a&gt;
 modelo para realizar una prueba de presicion&lt;/p&gt;
-
 &lt;p&gt;Los puntos criticos en cuanto a la presicion son dos. Primero que el cuerpo, la
 tapa trasera y/o el pad se rosquen con suavidad y al mismo tiempo sin apenas
 juego&lt;/p&gt;
-
 &lt;p&gt;Segundo. Debe requerir algo de esfuerzo introducir las barras dentro del puente
 de la banda. Una vez colocadas deben poder girar con un poco de esfuerzo y ser
 un tanto mas dificil el deslizamiento&lt;/p&gt;
-
 &lt;p&gt;Las piezas estan impresas en una configuracion estandar:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;boquilla .4&lt;/li&gt;
 &lt;li&gt;capa .2&lt;/li&gt;
@@ -811,398 +620,274 @@ un tanto mas dificil el deslizamiento&lt;/p&gt;
 &lt;li&gt;superior 4&lt;/li&gt;
 &lt;li&gt;relleno 10-15% giroide (conectado)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Para mis impresiones utilizo una artillery genius y cura como laminador. En los
 perimetros externos la presicion es exacta, pero en los orificios internos tengo
-establecido un valor de &lt;code&gt;0.2&lt;/code&gt; (&lt;em&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/em&gt;)&lt;/p&gt;
-
+establecido un valor de &lt;code&gt;0.2&lt;/code&gt; (&lt;strong&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/strong&gt;)&lt;/p&gt;
 &lt;p&gt;Si bien el PLA suele ser el filamento con mayor resistencia, tambien suele ser
 bastante quebradizo. Podria imprimir todos los modelos con PLA, pero la
 combinacion recomendada es imprimir el cuerpo (la copa) en PLA y
 el resto en PETG.&lt;/p&gt;
-
-&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU &lt;strong&gt;completamente
-solida&lt;/strong&gt; a modo que parezca un cacho de cuero o camara&amp;hellip; cualquier patron de
+&lt;p&gt;La banda para la cabeza obviamente debe ser impresa con TPU &lt;em&gt;completamente
+solida&lt;/em&gt; a modo que parezca un cacho de cuero o camara&amp;hellip; cualquier patron de
 relleno interno disminuiria considerablemente la flexibilidad. En caso de
 necesidad y desesperacion, aunque no sea recomendable, utilice petg, reduciendo
 el numero de capas en la banda a no mas de 4 o las que su filamento le permitan
 mantener como una lamina flexible&lt;/p&gt;
-
 &lt;p&gt;Tambien es posible imprimir todo en PETG, pero&amp;hellip; su mayor &amp;ldquo;flexibilidad&amp;rdquo; y
 friccion hacen hartamante poco recomendable imprimir el cuerpo en este
 material&lt;/p&gt;
-
 &lt;p&gt;Las rejillas decorativas pueden imprimirse en cualquier material&lt;/p&gt;
-
 &lt;p&gt;Unicamente es necesario colocar soportes tocando la placa para el
 cuerpo&lt;/p&gt;
-
 &lt;p&gt;Se recomienda utilizar un borde de 2mm para los adaptadores de los drivers y las
 horquillas, pero en su impresora podrian no ser necesarios&lt;/p&gt;
-
 &lt;h2 id=&#34;ensamblaje&#34;&gt;Ensamblaje&lt;/h2&gt;
-
 &lt;p&gt;Con la ayuda de unas pinzas de mecanico doble 1.5cm ambos extremos hacia el
 interior aproximadamente 70°&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-009.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-009.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Con las mismas pinzas (o un martillo) enderece los extremos ya doblados lo mas recto posible&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-010.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-010.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Introdusca el fleje dentro de los puentes&amp;hellip; en caso de no llegar al final,
 golpee el fleje contra el puente con mucha delicadeza&amp;hellip; el
 maltrato podria despegar algunas capas&amp;hellip; ja, ja. Si tiene dudas, tambien podria
 calentar el fleje con un encendedor unos pocos segundos&lt;/p&gt;
-
 &lt;p&gt;Si el fleje tiene mucho juego, modifique el modelo, utilice pegamento o
 resuelvalo con tornilleria&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;Inserte las barras/tubos/espaciadores en los puentes. Requerira algo de
 esfuerzo, utilice de preferencia unas pinzas para sostener y girar las barras.
 No se recomienda calentar las piezas&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-012.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-012.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Atornille (M3x5mm) la banda flexible (TPU) en el puente con una arandela/rondana
 en el medio&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-011.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;IMPORTANTE&lt;/strong&gt;: El grado de comodidad o falta de ella depende del ajuste de la
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-011.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;IMPORTANTE&lt;/em&gt;: El grado de comodidad o falta de ella depende del ajuste de la
 superficie en contacto entre la banda flexible y la cabeza. Mientras mas
 superficie mas comodidad&lt;/p&gt;
-
 &lt;p&gt;Hay tres factores que afectan esta relacion, la longitud de la banda flexible,
 del fleje y que inclinacion tenga el puente con respeto al fleje. Asi tambien
 debe considerar que la banda flexible no entre directamente en contacto con el
 fleje ya colocado sobre la cabeza&lt;/p&gt;
-
 &lt;p&gt;aqui un ejemplo de ajuste &amp;ldquo;regular&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-007.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-007.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;aca un buen ajuste&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-008.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-008.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;(el archivo a imprimir es &lt;code&gt;headstrap-230&lt;/code&gt;)&lt;/p&gt;
-
 &lt;p&gt;En el cuerpo de la copa retire los soportes y limpie a conciencia. Rosque el
 conector jack y asegure con la tuerca&lt;/p&gt;
-
 &lt;p&gt;Corte un poco de termofit (1 o 2~ centimentros) y coloquelo en los conectores
 JST hembra&lt;/p&gt;
-
 &lt;p&gt;Solde al conector jack. El conector mas largo y al centro es el
 extremo negativo, el que esta a la derecha de este corresponde al canal derecho
 de audio y es donde debe soldar el positivo en ambas copas por la propia
 configuracion de los cables que se utilizan&lt;/p&gt;
-
 &lt;p&gt;Deslice el termofit a la base del conector jack y aplique calor. Un encendedor
 sera suficiente&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-013.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-013.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Lije ligeramente los pines de las horquillas (4/6mm)&lt;/p&gt;
-
 &lt;p&gt;Con mucho cuidado pero con firmeza y determinacion incerte los pines de
 la hoquilla en el cuerpo de la copa hasta el fondo. Puede lijar un poco mas,
 pero es recomendable que la union presente un poco de resistencia&lt;/p&gt;
-
 &lt;p&gt;Una vez colocada la hoquilla sostenga con firmeza lo mas cercano a los pines y
 haga girar la copa para desgastar material hasta que optenga el movimiento de su
 agrado. Aplique un poco de aceite si hay rechinidos o para hacer mas suave el
 movimiento&lt;/p&gt;
-
 &lt;p&gt;Coloque un poco de cianocrilato en los extremos de las barras. Inserte las horquillas y
 las puntas a esta. Puede (o no) utilizar la tornilleria de 12 o 15 mm para
 reforzar la union. Deje secar por un par de horas, de preferencia un dia.&lt;/p&gt;
-
 &lt;p&gt;Los vendedores de altavoces anulan cualquier garantia una vez que los ha
 soldado. Si bien no esta del todo garantizado su buen funcionamiento, pruebelos
 un poco antes&lt;/p&gt;
-
 &lt;p&gt;Tenga MUCHO CUIDADO al manejar los drivers, sus imanes son bastante potentes. Si
 es negligente podrian atraerse entre si y fastidiar las membranas. Mantengalos
 alejados de cualquier elemento metalico. De preferencia manipulelos dentro de
 los protectores que utilizan en su envio&lt;/p&gt;
-
 &lt;p&gt;Solde el JST macho a los controladores, por lo general el polo positivo esta del
 lado derecho o indicado de alguna forma&lt;/p&gt;
-
 &lt;p&gt;Recomiendo utilizar algun tipo de resina para fijar los cables de los conectores
 a las bocinas, asi es como yo lo hago. El cianocrilato no es una buena opcion
 para esta union&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-068.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-068.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Inserte los controladores dentro de los adaptadores, si no se ajustan
 correctamente (quedan flojos) tiene dos opciones, primero corte secciones de
 masquin para engrosar el diametro de los controladores o aplique un poco de
 pegamento de contacto transparente&lt;/p&gt;
-
 &lt;p&gt;Los modelos de adaptadores vienen indicados en &amp;ldquo;milimetros&amp;rdquo;. En general si va a
 utilizar por ejemplo altavoces de 40mm, use el adaptador marcado como &lt;code&gt;395&lt;/code&gt;
 (39.5mm), si utiliza de 50 el &lt;code&gt;495&lt;/code&gt; y asi. Hay verciones precisas si tiene
 dudas, aunque seguramente necesite sujetar aplicando pegamento (de contacto
 transparente preferiblemente)&lt;/p&gt;
-
 &lt;p&gt;El resto de componentes (rejilla, tapa y tapa de las almohadillas) solo
 requiere roscar&lt;/p&gt;
-
 &lt;p&gt;Conecte y disfrute&lt;/p&gt;
-
 &lt;h2 id=&#34;modelos&#34;&gt;Modelos&lt;/h2&gt;
-
 &lt;h3 id=&#34;qigom-n90q-60ω-audiofilo-escenario-y-posicionamiento-preciso&#34;&gt;Qigom N90Q 60Ω (audiofilo, escenario y posicionamiento preciso)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-045.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-045.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415613-nascii-ptg-75-100/files&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DkaezxR&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas 100mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-070.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-070.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Con un escenario amplio y un posicionamiento preciso son esta la opcion &amp;ldquo;mas
 audiofila&amp;rdquo; que he ensamblado&amp;hellip; requieren buenas grabaciones para disfrutar correctamente&lt;/p&gt;
-
 &lt;p&gt;No son la opcion para los fanaticos de las frecuencias bajas realzadas, pero si
 para aquellos que disfrutan del sonido &amp;ldquo;holografico&amp;rdquo; o &amp;ldquo;envolvente&amp;rdquo;&lt;/p&gt;
-
 &lt;p&gt;Tienden a la calidez, aunque el sonido es bastante natural pero no es
 precisamente cristalino&lt;/p&gt;
-
 &lt;p&gt;En cuanto a amplificacion requieren un equipo dedicado sin ser necesario un
 amplificador, aunque el uso de uno beneficia el rendimiento&lt;/p&gt;
-
 &lt;h3 id=&#34;qigom-hd800-300ω-audiofilo-escenario-y-posicionamiento-regular&#34;&gt;Qigom HD800 300Ω (audiofilo, escenario y posicionamiento regular)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-066.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-066.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415613-nascii-ptg-75-100/files&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DlO1CVR&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas 100mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-064.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-064.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El escenario es un poco mas reducido y &amp;ldquo;cercano&amp;rdquo; comparado al N90Q (de qigom).
 Aunque tiene un posicionamiento apreciable, esta bastante lejano del desempeño
 que ofrece aquel&lt;/p&gt;
-
 &lt;p&gt;Por su parte las frequencias bajas estan mas equilibradas. Comparativamente el
 sonido es mas frio, aunque me parece que flaquea en las frecuencias altas&lt;/p&gt;
-
 &lt;p&gt;Si este no es un inconveniente, el desempeño por el precio es bastante elevado y
 exige de buenas grabaciones para apreciarlo correctamente&lt;/p&gt;
-
 &lt;p&gt;Necesita forzosamente un equipo amplificador dedicado. Es inutil utilizar un
 equipo regular&lt;/p&gt;
-
 &lt;h3 id=&#34;qigom-hd650-32ω-v&#34;&gt;Qigom HD650 32Ω (V)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-035.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-035.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415563-nascii-ptg-50-70&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFbIY33&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dn1pXM1&#34;&gt;Almohadillas 70mm Protein skin&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-037.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-037.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El escenario es pequeño, el posicionamiento es mas o menos claro aunque sin destacarse&lt;/p&gt;
-
 &lt;p&gt;Tiene una firma en V facil de agradar compatible con cualquier genero musical&lt;/p&gt;
-
 &lt;p&gt;El sonido llega a ser un poco nasal, cosa que se puede solucionar un poco
 utilizando otras almohadillas (a costa de la comodidad) y/o experimentar
 perforando el afinador al centro&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-057.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-057.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dn1pXM1&#34;&gt;Almohadillas 70mm Technology Cloth&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-054.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-054.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Si bien no es mi favorito, tambien es muy probable que seria mi primer opcion a
 llevar en un viaje o la primer configuracion a ensamblar por el costo del
 controlador y facil disfrute de la musica que proporciona, ademas de que el
 aspecto y comodidad en este caso si gana a los demas&lt;/p&gt;
-
 &lt;p&gt;La amplificacion no es exigente&lt;/p&gt;
-
 &lt;h3 id=&#34;qigom-777-32ω-brillante&#34;&gt;Qigom 777 32Ω (brillante)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-053.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-053.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415563-nascii-ptg-50-70&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEMHOWZ&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dn1pXM1&#34;&gt;Almohadillas 70mm Protein skin&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Ni el escenario, el posicionamiento o las frecuencias bajas destacan en esta
 configuracion, p-e-r-o amo su sonido brillante en particular con voces
 femeninas, aunque es generalmente agradable sin distincion de generos&lt;/p&gt;
-
 &lt;p&gt;Si eres fan de los agudos algo afilados o quieres conocer esta firma, aqui esta
 tu bocina&lt;/p&gt;
-
 &lt;p&gt;La amplificacion no es exigente&lt;/p&gt;
-
-&lt;h3 id=&#34;leagginal-v8-32ω-calido-mundano&#34;&gt;Leagginal V8 32Ω (calido|mundano)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-071.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;h3 id=&#34;leagginal-v8-32ω-calidomundano&#34;&gt;Leagginal V8 32Ω (calido|mundano)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-071.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415613-nascii-ptg-75-100/files&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DlaeLtT&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas 100mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Un sonido calido con calidad&amp;hellip; con un escenario amplio&lt;/p&gt;
-
 &lt;p&gt;La mayoria de grabaciones no tienen en mente utilizar equipos &amp;ldquo;audiofilos&amp;rdquo; de
 hecho muchas sonaran mal en ellos y para esos y todos los casos esta
 configuracion sin exigencias ni particularidades es todo lo que se necesita&lt;/p&gt;
-
 &lt;h3 id=&#34;leagginal-seda-obscuro&#34;&gt;Leagginal &amp;ldquo;seda&amp;rdquo; (obscuro)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-059.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-059.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415621-nascii-ptg-60-80&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBGyuDP&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas 80mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-060.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-060.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Incomodidad con las frecuencias agudas? buscas un sonido confortable y
 &amp;ldquo;nostalgico&amp;rdquo;?&lt;/p&gt;
-
 &lt;p&gt;La contraparte del sonido brillante, un gusto sencillo y acogedor&lt;/p&gt;
-
 &lt;p&gt;Recomiendo perforar uno de los circulos en el afinador para incrementar el
 retumbe, pueden realizarse mas, pero con cada nueva perforacion el sonido se vuelve mas &amp;ldquo;fangoso&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-061.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-061.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;La amplificacion no es exigente&lt;/p&gt;
-
 &lt;h3 id=&#34;qigom-k100-500ω-extraño&#34;&gt;Qigom K100 500Ω (extraño&amp;hellip;?)&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-083.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-083.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415621-nascii-ptg-60-80&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://es.aliexpress.com/item/1005004026426062.html&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas 80mm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Estos controladores son mi ultima adquisicion y tambien los controladores mas
 exoticos y costosos de la pequeña coleccion. Los drivers son sospechozamente
 parecidos al que incorporan los Sigva SV023 del que escuche dos criticas que los
 mencionan como muy detallados, precisos, con buen timbre y de sonido &amp;ldquo;planar&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/driver-019-sivga-sv023.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/driver-019-sivga-sv023.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;No tengo acceso a ningun planar en mi posecion y tampoco los sivga para
 compararlos. De momento dire que tienen una firma &amp;ldquo;peculiar&amp;rdquo; y bastante amable
 aunque seguramente solo estoy justificando el gasto&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;Lo mas parecido son los (anteriores) Leagginal de seda, con algunos matices como
 que estos parecen tener un velo que minimisa los &amp;ldquo;ruidos&amp;rdquo; lo cual tambien parece
 perjudicar negativamente el escenario y posicionamiento aunque tienen una
 excelente separacion instrumental y extrañamente brinda una &amp;ldquo;obscura sensacion de
 presicion&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-078.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-078.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Ocacionalmente parecen tener un sonido metalico y un poco nasal con agradables
 agudos suavisados, pero tras un tiempo de aclimatamiento su sonido resulta
 bastante reconfortante&lt;/p&gt;
-
 &lt;p&gt;Las uninades por defecto tienen un bajo veloz de ligeresa casi fantasmal.
 Afortunadamente incluian un conjunto variado de afinadores&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/driver-014.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/driver-014.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Observando las unidades de los sivga y buscando un &amp;ldquo;retumbe&amp;rdquo; mas disfrutable se
 substituyeron los ofinadores centrales por unos Y4 perforados con un resultado
 bastante mas disfrutable&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-082.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-082.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Pese a ser de 500 ohms responden con suficiente sencibilidad para no requerir
 (en mi amplificador) demaciado poder, aunque si es necesaria amplificacion
 dedicada&lt;/p&gt;
-
 &lt;p&gt;Se probaron las unidades en carcasas amplias 75-100 con almohadillas de cuero,
 pero al notar el reducido escenario e imagen se transladaron a 60-80 tambien con
 almohadillas de cuero. Sin notar perjuicio o mejora en la firma, sin embargo
 para obtener la misma sensacion de volumen se requiere menos amplificacion y
 creo que eso beneficia la longevidad de las unidades. El vendedor tambien aconseja un
 perido de quemado con baja amplificacion&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-080.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-080.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;extra&#34;&gt;Extra&lt;/h3&gt;
-
 &lt;p&gt;En las fuentes se ofrecen algunas rejillas y tambien adaptadores para los
 drivers. Para conseguir modelos personalizados visite los siguientes enlaces&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/336270-headphone-grid-maker&#34;&gt;Headphone Grid Maker&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;Customizable Speaker Spacer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/336270-headphone-grid-maker&#34;&gt;Headphone Grid Maker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;Customizable Speaker Spacer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/grid-002.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/grid-002.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;modificacion&#34;&gt;Modificacion&lt;/h2&gt;
-
 &lt;p&gt;El sonido (ignorando la fuente) y compartiendo una misma carcasa, depende en su mayoria de la alhomadila y driver
 utilizados&lt;/p&gt;
-
 &lt;p&gt;En escencia si retira el afinador de los drivers el sonido pierde claridad y
 aumenta en calidez o retumbe&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;Si solo busca experimentar con algo de timidez, pruebe a romper uno o dos
 &amp;ldquo;circulos&amp;rdquo; en los afiradores y si el sonido deja de ser de su agrado tape con
 masquin&lt;/p&gt;
-
 &lt;p&gt;Si el sonido le parece muy &amp;ldquo;calido&amp;rdquo; tambien puede antes de romper, probar
 tapando incrementalmente con masquin el papel de afinacion&lt;/p&gt;
-
 &lt;p&gt;Las almohadillas mas hermeticas incrementan la sensacion de frecuencias grabes y
 las mas porosas disminuyen las agudas&lt;/p&gt;
-
 &lt;p&gt;Si utiliza una alhomadillas hermetica en conjunto con un controlador sin ningun
 espacio de &amp;ldquo;ventilacion&amp;rdquo; incrementara la sensacion de frecuencias bajas al
 maximo, aunque en mi propia experiencia encuentro esto bastante agobiante y de
 cierta manera creo que es malo para la salud, aunque no tenga pruebas de ello&amp;hellip;.&lt;/p&gt;
-
 &lt;p&gt;En un principio tenia planeado experimentar cambiando las rejillas por tapas
 cerradas con formas de domo, medios ovalos, patrones de relleno e incluso llegue
 a pensar en hacer algun &amp;ldquo;laberinto&amp;rdquo;, pero por alguna razon u otra fue una
 experimentacion para la que en este modelo aunque su diseño resulte favorable, perdi el
 interes&amp;hellip; je, je. Sintase libre de experimentar y compartir sus modificaciones&lt;/p&gt;
-
 &lt;h2 id=&#34;pd&#34;&gt;PD&lt;/h2&gt;
-
 &lt;p&gt;Disfrut!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-076.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-076.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -1212,177 +897,124 @@ interes&amp;hellip; je, je. Sintase libre de experimentar y compartir sus modifi
       <pubDate>Sun, 11 Dec 2022 18:35:26 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/3dp/artillery-z_mod/artillery-z_mod/</guid>
-      <description>
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;enlace&#34;&gt;Enlace&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/338016-artillery-z-mod&#34;&gt;https://www.printables.com/es/model/338016-artillery-z-mod&lt;/a&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-02.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/338016-artillery-z-mod&#34;&gt;Modelos 3D&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-
 &lt;p&gt;Aunque las impresoras de la marca Artillery tienen en general buenas cualidades
 y considerando el precio de venta se optiene lo que se paga, es innegable que
 presenta varios defectos sobretodo en sus primeros modelos&lt;/p&gt;
-
-&lt;p&gt;Este es un intento de corregir uno de ellos, el &lt;strong&gt;Bamboleo&lt;/strong&gt; (wobble) y &amp;ldquo;juego&amp;rdquo;
+&lt;p&gt;Este es un intento de corregir uno de ellos, el &lt;em&gt;Bamboleo&lt;/em&gt; (wobble) y &amp;ldquo;juego&amp;rdquo;
 del eje z. Para ello se ha diseñado un nuevo carro y conseguido algunas piezas
 variadas con la esperanza de que &amp;ldquo;por mera coincidencia&amp;rdquo; se comporten correctamente&lt;/p&gt;
-
 &lt;p&gt;Ciertamente, no estamos ante tecnologia de punta y es (se cree) que basta
 un poco de sentido comun para dar con la respuesta&lt;/p&gt;
-
 &lt;p&gt;Para este proyecto se conto con hartas influencias, la primera fue una
 modificacion de &lt;a href=&#34;https://www.thingiverse.com/thing:5268713&#34;&gt;Way2Do&lt;/a&gt; a un modelo
 &amp;ldquo;abandonado&amp;rdquo; por &lt;a href=&#34;https://www.thingiverse.com/thing:4344699&#34;&gt;Ctr3D&lt;/a&gt;, aunque
 nunca se llego a imprimir&lt;/p&gt;
-
 &lt;p&gt;El otro proyecto que literalmente sirvio de plantilla fue realizado por parte de
 &lt;a href=&#34;https://www.printables.com/es/model/137175-artillery-genius-z-mod&#34;&gt;EnDiMa&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;Este diseño no se adaptaba a lo que tenia en mente, ni contaba con un fichero para poder
 realizar modificaciones como la gente, asi que se creo hechando mano de
 OpenScad.&lt;/p&gt;
-
 &lt;p&gt;Dicho modelo si fue impreso, en caso de que el mio fallara&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Sin embargo cuando se probo sobre el marco, ocurrio que la distancia a la que
 estan colocadas las ruedas en este modelo (como en el de Way2Do) quedan en exceso
 ajustadas, con un error aproximado de .6mm, ja, ja&lt;/p&gt;
-
 &lt;p&gt;Aun asi, el diseño es sencillo y facil de reproducir, por lo que se utilizo como &amp;ldquo;plantilla&amp;rdquo;&lt;/p&gt;
-
 &lt;p&gt;Creo que la primer influencia es el video que enlaza en por &lt;a href=&#34;https://www.thingiverse.com/thing:4853171&#34;&gt;aca&lt;/a&gt;&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/mqSQhwqSzvg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/mqSQhwqSzvg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;A decir verdad, encuentro la propuesta exagerada y el sistema de imanes &amp;ldquo;poco
 confiable&amp;rdquo;, ademas que no muestran la &amp;ldquo;diferencia&amp;rdquo; en forma de impresiones. Pese
 a ello, es un video muy ilustrativo con ideas (para mi) nuevas&lt;/p&gt;
-
 &lt;p&gt;y adicionalmente&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/s8-e9McOoFA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s8-e9McOoFA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;La conclusion de lo anterior fue&amp;hellip; 4 ruedas, acoplador oldham, tuerca T POM
 antiretroceso y acoplador flexible&lt;/p&gt;
-
 &lt;h3 id=&#34;carro&#34;&gt;Carro&lt;/h3&gt;
-
 &lt;p&gt;El carro original puesto por Artillery no cuenta con ninguna forma de ajustar
 las ruedas y al menos con el uso que he hecho de la impresora, no deberia
 haber ninguna razon para que tenga un mal funcionamiento, aunque ocacionalmente
 podria presenta un poco de juego&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ZNC.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ZNC.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Quien no reconece las miticas &lt;a href=&#34;https://www.thingiverse.com/thing:4444589&#34;&gt;&amp;ldquo;tapitas&amp;rdquo;&lt;/a&gt;
 que intentan corregir algunos inconvenientes de este carro?&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/z-upgrade.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/z-upgrade.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;realizando algunas pruebas, realmente no encontre algun cambio reseñable, pero
 al menos dan paz mental a quien las coloca&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;Dispuesto pues a la labor, por que no colocar 4 ruedas? Desconosco la razon de por que la mayoria
 de impresoras monta carros de 3 ruedas, quiza sea solo por ahorrar(?) o es quiza
 que en un eje con movimiento horizontal sea inecesario? Bueno, el eje Y cuenta
 con un carro con 4 ruedas y no le va mal&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-09.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-09.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Al igual que en el carro Y, para poder ajustar la tencion en las ruedas se
 colocaron dos tuercas exentricas&lt;/p&gt;
-
 &lt;p&gt;En un principio se contemplo el uso de tuercas de seguridad para mantener simpre
 fijas las ruedas, pero al intentar ajustar junto a las tuercas cuadradas que van
 en la extrusion 2040v, por alguna razon pense que era demaciado complejo
 hacer coincidir el ajuste de ambas y que quedaran seguras. Por ello la opcion
 por defecto es no contar con tuercas de seguridad, aunque es una caracteristica
 aun presente en el modelo. Si elije esta opcion, tal como en el diseño de
-&lt;strong&gt;EnDiMa&lt;/strong&gt; se cuenta con un par de orificios extra a cada lado exclusivamente
+&lt;em&gt;EnDiMa&lt;/em&gt; se cuenta con un par de orificios extra a cada lado exclusivamente
 para el ajuste de las tuercas T&lt;/p&gt;
-
 &lt;p&gt;Otra modificacion necesaria fue elevar el punto de union del carro con la tuerca
 T y el acoplador oldham&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-14.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Es &lt;strong&gt;IMPORTANTE&lt;/strong&gt; reseñar que este carro no es compatible con &amp;ldquo;los cuadrados
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-14.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es &lt;em&gt;IMPORTANTE&lt;/em&gt; reseñar que este carro no es compatible con &amp;ldquo;los cuadrados
 azules&amp;rdquo; del carro incluidos por artillery. Si eso es lo que necesita, mida y
 agregue un hueco en dicho espacio en el modelo&lt;/p&gt;
-
 &lt;h2 id=&#34;openscad&#34;&gt;OpenScad&lt;/h2&gt;
-
 &lt;p&gt;Sinceramente, me da pereza escribir mucho del tema por aqui, si tiene necesidad
 de modificar el diseño, al estar realizado en openscad tiene casi todo el
 trabajo hecho, ja, ja&lt;/p&gt;
-
 &lt;p&gt;Hace mucho que no tocaba un programa &amp;ldquo;programable&amp;rdquo;. Este esta lejos de ser motivo de horgullo,
 y la pereza, junto a gastar 1KG de filamento en continuas iteraciones deberian
 estas plasmadas en el, je, je, aun asi, me he divertido al escribirlo&lt;/p&gt;
-
 &lt;h2 id=&#34;impresion&#34;&gt;Impresion&lt;/h2&gt;
-
 &lt;p&gt;Tenga correctamente calibrada la impresora, asegurese que ademas de los
 perimetros externos los orificios internos tienen la medida correcta (dentro de
 lo posible)&lt;/p&gt;
-
 &lt;p&gt;En mi Artillery Genius tengo configurado el valor de &amp;ldquo;Expansion Horizontal de
 orificios&amp;rdquo; en &lt;code&gt;.25mm&lt;/code&gt;. Este Ajuste ocacionalmente es problematico en conjuncion
 con otros como lo son las correcciones de maya o las paredes delgadas, en este
 modelo dichos parametros no afectan en nada, pero simpre revise la vista previa
 de impresion&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;Recomendo no imprimir ambas piezas directamente. Pruebe antes imprimir uno de los lados
 con una configuracion &amp;ldquo;de prueba&amp;rdquo; (1 pared, 2 superior/inferior 5-15% de
 relleno) y revise el ajuste de los componentes o&amp;hellip; acorde a ellos y el
 resultado de la impresion, realize las modificaciones pertinentes&lt;/p&gt;
-
 &lt;p&gt;Mi impresion final la realice con 4 paredes, 4 superior/inferior, 20% giroide
 con lineas de relleno conectadas y un borde de 4mm. PETG, boquilla .4 altura .2&lt;/p&gt;
-
 &lt;p&gt;Sospecho que es una configuracion un poco excesiva, quiza con 3
 paredes/inferior/superior y un 15% de relleno sencillo es suficiente, pero por
 que escatimar?&lt;/p&gt;
-
 &lt;p&gt;Debido al &amp;ldquo;warping&amp;rdquo; (deformacion) en esquinas &amp;ldquo;puntiagudas&amp;rdquo;
 recomiendo encarecidamente que coloque soportes en el &amp;ldquo;puente de union&amp;rdquo; (nombre
 inventado). En mis impresiones, las piezas podian salir sin necesidad de ningun
 soporte o&amp;hellip; podia presentarse deformacion y desfasar un poco las capas o
 provocar que la pieza se despegase, tomelo en cuenta&lt;/p&gt;
-
 &lt;p&gt;Esta es el area donde recomiendo soportes&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/p.png&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/p.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Por cierto, durante las pruebas utilice un modelo impreso de la extrucion 2040
 V-Slot, puede encontrar ese y otros modelos interesantes aqui -&amp;gt;
 &lt;a href=&#34;https://www.thingiverse.com/thing:3973787&#34;&gt;https://www.thingiverse.com/thing:3973787&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;materiales&#34;&gt;Materiales&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-06.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-06.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Los enlaces son de afiliado a los materiales que he utilizado. Heche mano de su
 propio criterio y guiese por la reputacion, comentarios y experiencia en compras
 por aliexpress. Si puede o conoce mejores componentes no escatime en gastos.&lt;/p&gt;
-
 &lt;p&gt;Si decide comprar en esos sitios estara apoyando a este que escribe (y bla, bla,
 bla). Si encuentra algun inconveniente, queja, el envio tarda 2 meses en llegar
-o algo por el estilo, &lt;strong&gt;NO JODA&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
+o algo por el estilo, &lt;em&gt;NO JODA&amp;hellip;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;8 Tornillo M5x40mm, 8 tornillo M3x12mm  (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DCkvj0B&#34;&gt;https://s.click.aliexpress.com/e/_DCkvj0B&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;8 Tuerca M3 con nylon (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DdRRKuF&#34;&gt;https://s.click.aliexpress.com/e/_DdRRKuF&lt;/a&gt;)&lt;/li&gt;
@@ -1392,119 +1024,82 @@ o algo por el estilo, &lt;strong&gt;NO JODA&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 &lt;li&gt;2 Coples Oldham 1204 (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DkF316j&#34;&gt;https://s.click.aliexpress.com/e/_DkF316j&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;4 Tuerca excentrica (7 diametro x 5mm internos x 6mm tuerca, en enlace &amp;ldquo;tipo B&amp;rdquo;) (&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBoMTYn&#34;&gt;https://s.click.aliexpress.com/e/_DBoMTYn&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ACTUALIZACION [18-12-22]&lt;/strong&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ACTUALIZACION [18-12-22]&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Si bien el funcionamiento era correcto, tras una semana se retiraron los
 acopladores flexibles para recolocar los &amp;ldquo;rigidos&amp;rdquo; originales.&lt;/p&gt;
-
 &lt;p&gt;Aparentemente se hiso un poco mas uniforme la apariencia entre capas&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;armado&#34;&gt;Armado&lt;/h2&gt;
-
 &lt;p&gt;(si la vuelvo a desmontar, prometo tomar fotografias, realmente es un poco
 inutil detallar el proceso sin ellas, asi que unos pocos consejos. Pero&amp;hellip; mejor mire
 el siguiente video que al menos explica algunas cosas)&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Y7AGsfoA3Kw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Y7AGsfoA3Kw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-
 &lt;p&gt;Para colocar los coples, utilice este &lt;a href=&#34;https://www.thingiverse.com/thing:3934158&#34;&gt;centrador&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;Para colocar y apretar los acopladores oldham utilice su ingenio, no es tan
-complicado&amp;hellip; &lt;strong&gt;No los deje caer&lt;/strong&gt;, son muy, muy delicados, un pequeño golpe
+complicado&amp;hellip; &lt;em&gt;No los deje caer&lt;/em&gt;, son muy, muy delicados, un pequeño golpe
 puede fastidiarlos&lt;/p&gt;
-
 &lt;p&gt;Coloque los nuevos carros sin apretar las tuercas cuadradas&lt;/p&gt;
-
 &lt;p&gt;El ajuste en las tuercas exentricas debe ser uniforme en todas ellas, tambien
 debe ser solo lo suficiente para evitar algun juego en el eje x, no los apriete
 al limite&lt;/p&gt;
-
 &lt;p&gt;Para alinear el eje X, recoloque el &amp;ldquo;marco&amp;rdquo; de plastico, apriete los 4 tornillos
 y suba el eje X al limite (quitando de en medio el cable del sensor de
-filamento). Esto se hace con los las barillas roscadas y coples apretados &lt;em&gt;sin
-la banda de sincronizacion superior&lt;/em&gt;. Hay otros metodos, pero este me
+filamento). Esto se hace con los las barillas roscadas y coples apretados &lt;strong&gt;sin
+la banda de sincronizacion superior&lt;/strong&gt;. Hay otros metodos, pero este me
 funciono&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;En este momento apriete las tuercas cuadradas&lt;/p&gt;
-
 &lt;p&gt;Una vez alineado con el tope libere los tornillos del lado izquierdo del marco
 (los que lo unen con la impresora), baje la altura de la cama con las ruedas de
 ajuste, encienda la maquina y realice un home en z. Apriete de nuevo los
 tornillos del marco de lado izquierdo&lt;/p&gt;
-
 &lt;p&gt;Mueva el eje z por todo el recorrido y asegure que no se escucha ningun
 &amp;ldquo;crujido&amp;rdquo; y todo el recorrido es suave&lt;/p&gt;
-
 &lt;p&gt;Revise todos los movimientos de las varillas y componentes, rehaga cualquier
 paso las veces que sea necesaria&lt;/p&gt;
-
 &lt;h2 id=&#34;conclucion&#34;&gt;Conclucion&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ppr-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/ppr-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;La impresion superior fue la que motivo toda esta modificacion. Segun mis
 teorias, tenia un excesivo desgaste en la tuerca T de laton que en conjunto con
 el propio diseño del carro, ocacionalmente tras los &amp;ldquo;saltos en Z&amp;rdquo; el extrusor no
 regresaba a la altura correcta&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-19.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-20.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-19.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-20.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Realice algunas impresiones de piezas mas pequeñas, pero realmente no encontre
 ninguna diferencia destacable al estado de la maquina en buen funcionamiento&lt;/p&gt;
-
 &lt;p&gt;En muchos aspectos, las &amp;ldquo;modificaciones&amp;rdquo; afectan de forma insignificante (cuando
 no inapreciable) las impresiones, pero como pasa en el mundo de la modificacion
 de automoviles (supongo&amp;hellip;), esto es una parte muy importante del pasatiempo. A
 veces es necesaria, a veses desquisiante y ocacionalmente divertida&lt;/p&gt;
-
 &lt;p&gt;B-u-e-n-o&amp;hellip; tenia ese problema que termino por hacer fragil e inservible la
 impresion del pez koi&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-11.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-11.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Puedo decir con alegria y cierto horgullo, que al menos la modificacion no
 afecto para mal la impresora y de hecho soluciono el problema&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-04.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-02.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-03.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-04.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Con esto de las fotografias muchas veces se pueden hacer tomas para disimular
 las imperfecciones, pero he realizado lo mejor posible para exponer todos los detalles&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-05.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-06.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-07.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-05.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-06.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-07.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Valio la pena? Se corrigio el problema &amp;ldquo;a mi manera&amp;rdquo;, asi que si!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-15.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-15.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;El filamento blanco y tamben el natural, son excelentes si se quieren disimular imperfecciones&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-13.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-14.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-15.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-17.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-13.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-14.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-15.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-17.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip; pero en negro tampoco queda nada mal&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-21.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-20.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-21.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/pr-20.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;disfrut!&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-13.jpg&#34; alt=&#34;&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-13.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ⋲ᴹ∧cₛ ℜø∁κ§</title>
@@ -7,10 +6,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Sun, 11 Dec 2022 18:35:26 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 02:13:20 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>fonos</title>
+      <link>https://nasciiboy.github.io/tags/fonos/</link>
+      <pubDate>Mon, 08 Jan 2024 02:13:20 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/fonos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>headphone</title>
+      <link>https://nasciiboy.github.io/tags/headphone/</link>
+      <pubDate>Mon, 08 Jan 2024 02:13:20 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/headphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nascii</title>
+      <link>https://nasciiboy.github.io/tags/nascii/</link>
+      <pubDate>Mon, 08 Jan 2024 02:13:20 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/nascii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nkh</title>
+      <link>https://nasciiboy.github.io/tags/nkh/</link>
+      <pubDate>Mon, 08 Jan 2024 02:13:20 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/nkh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leaginal</title>
+      <link>https://nasciiboy.github.io/tags/leaginal/</link>
+      <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/leaginal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qigom</title>
+      <link>https://nasciiboy.github.io/tags/qigom/</link>
+      <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/qigom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ptg</title>
+      <link>https://nasciiboy.github.io/tags/ptg/</link>
+      <pubDate>Fri, 03 Feb 2023 15:54:05 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/ptg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Artillery</title>
@@ -18,15 +80,6 @@
       <pubDate>Sun, 11 Dec 2022 18:35:26 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/tags/artillery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fonos</title>
-      <link>https://nasciiboy.github.io/tags/fonos/</link>
-      <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/fonos/</guid>
       <description></description>
     </item>
     
@@ -40,33 +93,6 @@
     </item>
     
     <item>
-      <title>Headphone</title>
-      <link>https://nasciiboy.github.io/tags/headphone/</link>
-      <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/headphone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Init</title>
-      <link>https://nasciiboy.github.io/tags/init/</link>
-      <pubDate>Sat, 19 Nov 2022 22:41:07 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/init/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leaginal</title>
-      <link>https://nasciiboy.github.io/tags/leaginal/</link>
-      <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/leaginal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mod</title>
       <link>https://nasciiboy.github.io/tags/mod/</link>
       <pubDate>Sun, 11 Dec 2022 18:35:26 -0600</pubDate>
@@ -76,25 +102,7 @@
     </item>
     
     <item>
-      <title>Nascii</title>
-      <link>https://nasciiboy.github.io/tags/nascii/</link>
-      <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/nascii/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nkh</title>
-      <link>https://nasciiboy.github.io/tags/nkh/</link>
-      <pubDate>Mon, 08 Jan 2024 19:56:28 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/nkh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Openscad</title>
+      <title>OpenScad</title>
       <link>https://nasciiboy.github.io/tags/openscad/</link>
       <pubDate>Sun, 11 Dec 2022 18:35:26 -0600</pubDate>
       
@@ -103,20 +111,11 @@
     </item>
     
     <item>
-      <title>Ptg</title>
-      <link>https://nasciiboy.github.io/tags/ptg/</link>
-      <pubDate>Fri, 03 Feb 2023 15:54:05 -0600</pubDate>
+      <title>init</title>
+      <link>https://nasciiboy.github.io/tags/init/</link>
+      <pubDate>Sat, 19 Nov 2022 22:41:07 -0600</pubDate>
       
-      <guid>https://nasciiboy.github.io/tags/ptg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qigom</title>
-      <link>https://nasciiboy.github.io/tags/qigom/</link>
-      <pubDate>Sun, 25 Jun 2023 00:19:30 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/qigom/</guid>
+      <guid>https://nasciiboy.github.io/tags/init/</guid>
       <description></description>
     </item>
     
