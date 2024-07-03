@@ -6,10 +6,149 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Mon, 08 Jan 2024 02:13:20 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2024 02:13:20 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/tags/fonos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>COSMOFONO</title>
+      <link>https://nasciiboy.github.io/post/cosmofono/</link>
+      <pubDate>Sat, 29 Jun 2024 02:13:20 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/post/cosmofono/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/AbbeyZilla.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;o-como-organizar-tu-audioteca-digital-manualmente&#34;&gt;o&amp;hellip; como organizar tu audioteca digital manualmente&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Encuentro molesta la complejidad de los sofisticados y potentes reproductores
+musicales, llenos de botoncillos que van a su bola recopilando metadatos de cada
+una de las pistas que encuentre, cuando lo unico que necesito es que reprodusca
+las pistas de una carpeta que ya tengo dispuesta como un album&lt;/p&gt;
+&lt;p&gt;Asi las cosas les comparto mi sencillo sistema para organizar los miles de
+albums en mi personal coleccion&lt;/p&gt;
+&lt;p&gt;La carpeta principal en la raiz del usuario &lt;code&gt;~/Música&lt;/code&gt; la renombre como
+&lt;code&gt;~/fonos&lt;/code&gt; para hacer mas facil teclear la ruta&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-01.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En esta carpeta &lt;code&gt;fonos&lt;/code&gt; habitan los nombres de toda agrupacion que tenga mas de
+un produccion o se gane tal honor con un solo lanzamiento. Asi pues encontraran
+a &lt;strong&gt;Sonic Youth&lt;/strong&gt;, &lt;strong&gt;Led Zepellin&lt;/strong&gt;, &lt;strong&gt;The Beatles&lt;/strong&gt;, &lt;strong&gt;Electric Light
+Orchestra&lt;/strong&gt;, &lt;strong&gt;Neil Young&lt;/strong&gt;, &lt;strong&gt;Taeko Ohnuki&lt;/strong&gt;, &lt;strong&gt;Supertramp&lt;/strong&gt;, &lt;strong&gt;Archive&lt;/strong&gt;,
+&lt;strong&gt;Fishmans&lt;/strong&gt;, etc.&lt;/p&gt;
+&lt;p&gt;Estas carpetas siempre estan organizadas en orden alfabetico y dentro de ellas
+&lt;strong&gt;cada album escuchado&lt;/strong&gt; se antepone de la siguiente forma&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;=19XX= nombre album (informacion especial)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;donde &lt;code&gt;=19XX=&lt;/code&gt; es el año de lanzamiento siempre y unicamente con cuatro digitos
+en medio de dos signos igual (&lt;code&gt;=&lt;/code&gt;), luego el nombre del album y al final
+(opcionalmente) alguna informacion especial, por ejemplo &lt;code&gt;(2006)&lt;/code&gt; que seria si
+corresponde a alguna reedicion del 2006, &lt;code&gt;(Bonus Disc)&lt;/code&gt;, &lt;code&gt;(POCH-1640)&lt;/code&gt; numero de
+catalogo si se tiene varias versiones del album del mismo añø, &lt;code&gt;(mp3)&lt;/code&gt; o lo que
+se considere revelante&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-02.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;obviamente si un album aun no ha sido escuchado o su procedencia y calidad es
+seriamente dudosa no recive este tratamiento&lt;/p&gt;
+&lt;p&gt;Motivos para ignorar albums son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;contiene pistas con errores (corroborados). En ocaciones simplemente son
+asi&amp;hellip; en cualquier formato y version y no hay mas que aceptarlos&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;la fuente de audio es un vinil no oficial y existe su contraparte digital sin mierdas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;la fuente de audio es un sucio y asqueroso vinil muy dañado de algun loco aficionado&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;es un asqueroso vinil con sobremuestreo &amp;ldquo;24/192&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;si, es un vinil&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cuidado&lt;/strong&gt; siempre con esos archivos mas alla del &lt;em&gt;16/44&lt;/em&gt;, aunque adquieras
+archivos de forma digital y legal &lt;strong&gt;PUEDE SER UN ASQUEROSO VINIL&lt;/strong&gt;. Je, je, si no
+existe la grabacion sin ruiditos molestos o por que no existe otra fuente mas
+que un vinil se soporta, pero siempre huye del vinil&lt;/p&gt;
+&lt;p&gt;Bueno, bueno, regresando al tema el sistema &lt;code&gt;=XXXX=&lt;/code&gt; es facil de llevar y
+aunque olvides si has escuchado o no un album estara la marca para despejar dudas&lt;/p&gt;
+&lt;p&gt;y si aplicas algunos comandos linuxeros, por ejemplo en un terminal (con
+interprete &lt;code&gt;fish&lt;/code&gt;), puedes contabilizar cuantas pistas tienes en total y cuantas
+de ellas has escuchado, tal que asi&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# total de albums escuchados (carpetas principales)
+find -type d | grep -P &#39;/(=[0-9]{4}=|=DONE=)[^/]*$&#39; | wc -l
+# total de pistas escuchadas
+find (find -type d | grep -P &#39;/(=[0-9]{4}=|=DONE=)[^/]*$&#39;) | grep -P &#39;(flac|alac|m4a|aac|wav|mp3|ogg|ape|aiff)$&#39; | wc -l
+# total de pistas
+tree | grep -P &#39;(flac|alac|m4a|aac|wav|mp3|ogg|ape|aiff)$&#39; | wc -l
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;en mi maquina arroja lo siguiente&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-03.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2149&lt;/em&gt; Albums escuchados, &lt;em&gt;31,150&lt;/em&gt; pistas reproducidas y &lt;em&gt;76,748&lt;/em&gt; en total. Nada
+mal, me falta mas de la mitad, hace como un año tenia mas o menos 24k/70k&lt;/p&gt;
+&lt;h2 id=&#34;consideraciones-especiales&#34;&gt;Consideraciones especiales&lt;/h2&gt;
+&lt;p&gt;Cuando un album no me importa demaciado o no encuentro la informacion de
+lanzamiento en lugar de fecha lo etiqueto asi&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;=DONE= album (cosas)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Si por alguna razon la que fuera existe una pista escandalosamente defectuosa o
+que asi parece y no puedo comprobar si es asi, antepongo un &amp;ldquo;balaso&amp;rdquo; al nombre
+del album&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;=DONE= ¤ album (cosas)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;y dentro del album al nombre de la pista&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;05. ¤ pista-sospechosa
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Los albums ripeados por gente seria, tienen sumas de chequeo para revisar la
+integridad de las pistas&amp;hellip; pero en mi maquina hippiosa aun no tengo nada de
+eso&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;carpetas-especiales&#34;&gt;Carpetas especiales&lt;/h2&gt;
+&lt;p&gt;Tengo unas cuantas carpetas para disminuir la abultada cantidad de material,
+primero&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;~/fonos/7empura&lt;/code&gt; Todos los discos acumulados que no se ni que son, ni han sido oidos (muchos, muchos)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;~/fonos/0CD&lt;/code&gt; Mis CD&amp;rsquo;s ripeados esperando a ser escuchados&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;~/fonos/1CD&lt;/code&gt; Mis CD&amp;rsquo;s escuchados que no se donde poner&amp;hellip; o no quiero buscarles lugar&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;~/fonos/2tuB&lt;/code&gt; oggs de yutuve&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;~/fonos/4k&lt;/code&gt; Los sountracks de anime, peliculas, videojuegos y series&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;inician con un numero por conveniencia, para tenerlos a la mano&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;~/fonos/one&lt;/code&gt; Aqui van discos solitarios o sin mucho interes que no son tan
+malos como para borrarlos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los discos solitarios se pueden nombrar de la siguiente forma&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;=19XX= agrupacion – album (cosas)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;programas&#34;&gt;Programas&lt;/h2&gt;
+&lt;p&gt;En el sistema del ñu, utilizo &lt;a href=&#34;http://moc.daper.net/&#34;&gt;moc&lt;/a&gt; (Music on Console)
+porque&amp;hellip; funciona, es sencillo y me gusta, todo teclado, busquedas inmediatas,
+reproduccion como carpeta de serie y amplia compativilidad de formatos
+(No DSD)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-04.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En android utilizaba &lt;em&gt;SciMu&lt;/em&gt; desde el repositorio de f-droid y anque era bastante
+fan, un dia note que el efecto estereo (por no se que razon) no era muy preciso en
+los paneos&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-07.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;asi que principalmente ocupo VLC&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-18.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;por las dudas y cuentos audiofilos, tambien tengo instalado USB Audio Player
+aunque por su lentitud, consumo y engorro rara es la vez lo ocupo. Ademas, los
+dongles y modos exclusivos son un fastidio, ja, ja, ja&lt;/p&gt;
+&lt;p&gt;ya que mucha musica no puedo transoportar, en el movil coloco los discos sin mas,
+muy raramente ninguna discografia entera&lt;/p&gt;
+&lt;p&gt;Disfrut!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NASCII NKH – Guia de uso rapido</title>

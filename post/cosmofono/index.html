@@ -2,8 +2,8 @@
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8">
-    <title>qigom</title>
-    <link href="https://nasciiboy.github.io/tags/qigom/index.xml" rel="alternate" title="⋲ᴹ∧cₛ ℜø∁κ§" type="application/atom+xml">
+    <title>COSMOFONO</title>
+    <link href="" rel="alternate" title="⋲ᴹ∧cₛ ℜø∁κ§" type="application/atom+xml">
     <style> :root {
 
     --BGC      : #000000;
@@ -364,58 +364,150 @@ img:hover { border: .05em solid #fff; }
   <body>
     
 <main>
-  
-  
+  <div class="clear" ><a href="https://nasciiboy.github.io">/</a></span> <span><a href="https://nasciiboy.github.io/post">post</a></div>
 
-  <ul class="nav">
+  <h1>COSMOFONO</h1>
+  <p><img src="https://nasciiboy.github.io/img/post/cosmofono/AbbeyZilla.jpeg" alt=""></p>
+<h2 id="o-como-organizar-tu-audioteca-digital-manualmente">o&hellip; como organizar tu audioteca digital manualmente&hellip;</h2>
+<p>Encuentro molesta la complejidad de los sofisticados y potentes reproductores
+musicales, llenos de botoncillos que van a su bola recopilando metadatos de cada
+una de las pistas que encuentre, cuando lo unico que necesito es que reprodusca
+las pistas de una carpeta que ya tengo dispuesta como un album</p>
+<p>Asi las cosas les comparto mi sencillo sistema para organizar los miles de
+albums en mi personal coleccion</p>
+<p>La carpeta principal en la raiz del usuario <code>~/Música</code> la renombre como
+<code>~/fonos</code> para hacer mas facil teclear la ruta&hellip;</p>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-01.png" alt=""></p>
+<p>En esta carpeta <code>fonos</code> habitan los nombres de toda agrupacion que tenga mas de
+un produccion o se gane tal honor con un solo lanzamiento. Asi pues encontraran
+a <strong>Sonic Youth</strong>, <strong>Led Zepellin</strong>, <strong>The Beatles</strong>, <strong>Electric Light
+Orchestra</strong>, <strong>Neil Young</strong>, <strong>Taeko Ohnuki</strong>, <strong>Supertramp</strong>, <strong>Archive</strong>,
+<strong>Fishmans</strong>, etc.</p>
+<p>Estas carpetas siempre estan organizadas en orden alfabetico y dentro de ellas
+<strong>cada album escuchado</strong> se antepone de la siguiente forma</p>
+<pre><code>=19XX= nombre album (informacion especial)
+</code></pre>
+<p>donde <code>=19XX=</code> es el año de lanzamiento siempre y unicamente con cuatro digitos
+en medio de dos signos igual (<code>=</code>), luego el nombre del album y al final
+(opcionalmente) alguna informacion especial, por ejemplo <code>(2006)</code> que seria si
+corresponde a alguna reedicion del 2006, <code>(Bonus Disc)</code>, <code>(POCH-1640)</code> numero de
+catalogo si se tiene varias versiones del album del mismo añø, <code>(mp3)</code> o lo que
+se considere revelante</p>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-02.png" alt=""></p>
+<p>obviamente si un album aun no ha sido escuchado o su procedencia y calidad es
+seriamente dudosa no recive este tratamiento</p>
+<p>Motivos para ignorar albums son:</p>
+<ul>
+<li>
+<p>contiene pistas con errores (corroborados). En ocaciones simplemente son
+asi&hellip; en cualquier formato y version y no hay mas que aceptarlos</p>
+</li>
+<li>
+<p>la fuente de audio es un vinil no oficial y existe su contraparte digital sin mierdas</p>
+</li>
+<li>
+<p>la fuente de audio es un sucio y asqueroso vinil muy dañado de algun loco aficionado</p>
+</li>
+<li>
+<p>es un asqueroso vinil con sobremuestreo &ldquo;24/192&rdquo;</p>
+</li>
+<li>
+<p>si, es un vinil</p>
+</li>
+</ul>
+<p><strong>Cuidado</strong> siempre con esos archivos mas alla del <em>16/44</em>, aunque adquieras
+archivos de forma digital y legal <strong>PUEDE SER UN ASQUEROSO VINIL</strong>. Je, je, si no
+existe la grabacion sin ruiditos molestos o por que no existe otra fuente mas
+que un vinil se soporta, pero siempre huye del vinil</p>
+<p>Bueno, bueno, regresando al tema el sistema <code>=XXXX=</code> es facil de llevar y
+aunque olvides si has escuchado o no un album estara la marca para despejar dudas</p>
+<p>y si aplicas algunos comandos linuxeros, por ejemplo en un terminal (con
+interprete <code>fish</code>), puedes contabilizar cuantas pistas tienes en total y cuantas
+de ellas has escuchado, tal que asi</p>
+<pre><code># total de albums escuchados (carpetas principales)
+find -type d | grep -P '/(=[0-9]{4}=|=DONE=)[^/]*$' | wc -l
+# total de pistas escuchadas
+find (find -type d | grep -P '/(=[0-9]{4}=|=DONE=)[^/]*$') | grep -P '(flac|alac|m4a|aac|wav|mp3|ogg|ape|aiff)$' | wc -l
+# total de pistas
+tree | grep -P '(flac|alac|m4a|aac|wav|mp3|ogg|ape|aiff)$' | wc -l
+</code></pre>
+<p>en mi maquina arroja lo siguiente</p>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-03.png" alt=""></p>
+<p><em>2149</em> Albums escuchados, <em>31,150</em> pistas reproducidas y <em>76,748</em> en total. Nada
+mal, me falta mas de la mitad, hace como un año tenia mas o menos 24k/70k</p>
+<h2 id="consideraciones-especiales">Consideraciones especiales</h2>
+<p>Cuando un album no me importa demaciado o no encuentro la informacion de
+lanzamiento en lugar de fecha lo etiqueto asi</p>
+<pre><code>=DONE= album (cosas)
+</code></pre>
+<p>Si por alguna razon la que fuera existe una pista escandalosamente defectuosa o
+que asi parece y no puedo comprobar si es asi, antepongo un &ldquo;balaso&rdquo; al nombre
+del album</p>
+<pre><code>=DONE= ¤ album (cosas)
+</code></pre>
+<p>y dentro del album al nombre de la pista</p>
+<pre><code>05. ¤ pista-sospechosa
+</code></pre>
+<p>Los albums ripeados por gente seria, tienen sumas de chequeo para revisar la
+integridad de las pistas&hellip; pero en mi maquina hippiosa aun no tengo nada de
+eso&hellip;</p>
+<h2 id="carpetas-especiales">Carpetas especiales</h2>
+<p>Tengo unas cuantas carpetas para disminuir la abultada cantidad de material,
+primero</p>
+<ul>
+<li>
+<p><code>~/fonos/7empura</code> Todos los discos acumulados que no se ni que son, ni han sido oidos (muchos, muchos)</p>
+</li>
+<li>
+<p><code>~/fonos/0CD</code> Mis CD&rsquo;s ripeados esperando a ser escuchados</p>
+</li>
+<li>
+<p><code>~/fonos/1CD</code> Mis CD&rsquo;s escuchados que no se donde poner&hellip; o no quiero buscarles lugar</p>
+</li>
+<li>
+<p><code>~/fonos/2tuB</code> oggs de yutuve&hellip;</p>
+</li>
+<li>
+<p><code>~/fonos/4k</code> Los sountracks de anime, peliculas, videojuegos y series</p>
+</li>
+</ul>
+<p>inician con un numero por conveniencia, para tenerlos a la mano</p>
+<ul>
+<li><code>~/fonos/one</code> Aqui van discos solitarios o sin mucho interes que no son tan
+malos como para borrarlos</li>
+</ul>
+<p>Los discos solitarios se pueden nombrar de la siguiente forma</p>
+<pre><code>=19XX= agrupacion – album (cosas)
+</code></pre>
+<h2 id="programas">Programas</h2>
+<p>En el sistema del ñu, utilizo <a href="http://moc.daper.net/">moc</a> (Music on Console)
+porque&hellip; funciona, es sencillo y me gusta, todo teclado, busquedas inmediatas,
+reproduccion como carpeta de serie y amplia compativilidad de formatos
+(No DSD)</p>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-04.png" alt=""></p>
+<p>En android utilizaba <em>SciMu</em> desde el repositorio de f-droid y anque era bastante
+fan, un dia note que el efecto estereo (por no se que razon) no era muy preciso en
+los paneos</p>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-07.jpg" alt=""></p>
+<p>asi que principalmente ocupo VLC</p>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-18.jpg" alt=""></p>
+<p>por las dudas y cuentos audiofilos, tambien tengo instalado USB Audio Player
+aunque por su lentitud, consumo y engorro rara es la vez lo ocupo. Ademas, los
+dongles y modos exclusivos son un fastidio, ja, ja, ja</p>
+<p>ya que mucha musica no puedo transoportar, en el movil coloco los discos sin mas,
+muy raramente ninguna discografia entera</p>
+<p>Disfrut!</p>
+
+
+  <div class="clear" class="center">
     
-    <li><a href="https://nasciiboy.github.io/post/">posts</a></li>
+    <a class="previous" href="https://nasciiboy.github.io/post/rei/">◀ Rei</a>
     
-    <li><a href="https://nasciiboy.github.io/3dp/">3dps</a></li>
     
-  </ul>
-
-  <ul class="article">
-  
-  <li>
-    <p>
-      <span style="color:#888" >24 06 29</span> <a class="title" href="https://nasciiboy.github.io/post/cosmofono/">COSMOFONO</a>
-    </p>
-  </li>
-  
-  <li>
-    <p>
-      <span style="color:#888" >24 01 08</span> <a class="title" href="https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/">NASCII NKH – Guia de uso rapido</a>
-    </p>
-  </li>
-  
-  <li>
-    <p>
-      <span style="color:#888" >23 06 25</span> <a class="title" href="https://nasciiboy.github.io/3dp/nkh/nkh/">NASCII NKH</a>
-    </p>
-  </li>
-  
-  <li>
-    <p>
-      <span style="color:#888" >23 02 03</span> <a class="title" href="https://nasciiboy.github.io/3dp/ptg/ptg/">NASCII PTG</a>
-    </p>
-  </li>
-  
-  <li>
-    <p>
-      <span style="color:#888" >22 12 11</span> <a class="title" href="https://nasciiboy.github.io/3dp/artillery-z_mod/artillery-z_mod/">Artillery Z Mod</a>
-    </p>
-  </li>
-  
-  <li>
-    <p>
-      <span style="color:#888" >22 11 19</span> <a class="title" href="https://nasciiboy.github.io/post/rei/">Rei</a>
-    </p>
-  </li>
-  
-  </ul>
+  </div>
 
 
+  <div class="clear" ><a href="https://nasciiboy.github.io">/</a></span> <span><a href="https://nasciiboy.github.io/post">post</a></div>
 </main>
 
     <aside>
@@ -464,7 +556,7 @@ img:hover { border: .05em solid #fff; }
     <footer>
 <p>Licence: <em>GFDL 1.3</em>.
      Powered by <a href="https://gohugo.io/">Hugo</a>.
-  /tags/qigom/index.xml<b>Feed <a href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/tags/qigom/index.xml%20https://nasciiboy.github.io/tags/qigom/index.xml%7d">RSS</a></b>.
+  
    Contact <b><a href="mailto:nasciiboy@gmail.com">nasciiboy@gmail.com</a></b>.
   <b> GPG <a href="http://pgp.mit.edu/pks/lookup?op=get&amp;search=0x7A4E2DDE14D7AD94">0x7A4E2DDE14D7AD94</a></b>.
   <b> Donar <a href="https://paypal.me/nasciicorp">paypal</a>.
