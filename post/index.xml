@@ -22,7 +22,7 @@
 &lt;p&gt;Encuentro molesta la complejidad de los sofisticados y potentes reproductores
 musicales, llenos de botoncillos que van a su bola recopilando metadatos de cada
 una de las pistas que encuentre, cuando lo unico que necesito es que reprodusca
-las pistas de una carpeta que ya tengo dispuesta como un album&lt;/p&gt;
+las pistas de una carpeta ya dispuesta como album&lt;/p&gt;
 &lt;p&gt;Asi las cosas les comparto mi sencillo sistema para organizar los miles de
 albums en mi personal coleccion&lt;/p&gt;
 &lt;p&gt;La carpeta principal en la raiz del usuario &lt;code&gt;~/Música&lt;/code&gt; la renombre como
@@ -70,7 +70,7 @@ archivos de forma digital y legal &lt;strong&gt;PUEDE SER UN ASQUEROSO VINIL&lt;
 existe la grabacion sin ruiditos molestos o por que no existe otra fuente mas
 que un vinil se soporta, pero siempre huye del vinil&lt;/p&gt;
 &lt;p&gt;Bueno, bueno, regresando al tema el sistema &lt;code&gt;=XXXX=&lt;/code&gt; es facil de llevar y
-aunque olvides si has escuchado o no un album estara la marca para despejar dudas&lt;/p&gt;
+aunque olvides si has escuchado o no un album, estara la marca para despejar dudas&lt;/p&gt;
 &lt;p&gt;y si aplicas algunos comandos linuxeros, por ejemplo en un terminal (con
 interprete &lt;code&gt;fish&lt;/code&gt;), puedes contabilizar cuantas pistas tienes en total y cuantas
 de ellas has escuchado, tal que asi&lt;/p&gt;
@@ -85,6 +85,37 @@ tree | grep -P &#39;(flac|alac|m4a|aac|wav|mp3|ogg|ape|aiff)$&#39; | wc -l
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-03.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;2149&lt;/em&gt; Albums escuchados, &lt;em&gt;31,150&lt;/em&gt; pistas reproducidas y &lt;em&gt;76,748&lt;/em&gt; en total. Nada
 mal, me falta mas de la mitad, hace como un año tenia mas o menos 24k/70k&lt;/p&gt;
+&lt;h3 id=&#34;pistas&#34;&gt;Pistas&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-20.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Por lo general nunca hace falta organizar hasta este punto si las pistas estan
+correctamente numeradas o la metadata incluye la numeracion y asi la interpreta
+el reproductor&lt;/p&gt;
+&lt;p&gt;Mi formato de numeracion es&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;01. pista.flac
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;o&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;01 - pista.flac
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;si el album contiene 10 o mas pistas, para asegurar el orden utilizar doble
+digito&lt;/p&gt;
+&lt;h3 id=&#34;portadas&#34;&gt;Portadas&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-22.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Si bien aprecio las portadas y cualquier material adicional a la musica, si no
+esta tampoco me preocupa conseguirlo&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Cada programa tiene sus propios requisitos para mostrar o no una portada, cuando
+esta ya viene incluida en el propio &lt;code&gt;flac&lt;/code&gt; no hay necesidad de hacer nada, para
+los demas casos lo sencillo es agregar una imagen que se llame &lt;code&gt;cover&lt;/code&gt; en la carpeta&lt;/p&gt;
+&lt;p&gt;En el mundo del rippeo y la comparticion de musica, las imagenes y material
+adicional suelen ser fotografia o escaneos y en general todo el album viene en
+una sola pista con un archivo adujunto &lt;code&gt;.cue&lt;/code&gt; donde se indica la posicion y
+nombre de cada pista. En esos casos aprovecho para cortar las pistas e incrustar
+la imagen en cada una, para eso utilizo un conveniente programita
+llamado &lt;a href=&#34;https://flacon.github.io/&#34;&gt;flacon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Las mejores portadas las he conseguido con una busquedo del tipo &amp;ldquo;agrupacion
+album&amp;rdquo; y al final un &amp;ldquo;apple&amp;rdquo;, &amp;ldquo;tidal&amp;rdquo; o &amp;ldquo;amazon&amp;rdquo;. Si no hay otras imagenes en la
+carpeta, mas o menos basta con renombrar como &lt;code&gt;cover&lt;/code&gt; y ya se puede cortar e
+inscrustar la imagen&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/cosmofono-21.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;consideraciones-especiales&#34;&gt;Consideraciones especiales&lt;/h2&gt;
 &lt;p&gt;Cuando un album no me importa demaciado o no encuentro la informacion de
 lanzamiento en lugar de fecha lo etiqueto asi&lt;/p&gt;

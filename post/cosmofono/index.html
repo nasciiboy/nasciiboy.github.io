@@ -372,7 +372,7 @@ img:hover { border: .05em solid #fff; }
 <p>Encuentro molesta la complejidad de los sofisticados y potentes reproductores
 musicales, llenos de botoncillos que van a su bola recopilando metadatos de cada
 una de las pistas que encuentre, cuando lo unico que necesito es que reprodusca
-las pistas de una carpeta que ya tengo dispuesta como un album</p>
+las pistas de una carpeta ya dispuesta como album</p>
 <p>Asi las cosas les comparto mi sencillo sistema para organizar los miles de
 albums en mi personal coleccion</p>
 <p>La carpeta principal en la raiz del usuario <code>~/Música</code> la renombre como
@@ -420,7 +420,7 @@ archivos de forma digital y legal <strong>PUEDE SER UN ASQUEROSO VINIL</strong>.
 existe la grabacion sin ruiditos molestos o por que no existe otra fuente mas
 que un vinil se soporta, pero siempre huye del vinil</p>
 <p>Bueno, bueno, regresando al tema el sistema <code>=XXXX=</code> es facil de llevar y
-aunque olvides si has escuchado o no un album estara la marca para despejar dudas</p>
+aunque olvides si has escuchado o no un album, estara la marca para despejar dudas</p>
 <p>y si aplicas algunos comandos linuxeros, por ejemplo en un terminal (con
 interprete <code>fish</code>), puedes contabilizar cuantas pistas tienes en total y cuantas
 de ellas has escuchado, tal que asi</p>
@@ -435,6 +435,37 @@ tree | grep -P '(flac|alac|m4a|aac|wav|mp3|ogg|ape|aiff)$' | wc -l
 <p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-03.png" alt=""></p>
 <p><em>2149</em> Albums escuchados, <em>31,150</em> pistas reproducidas y <em>76,748</em> en total. Nada
 mal, me falta mas de la mitad, hace como un año tenia mas o menos 24k/70k</p>
+<h3 id="pistas">Pistas</h3>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-20.png" alt=""></p>
+<p>Por lo general nunca hace falta organizar hasta este punto si las pistas estan
+correctamente numeradas o la metadata incluye la numeracion y asi la interpreta
+el reproductor</p>
+<p>Mi formato de numeracion es</p>
+<pre><code>01. pista.flac
+</code></pre>
+<p>o</p>
+<pre><code>01 - pista.flac
+</code></pre>
+<p>si el album contiene 10 o mas pistas, para asegurar el orden utilizar doble
+digito</p>
+<h3 id="portadas">Portadas</h3>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-22.png" alt=""></p>
+<p>Si bien aprecio las portadas y cualquier material adicional a la musica, si no
+esta tampoco me preocupa conseguirlo&hellip;</p>
+<p>Cada programa tiene sus propios requisitos para mostrar o no una portada, cuando
+esta ya viene incluida en el propio <code>flac</code> no hay necesidad de hacer nada, para
+los demas casos lo sencillo es agregar una imagen que se llame <code>cover</code> en la carpeta</p>
+<p>En el mundo del rippeo y la comparticion de musica, las imagenes y material
+adicional suelen ser fotografia o escaneos y en general todo el album viene en
+una sola pista con un archivo adujunto <code>.cue</code> donde se indica la posicion y
+nombre de cada pista. En esos casos aprovecho para cortar las pistas e incrustar
+la imagen en cada una, para eso utilizo un conveniente programita
+llamado <a href="https://flacon.github.io/">flacon</a></p>
+<p>Las mejores portadas las he conseguido con una busquedo del tipo &ldquo;agrupacion
+album&rdquo; y al final un &ldquo;apple&rdquo;, &ldquo;tidal&rdquo; o &ldquo;amazon&rdquo;. Si no hay otras imagenes en la
+carpeta, mas o menos basta con renombrar como <code>cover</code> y ya se puede cortar e
+inscrustar la imagen</p>
+<p><img src="https://nasciiboy.github.io/img/post/cosmofono/cosmofono-21.png" alt=""></p>
 <h2 id="consideraciones-especiales">Consideraciones especiales</h2>
 <p>Cuando un album no me importa demaciado o no encuentro la informacion de
 lanzamiento en lugar de fecha lo etiqueto asi</p>
@@ -558,7 +589,7 @@ muy raramente ninguna discografia entera</p>
      Powered by <a href="https://gohugo.io/">Hugo</a>.
   
    Contact <b><a href="mailto:nasciiboy@gmail.com">nasciiboy@gmail.com</a></b>.
-  <b> GPG <a href="http://pgp.mit.edu/pks/lookup?op=get&amp;search=0x7A4E2DDE14D7AD94">0x7A4E2DDE14D7AD94</a></b>.
+  
   <b> Donar <a href="https://paypal.me/nasciicorp">paypal</a>.
   </b></p>
 </footer>
