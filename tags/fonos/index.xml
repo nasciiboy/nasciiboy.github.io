@@ -105,6 +105,7 @@ esta tampoco me preocupa conseguirlo&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Cada programa tiene sus propios requisitos para mostrar o no una portada, cuando
 esta ya viene incluida en el propio &lt;code&gt;flac&lt;/code&gt; no hay necesidad de hacer nada, para
 los demas casos lo sencillo es agregar una imagen que se llame &lt;code&gt;cover&lt;/code&gt; en la carpeta&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/post/cosmofono/scanVdcover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;En el mundo del rippeo y la comparticion de musica, las imagenes y material
 adicional suelen ser fotografia o escaneos y en general todo el album viene en
 una sola pista con un archivo adujunto &lt;code&gt;.cue&lt;/code&gt; donde se indica la posicion y
