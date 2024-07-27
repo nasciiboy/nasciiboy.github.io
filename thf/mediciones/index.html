@@ -368,10 +368,10 @@ img:hover { border: .05em solid #fff; }
   <h1>Mediciones</h1>
   <p><img src="https://nasciiboy.github.io/img/thf/mediciones/soporte-0.jpg" alt=""></p>
 <p>Aqui se muestra el equipo, especificaciones y metodo de medicion del &ldquo;proyecto
-<strong>Tinnitus HiFi</strong>&rdquo;</p>
-<p>La configuracion, metodologia y espacio de las mediciones no son ideales ni
-acordes a ninguna especificacion conocida y solo son comparables (en el mejor de los
-casos) con otras publicadas por Tinnitus HiFi</p>
+<strong>Tinnitus HiFi</strong>&rdquo; publicadas en <a href="https://tinnitus-hifi.squig.link/">squig</a></p>
+<p>La configuracion, metodologia y espacio de las mediciones no son ideales, solo
+son comparables (en el mejor de los casos) con otras publicadas por Tinnitus
+HiFi</p>
 <p>Mi agradecimineto a <strong>Mark Ryan</strong> (Super*Review) por el sitio <a href="https://squig.link">squig.link</a>,
 ademas del mantenimiento, revisiones y mejoras de la herramineta <a href="https://github.com/mlochbaum/CrinGraph">CrinGraph</a>
 originalmente creada por <strong>Mlochbaum</strong> con la aportacion de <a href="https://gitlab.com/rohsa/graphtool"><strong>Rohsa</strong></a>
@@ -379,7 +379,9 @@ que incorporo <a href="https://github.com/jaakkopasanen/AutoEq">AutoEq</a> de <s
 y a <a href="https://crinacle.com/"><strong>Crinacle</strong></a> por dar inicio a la idea</p>
 <h2 id="equipo">Equipo</h2>
 <p>Acoplador compatible 711 60318-4 Type E810A</p>
-<p>Pinna compatible 45ca (oreja)</p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/c-2.jpg" alt=""></p>
+<p>Pinna (oreja) compatible 45ca</p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/a.jpg" alt=""></p>
 <p>Soporte DIY de acoplador y pinna</p>
 <p>Computador dedicado con W11 sin conexion a internet</p>
 <ul>
@@ -387,20 +389,33 @@ y a <a href="https://crinacle.com/"><strong>Crinacle</strong></a> por dar inicio
 <li>8GB DDR4 3200</li>
 <li>AMD A6-9500</li>
 </ul>
-<p>Amplificador Aiyima H1</p>
+<p>Amplificador Aiyima H1 (Principal)</p>
 <p>Amplificador Douk U3</p>
 <p>Fiio K11</p>
 <h2 id="metodo">Metodo</h2>
-<p>Se utiliza un muestreo de 96KHz con longuitud de 512k, calibrando el nivel de
-entrada a 75 decibeles SPL con ruido rosa</p>
+<p>Se utiliza un muestreo de 44.1KHz con longuitud de 512k, calibrando el nivel de
+entrada a 95 decibeles SPL con onda sinusoidal a 1Khz</p>
+<p>El controlador dedicado realtek proporcionado por asus se establecio en 44.1KHz
+con 24Bits de profundidad</p>
 <p>El microfono del acoplador se conecta directamente a la placa madre
 ajustando la entrada al 90% en los ajustes de sonido de windows</p>
 <p>La salida jack 3.5 de la placa se conecta al amplificador Aiyima H1</p>
 <p>En caso de problemas con la amplificacion se prueba con el amplificador douk U3
 y finalmente con el DAC/AMP Fiio K11</p>
-<p>No cuento con un microfono calibrado, asi que se utilizo una aplicacion de
-sonometro en un celular alineando el microfono con el borde de la almohadilla de
-un audifono hasta alcanzar 75 decibeles SPL y con ello se calibro el nivel de entrada</p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/lab_cal.jpg" alt=""></p>
+<p>Como medio de calibracion se utilizo como referencia el iem <em>WG T-One</em> conectado
+al amplificador AIYIMA H1 a 0.100mV con una frecuencia de 1Khz calibrando el
+nivel de entrada como 105dB</p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/wg_t-one.jpg" alt=""></p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/wg_t-one-specs.jpg" alt=""></p>
+<p>Se verifico la calibracion con otros dos iems, el <em>CCA CXS</em></p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/cxs-specs.jpg" alt=""></p>
+<p>que marcaba</p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/cxs.jpg" alt=""></p>
+<p>y el <em>KZ PR3</em></p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/pr3-specs.jpg" alt=""></p>
+<p>que marcaba</p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/pr3.jpg" alt=""></p>
 <p>Al realizar el loop de calibracion la respuesta se mantiene plana en el rango de
 20-20KHz, haciendo pruebas tanto si hay establecido un archivo de calibracion
 como si no, no hay variaciones visibles en el resultado, asi que no se utiliza</p>
@@ -411,22 +426,32 @@ conserva por si acaso&hellip;</p>
 de ambos lados de audifonos que son exactamente iguales en el lado derecho e
 izquierdo sin ninguna angulacion o geometria especifica</p>
 <p>Tanto en Over Ears como In Ears se busca un sello perfecto</p>
-<p>En iems el grado de insercion se hace coincidir (si es posible) con una resonancia a 8KHz
-y se realiza un par de mediciones para descarcar cualquier error, aunque solo
-una se publica</p>
-<p>En Over Ears siempre que se mantenga el sello se realizan 4 mediciones modificando la
-posicion partiendo de una colocacion &ldquo;ideal&rdquo; y luego 3 cambios de posicion para
-generar un promedio</p>
+<p>Con una onda sinusoidal de 1KHz se calibra la entrada a 95dB SPL</p>
+<p>En iems el grado de insercion se hace coincidir (si es posible) con una
+resonancia a 8KHz. Solo y unicamente se publica una medicion para cada lado
+(R y L)</p>
+<p>En Over Ears siempre que se mantenga el sello se realizan al menos 4 mediciones
+modificando la posicion partiendo de una colocacion &ldquo;ideal&rdquo; y luego 3 cambios de
+posicion para generar un promedio</p>
 <p>Para los On Ears Se busca una posicion ideal aunque esta no siempre consiga un
 buen sello</p>
 <p>Se descartan las mediciones &ldquo;extrañas&rdquo; o con demaciada divergencia</p>
-<p>El promedio de estas mediciones se alinea en 500 Hz a 60 SPL sin suavizado
-en un rango de 20-20KHz</p>
-<p>La medicion o premedio (segun el caso) se exporta como un txt en rango de
+<p>se alinean nuevamente las mediciones a 1KHz 95dB SPL y se promedian</p>
+<p>La medicion o premedio  <strong>sin suavizado</strong> (segun el caso) se exporta como un txt en rango de
 20-20Khz con una resolucion de 48PPO delimitado por tabuladores</p>
-<p>En squig la medicion se presenta con alineacion a 60dB 500Hz con un suavizado <code>5</code>
+<p>En squig la medicion se presenta con alineacion a 60dB 1KHz con un suavizado <code>5</code>
 que se puede ajustar a voluntad</p>
 <p><img src="https://nasciiboy.github.io/img/thf/mediciones/squig.png" alt=""></p>
+<h2 id="comparaciones">Comparaciones</h2>
+<p>Aunque se menciono la falta de rigor de nuestras mediciones y mas fuera del
+mismo sistema, no esta de mas satisfacer el morbo y ver que tanto divergen con
+otras</p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/mele.png" alt=""></p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/ba8.png" alt=""></p>
+<p><img src="https://nasciiboy.github.io/img/thf/mediciones/400SE.png" alt=""></p>
+<p>La descarga de los datos esta habilitada para su comodidad, asi que puede hacer
+todas las comparaciones que desee</p>
+<p>Disfrut!</p>
 
 
   <div class="clear" class="center">

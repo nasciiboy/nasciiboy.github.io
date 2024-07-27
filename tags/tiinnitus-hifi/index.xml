@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Sat, 06 Jul 2024 21:07:46 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2024 03:20:59 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/tags/tiinnitus-hifi/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,15 +14,15 @@
     <item>
       <title>Mediciones</title>
       <link>https://nasciiboy.github.io/thf/mediciones/</link>
-      <pubDate>Sat, 06 Jul 2024 21:07:46 -0600</pubDate>
+      <pubDate>Sat, 27 Jul 2024 03:20:59 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/thf/mediciones/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/soporte-0.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Aqui se muestra el equipo, especificaciones y metodo de medicion del &amp;ldquo;proyecto
-&lt;strong&gt;Tinnitus HiFi&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;La configuracion, metodologia y espacio de las mediciones no son ideales ni
-acordes a ninguna especificacion conocida y solo son comparables (en el mejor de los
-casos) con otras publicadas por Tinnitus HiFi&lt;/p&gt;
+&lt;strong&gt;Tinnitus HiFi&lt;/strong&gt;&amp;rdquo; publicadas en &lt;a href=&#34;https://tinnitus-hifi.squig.link/&#34;&gt;squig&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La configuracion, metodologia y espacio de las mediciones no son ideales, solo
+son comparables (en el mejor de los casos) con otras publicadas por Tinnitus
+HiFi&lt;/p&gt;
 &lt;p&gt;Mi agradecimineto a &lt;strong&gt;Mark Ryan&lt;/strong&gt; (Super*Review) por el sitio &lt;a href=&#34;https://squig.link&#34;&gt;squig.link&lt;/a&gt;,
 ademas del mantenimiento, revisiones y mejoras de la herramineta &lt;a href=&#34;https://github.com/mlochbaum/CrinGraph&#34;&gt;CrinGraph&lt;/a&gt;
 originalmente creada por &lt;strong&gt;Mlochbaum&lt;/strong&gt; con la aportacion de &lt;a href=&#34;https://gitlab.com/rohsa/graphtool&#34;&gt;&lt;strong&gt;Rohsa&lt;/strong&gt;&lt;/a&gt;
@@ -30,7 +30,9 @@ que incorporo &lt;a href=&#34;https://github.com/jaakkopasanen/AutoEq&#34;&gt;Au
 y a &lt;a href=&#34;https://crinacle.com/&#34;&gt;&lt;strong&gt;Crinacle&lt;/strong&gt;&lt;/a&gt; por dar inicio a la idea&lt;/p&gt;
 &lt;h2 id=&#34;equipo&#34;&gt;Equipo&lt;/h2&gt;
 &lt;p&gt;Acoplador compatible 711 60318-4 Type E810A&lt;/p&gt;
-&lt;p&gt;Pinna compatible 45ca (oreja)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/c-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pinna (oreja) compatible 45ca&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/a.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Soporte DIY de acoplador y pinna&lt;/p&gt;
 &lt;p&gt;Computador dedicado con W11 sin conexion a internet&lt;/p&gt;
 &lt;ul&gt;
@@ -38,20 +40,33 @@ y a &lt;a href=&#34;https://crinacle.com/&#34;&gt;&lt;strong&gt;Crinacle&lt;/str
 &lt;li&gt;8GB DDR4 3200&lt;/li&gt;
 &lt;li&gt;AMD A6-9500&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Amplificador Aiyima H1&lt;/p&gt;
+&lt;p&gt;Amplificador Aiyima H1 (Principal)&lt;/p&gt;
 &lt;p&gt;Amplificador Douk U3&lt;/p&gt;
 &lt;p&gt;Fiio K11&lt;/p&gt;
 &lt;h2 id=&#34;metodo&#34;&gt;Metodo&lt;/h2&gt;
-&lt;p&gt;Se utiliza un muestreo de 96KHz con longuitud de 512k, calibrando el nivel de
-entrada a 75 decibeles SPL con ruido rosa&lt;/p&gt;
+&lt;p&gt;Se utiliza un muestreo de 44.1KHz con longuitud de 512k, calibrando el nivel de
+entrada a 95 decibeles SPL con onda sinusoidal a 1Khz&lt;/p&gt;
+&lt;p&gt;El controlador dedicado realtek proporcionado por asus se establecio en 44.1KHz
+con 24Bits de profundidad&lt;/p&gt;
 &lt;p&gt;El microfono del acoplador se conecta directamente a la placa madre
 ajustando la entrada al 90% en los ajustes de sonido de windows&lt;/p&gt;
 &lt;p&gt;La salida jack 3.5 de la placa se conecta al amplificador Aiyima H1&lt;/p&gt;
 &lt;p&gt;En caso de problemas con la amplificacion se prueba con el amplificador douk U3
 y finalmente con el DAC/AMP Fiio K11&lt;/p&gt;
-&lt;p&gt;No cuento con un microfono calibrado, asi que se utilizo una aplicacion de
-sonometro en un celular alineando el microfono con el borde de la almohadilla de
-un audifono hasta alcanzar 75 decibeles SPL y con ello se calibro el nivel de entrada&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/lab_cal.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Como medio de calibracion se utilizo como referencia el iem &lt;em&gt;WG T-One&lt;/em&gt; conectado
+al amplificador AIYIMA H1 a 0.100mV con una frecuencia de 1Khz calibrando el
+nivel de entrada como 105dB&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/wg_t-one.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/wg_t-one-specs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Se verifico la calibracion con otros dos iems, el &lt;em&gt;CCA CXS&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/cxs-specs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;que marcaba&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/cxs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;y el &lt;em&gt;KZ PR3&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/pr3-specs.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;que marcaba&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/pr3.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Al realizar el loop de calibracion la respuesta se mantiene plana en el rango de
 20-20KHz, haciendo pruebas tanto si hay establecido un archivo de calibracion
 como si no, no hay variaciones visibles en el resultado, asi que no se utiliza&lt;/p&gt;
@@ -62,22 +77,32 @@ conserva por si acaso&amp;hellip;&lt;/p&gt;
 de ambos lados de audifonos que son exactamente iguales en el lado derecho e
 izquierdo sin ninguna angulacion o geometria especifica&lt;/p&gt;
 &lt;p&gt;Tanto en Over Ears como In Ears se busca un sello perfecto&lt;/p&gt;
-&lt;p&gt;En iems el grado de insercion se hace coincidir (si es posible) con una resonancia a 8KHz
-y se realiza un par de mediciones para descarcar cualquier error, aunque solo
-una se publica&lt;/p&gt;
-&lt;p&gt;En Over Ears siempre que se mantenga el sello se realizan 4 mediciones modificando la
-posicion partiendo de una colocacion &amp;ldquo;ideal&amp;rdquo; y luego 3 cambios de posicion para
-generar un promedio&lt;/p&gt;
+&lt;p&gt;Con una onda sinusoidal de 1KHz se calibra la entrada a 95dB SPL&lt;/p&gt;
+&lt;p&gt;En iems el grado de insercion se hace coincidir (si es posible) con una
+resonancia a 8KHz. Solo y unicamente se publica una medicion para cada lado
+(R y L)&lt;/p&gt;
+&lt;p&gt;En Over Ears siempre que se mantenga el sello se realizan al menos 4 mediciones
+modificando la posicion partiendo de una colocacion &amp;ldquo;ideal&amp;rdquo; y luego 3 cambios de
+posicion para generar un promedio&lt;/p&gt;
 &lt;p&gt;Para los On Ears Se busca una posicion ideal aunque esta no siempre consiga un
 buen sello&lt;/p&gt;
 &lt;p&gt;Se descartan las mediciones &amp;ldquo;extrañas&amp;rdquo; o con demaciada divergencia&lt;/p&gt;
-&lt;p&gt;El promedio de estas mediciones se alinea en 500 Hz a 60 SPL sin suavizado
-en un rango de 20-20KHz&lt;/p&gt;
-&lt;p&gt;La medicion o premedio (segun el caso) se exporta como un txt en rango de
+&lt;p&gt;se alinean nuevamente las mediciones a 1KHz 95dB SPL y se promedian&lt;/p&gt;
+&lt;p&gt;La medicion o premedio  &lt;strong&gt;sin suavizado&lt;/strong&gt; (segun el caso) se exporta como un txt en rango de
 20-20Khz con una resolucion de 48PPO delimitado por tabuladores&lt;/p&gt;
-&lt;p&gt;En squig la medicion se presenta con alineacion a 60dB 500Hz con un suavizado &lt;code&gt;5&lt;/code&gt;
+&lt;p&gt;En squig la medicion se presenta con alineacion a 60dB 1KHz con un suavizado &lt;code&gt;5&lt;/code&gt;
 que se puede ajustar a voluntad&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/squig.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;comparaciones&#34;&gt;Comparaciones&lt;/h2&gt;
+&lt;p&gt;Aunque se menciono la falta de rigor de nuestras mediciones y mas fuera del
+mismo sistema, no esta de mas satisfacer el morbo y ver que tanto divergen con
+otras&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/mele.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/ba8.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/400SE.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La descarga de los datos esta habilitada para su comodidad, asi que puede hacer
+todas las comparaciones que desee&lt;/p&gt;
+&lt;p&gt;Disfrut!&lt;/p&gt;
 </description>
     </item>
     
