@@ -13,16 +13,8 @@
         ]
     },
     {
-        "name":   "Tinnitus HiFi",
+        "name":   "NKH 50",
         "phones": [
-            {
-                "name": "Quimera",
-                "file": "Tinnitus HiFi Quimera",
-                "reviewScore": "",
-                "reviewLink": "",
-                "price": "",
-                "shopLink": ""
-            },
             {
                 "name": "Mamba 4003",
                 "file": "Tinnitus HiFi Mamba 4003",
@@ -34,6 +26,19 @@
             {
                 "name": "Mamba Solo",
                 "file": "Tinnitus HiFi Mamba Solo",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "NKH 65",
+        "phones": [
+            {
+                "name": "Quimera",
+                "file": "NKH 65 Quimera",
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
