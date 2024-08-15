@@ -1,0 +1,287 @@
+[
+    {
+        "name":   "Beats",
+        "phones": [
+            {
+                "name": "Solo 3 Wireless",
+                "file": "Beats Solo 3 Wireless",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "CCA",
+        "phones": [
+            {
+                "name": "CXS",
+                "file": "CCA CXS",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Hidiz",
+        "phones": [
+            {
+                "name": "MP145",
+                "file": "Hidiz MP145",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Hifiman",
+        "phones": [
+            {
+                "name": "400SE V2",
+                "file": "Hifiman 400SE V2",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "HyperX",
+        "phones": [
+            {
+                "name": "Cloud II",
+                "file": "HyperX Cloud II",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Jcally",
+        "phones": [
+            {
+                "name": "EP05 LCP DIY",
+                "file": "Jcally EP05 LCP DIY",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "KZ",
+        "phones": [
+            {
+                "name": "EDX",
+                "file": "KZ EDX",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "EDX PRO",
+                "file": "KZ EDX PRO",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "ZVX",
+                "file": "KZ ZVX",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "PR3",
+                "file": "KZ PR3",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "ZEX PRO",
+                "file": "KZ ZEX PRO",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "QKZ",
+        "phones": [
+            {
+                "name": "VK4",
+                "file": "QKZ VK4",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Senheisser",
+        "phones": [
+            {
+                "name": "201",
+                "file": "Senheisser 201",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Tinnitus HiFi",
+        "phones": [
+            {
+                "name": "Quimera",
+                "file": "Tinnitus HiFi Quimera",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "Mamba 4003",
+                "file": "Tinnitus HiFi Mamba 4003",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "Mamba Solo",
+                "file": "Tinnitus HiFi Mamba Solo",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "Mamut",
+                "file": "Tinnitus HiFi Mamut",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Turtle Beach",
+        "phones": [
+            {
+                "name": "Stealth 300",
+                "file": "Turtle Beach Stealth 300",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Tripowin",
+        "phones": [
+            {
+                "name": "HBB Mele",
+                "file": "Tripowin HBB Mele",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "TRN",
+        "phones": [
+            {
+                "name": "BA8",
+                "file": "TRN BA8",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "MT1",
+                "file": "TRN MT1",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Vido",
+        "phones": [
+            {
+                "name": "Blue",
+                "file": "Vido Blue",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "WG",
+        "phones": [
+            {
+                "name": "T-One",
+                "file": "WG T-One",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Yamaha",
+        "phones": [
+            {
+                "name": "RH-5Ma",
+                "file": "Yamaha RH-5Ma",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Yincrow",
+        "phones": [
+            {
+                "name": "Calf",
+                "file": "Yincrow Calf",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    }
+]
