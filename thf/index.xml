@@ -80,6 +80,14 @@ conserva por si acaso&amp;hellip;&lt;/p&gt;
 &lt;p&gt;En este momento solo se cuenta con la pinna derecha, solo se publican mediciones
 de ambos lados de audifonos que son exactamente iguales en el lado derecho e
 izquierdo sin ninguna angulacion o geometria especifica&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/thf/mediciones/mele.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La medicion de earbuds en esta plataforma a mi parecer no representa
+apropiadamente como se persive el sonido, aun asi se cree que agrega valor a
+modo de registro y comparacion sobre el propio sistema y para sistemas similares&lt;/p&gt;
+&lt;p&gt;La naturaleza propia de los earbuds no favorece un sello perfecto, por ello en
+su mayoria se colocan sobre la oreja sin espumas, a menos que no se mantengan por
+si mismos en una posicion estable. Se quita y recoloca con pequeños ajustes para varias
+mediciones mas y con ellas generar un promedio&lt;/p&gt;
 &lt;p&gt;Tanto en Over Ears como In Ears se busca un sello perfecto&lt;/p&gt;
 &lt;p&gt;En iems el grado de insercion se hace coincidir (si es posible) con una
 resonancia a 8KHz. Solo y unicamente se publica una medicion para cada lado
@@ -89,8 +97,7 @@ modificando la posicion partiendo de una colocacion &amp;ldquo;ideal&amp;rdquo; 
 posicion para generar un promedio&lt;/p&gt;
 &lt;p&gt;Para los On Ears Se busca una posicion ideal aunque esta no siempre consiga un
 buen sello&lt;/p&gt;
-&lt;p&gt;Se descartan las mediciones &amp;ldquo;extrañas&amp;rdquo; o con demaciada divergencia&lt;/p&gt;
-&lt;p&gt;se alinean nuevamente las mediciones a 1KHz 95dB SPL y se promedian&lt;/p&gt;
+&lt;p&gt;Para todas las mediciones Se descartan las mediciones &amp;ldquo;extrañas&amp;rdquo; o con demaciada divergencia&lt;/p&gt;
 &lt;p&gt;La medicion o premedio  &lt;strong&gt;sin suavizado&lt;/strong&gt; (segun el caso) se exporta como un txt en rango de
 20-20Khz con una resolucion de 48PPO delimitado por tabuladores&lt;/p&gt;
 &lt;p&gt;En squig la medicion se presenta con alineacion a 60dB 1KHz con un suavizado &lt;code&gt;5&lt;/code&gt;
