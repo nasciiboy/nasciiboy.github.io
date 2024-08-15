@@ -31,7 +31,7 @@ const init_phones = ["Harman OE 2018 Linear"],      // Optional. Which graphs to
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
       labelsPosition = "bottom-left",               // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels
-      analyticsEnabled = true,                      // Enables Google Analytics 4 measurement of site usage
+      analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
       exportableGraphs = true,                      // Enables export graph button
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
@@ -268,7 +268,7 @@ setupGraphAnalytics();
 
 // If alt_header is enabled, these are the items added to the header
 let headerLogoText = null,
-    headerLogoImgUrl = "https://squig.link/squiglink-logo-w.png",
+    headerLogoImgUrl = "squiglink-logo-w.png",
     headerLinks = [
     // {
     //     name: "Sample",
