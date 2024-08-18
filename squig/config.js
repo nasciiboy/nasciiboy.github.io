@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["Harman OE 2018 Linear"],      // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Harman OE 2018 Linear", "Tinnitus HiFi Quimera"],
       DIR = "data/",                                // Directory where graph files are stored
       data_format = "REW",                          // Accepts "AudioTools," "REW," or "other"
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
@@ -20,7 +20,7 @@ const init_phones = ["Harman OE 2018 Linear"],      // Optional. Which graphs to
       watermark_image_url = "thf-c_bw.svg",         // Optional. If image file is in same directory as config, can be just the filename
       page_title = "Frequency Responses - Squiglink by Tinnitus HiFi",
       page_description = "View and compare frequency response graphs for headphones",
-      accessories = true,                           // If true, displays specified HTML at the bottom of the page. Configure further below
+      accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
