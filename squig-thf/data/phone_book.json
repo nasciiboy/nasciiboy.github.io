@@ -30,6 +30,14 @@
                 "reviewLink": "",
                 "price": "",
                 "shopLink": "https://www.printables.com/es/model/518778-nascii-nkh-50"
+            },
+            {
+                "name": "T1",
+                "file": "NKH 50 T1",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/518778-nascii-nkh-50"
             }
         ]
     },
@@ -51,6 +59,27 @@
                 "reviewLink": "",
                 "price": "",
                 "shopLink": "https://www.printables.com/es/model/625625-nascii-nkh-z65"
+            }
+        ]
+    },
+    {
+        "name":   "PTG 75-100",
+        "phones": [
+            {
+                "name": "Leagginal V8",
+                "file": "PTG 75-100 Leagginal V8",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/415613-nascii-ptg-75-100"
+            },
+            {
+                "name": "N90Q",
+                "file": "PTG 75-100 N90Q",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/415613-nascii-ptg-75-100"
             }
         ]
     }
