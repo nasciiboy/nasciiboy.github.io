@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["BKF"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Harman OE 2018 Linear Target"],            // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
@@ -9,7 +9,7 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
       alt_layout = true,                            // Toggle between classic and alt layouts
       alt_sticky_graph = true,                      // If active graphs overflows the viewport, does the graph scroll with the page or stick to the viewport?
       alt_animated = false,                         // Determines if new graphs are drawn with a 1-second animation, or appear instantly
-      alt_header = false,                           // Display a configurable header at the top of the alt layout
+      alt_header = true,                           // Display a configurable header at the top of the alt layout
       alt_header_new_tab = true,                    // Clicking alt_header links opens in new tab
       alt_tutorial = false,                         // Display a configurable frequency response guide below the graph
       alt_augment = false,                          // Display augment card in phone list, e.g. review sore, shop link
@@ -20,7 +20,7 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
       page_title = "CrinGraph",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for earphones",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
-      externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
+      externalLinksBar = false,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
@@ -42,9 +42,10 @@ const init_phones = ["BKF"],            // Optional. Which graphs to display on 
 
 // Specify which targets to display
 const targets = [
-    { type:"Neutral",    files:["Diffuse Field","Etymotic","Free Field","Innerfidelity ID"] },
-    { type:"Reviewer",   files:["Antdroid","Bad Guy","Banbeucmas","Crinacle","Precogvision","Super Review"] },
-    { type:"Preference", files:["Harman","Rtings","Sonarworks"] }
+    { type:"Harman", files:[ "Harman OE 2018 Linear", "Harman 2018", "Harman IE 2019 v2" ] },
+    { type:"Neutral",    files:[ "Diffuse Field","Free Field" ] },
+    { type:"Reviewer",   files:[ "AA Neutral Diffuse" ] },
+    { type:"Δ", files:["Δ 10dB","IEF Comp"] }
 ];
 
 
