@@ -32,6 +32,14 @@
                 "shopLink": "https://www.printables.com/es/model/518778-nascii-nkh-50"
             },
             {
+                "name": "Qigom HD800",
+                "file": "NKH 50 Qigom HD800",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/518778-nascii-nkh-50"
+            },
+            {
                 "name": "T1",
                 "file": "NKH 50 T1",
                 "reviewScore": "",
@@ -59,6 +67,56 @@
                 "reviewLink": "",
                 "price": "",
                 "shopLink": "https://www.printables.com/es/model/625625-nascii-nkh-z65"
+            }
+        ]
+    },
+    {
+        "name":   "PTG 50-70",
+        "phones": [
+            {
+                "name": "4003",
+                "file": "PTG 50-70 4003",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/415563-nascii-ptg-50-70"
+            },
+            {
+                "name": "Qigom 777",
+                "file": "PTG 50-70 Qigom 777",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/415563-nascii-ptg-50-70"
+            },
+            {
+                "name": "skull",
+                "file": "PTG 50-70 skull",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/415563-nascii-ptg-50-70"
+            }
+        ]
+    },
+    {
+        "name":   "PTG 60-80",
+        "phones": [
+            {
+                "name": "K100 500ohm",
+                "file": "PTG 60-80 K100 500ohm",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/415621-nascii-ptg-60-80"
+            },
+            {
+                "name": "Silk",
+                "file": "PTG 60-80 Silk",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/415621-nascii-ptg-60-80"
             }
         ]
     },
