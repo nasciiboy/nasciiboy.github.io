@@ -6,10 +6,105 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Sat, 29 Jun 2024 02:13:20 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2024 22:43:10 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Recursos</title>
+      <link>https://nasciiboy.github.io/post/recursos/</link>
+      <pubDate>Sun, 25 Aug 2024 22:43:10 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/post/recursos/</guid>
+      <description>&lt;p&gt;Enlaces de interes relacionados al audio y mediciones&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Understanding Headphone Measurements &amp;amp; Hifiman HE-6 Review
+
+  &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+    &lt;iframe src=&#34;https://www.youtube.com/embed/4xcQX462P90&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.audiosciencereview.com/forum/index.php?threads/article-understanding-digital-audio-measurements.10523/page-8#post-1486638&#34;&gt;Comprender las mediciones de audio digital&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL7M_-oxlRaH8-rWb25NPZp30vacoFDoDm&#34;&gt;Ecualizacion y sistemas de medicion &lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://headphones.com/blogs/features/the-glossary-of-audio-measurements-and-terms&#34;&gt;The Clossary of Audio Measurements and Desing Terms&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://headphones.com/pages/measurements-and-frequency-response&#34;&gt;Measurements and FR - How to read headphone graphs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.roomeqwizard.com/&#34;&gt;Room EQ Wizard&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.spek.cc/&#34;&gt;Spek — Acoustic spectrum analyser&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://squig.link/&#34;&gt;Squiglink&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://crinacle.com/graphs/iems/graphtool/&#34;&gt;Crinacle Graph Tool IEMS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://crinacle.com/graphs/iems/graphtool/&#34;&gt;Crinacle Graph Tool Headphones&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.audiosciencereview.com/forum/index.php?threads/iec-60318-4-coupler-spl-calibration.20552/&#34;&gt;IEC 60318-4 Coupler SPL Calibration&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.audiosciencereview.com/forum/index.php?threads/iec-60318-4-clone-coupler-is-it-worth-it.23865/&#34;&gt;IEC 60318-4 Clone Coupler, is it worth it?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analizador de distorsión, de espectro de audio
+
+  &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+    &lt;iframe src=&#34;https://www.youtube.com/embed/uIBVDrt9wso&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nihtila.com/2020/02/02/adc-ak5572-very-high-performance-audio-ad-converter/&#34;&gt;ADC ak5572 - Very high performance audio AD-Converter&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nihtila.com/wp-content/files/ADC_AK5572_factsheet.pdf&#34;&gt;ADC ak5572 AD-Converter PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://sound-au.com/project93.htm&#34;&gt;Recording and Measurement Microphones&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://sound-au.com/project134.htm&#34;&gt;4mA Current Loop Microphone System&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;revisiones&#34;&gt;Revisiones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;(Audio Science Reviews)[https://www.audiosciencereview.com/forum/index.php?reviews%2F]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audiosciencereview.com/forum/index.php?members/amirm.2/#recent-content&#34;&gt;amirm ASR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/@auricularesargentina&#34;&gt;Auriculares Argentina&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unheardlab.com/&#34;&gt;the unheard of headphone lab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;audifonos&#34;&gt;Audifonos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Antonio Meze talks Empyrean Headphones
+
+  &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+    &lt;iframe src=&#34;https://www.youtube.com/embed/K0lBa5Z9I0o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>COSMOFONO</title>

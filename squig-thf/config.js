@@ -275,7 +275,7 @@ let headerLogoText = null,
     //     url: "https://squig.link/"
     // }
     {
-        name: "squiglink",
+        name: "squig.link",
         url: "https://tinnitus-hifi.squig.link/"
     },
     {

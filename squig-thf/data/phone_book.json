@@ -1,4 +1,26 @@
 [
+    // {
+    //     "name":   "Brand",
+    //     "phones": [
+    //         {
+    //             "name":"Model",
+    //             "file":"File",
+    //             "reviewScore":"3",
+    //             "reviewLink":"https://www.youtube.com/",
+    //             "price":"$999",
+    //             "shopLink":""
+    //         },
+    //         {
+    //             "name"  :"Model",
+    //             "file"  :  ["file-a",  "file-b",  "file-c",  "file-d"],
+    //             "suffix":  ["suffix-a","suffix-b","suffix-c","suffix-d"],
+    //             "reviewScore":"4",
+    //             "reviewLink":"",
+    //             "price":"",
+    //             "shopLink":""
+    //         }
+    //     ]
+    // },
     {
         "name":   "Jcally",
         "phones": [

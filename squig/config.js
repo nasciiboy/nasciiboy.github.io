@@ -275,6 +275,10 @@ let headerLogoText = null,
     //     url: "https://squig.link/"
     // }
     {
+        name: "Squiglink",
+        url: "https://tinnitus-hifi.squig.link/"
+    },
+    {
         name: "THF youtu",
         url: "https://www.youtube.com/@TinnitusHiFi"
     },
