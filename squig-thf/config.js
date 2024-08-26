@@ -1,5 +1,6 @@
 // Configuration options
-const init_phones = ["Harman OE 2018 Linear"],      // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+      // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["Harman OE 2018 Linear", "Diffuse Field Target"],
       DIR = "data/",                                // Directory where graph files are stored
       data_format = "REW",                          // Accepts "AudioTools," "REW," or "other"
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
@@ -28,7 +29,9 @@ const init_phones = ["Harman OE 2018 Linear"],      // Optional. Which graphs to
       headerHeight = '0px',                         // Optional. If expandable=true, determines how much space to leave for the parent page header
       darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
       targetDashed = true,                          // If true, makes target curves dashed lines
-      targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
+      // targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
+      targetColorCustom = "var(--background-color-contrast-more)",
+      targetRestoreLastUsed = true,                 // Restore user's last-used target settings on load
       labelsPosition = "bottom-left",               // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels
       analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
@@ -42,13 +45,11 @@ const init_phones = ["Harman OE 2018 Linear"],      // Optional. Which graphs to
 
 // Specify which targets to display
 const targets = [
+    { type:"Δ" , files:["Δ 10dB","Δ JM-1","IEF Comp"] },
     { type:"Harman", files:[ "Harman OE 2018 Linear", "Harman 2018", "Harman IE 2019 v2" ] },
     { type:"Neutral",    files:[ "Diffuse Field","Free Field" ] },
-    { type:"Reviewer",   files:[ "AA Neutral Diffuse" ] },
-    { type:"Δ", files:["Δ 10dB","IEF Comp"] }
+    { type:"Reviewer",   files:[ "AA Neutral Diffuse" ] }
 ];
-
-
 
 // *************************************************************
 // Functions to support config options set above; probably don't need to change these
