@@ -1080,7 +1080,7 @@ function addWelcomeCss() {
                 padding: 0 0 10% 0;
                 margin: auto;
 
-                background-image: url('loading.png');
+                background-image: url('media/loading.png');
                 background-size: contain;
                 background-position: center center;
                 background-repeat: no-repeat;
