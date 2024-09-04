@@ -1,0 +1,827 @@
+[
+    {
+		"username": "achoreviews",
+		"name": "Acho Reviews",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+    {
+		"username": "adri-n",
+		"name": "Adri-N",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "aftersound",
+		"name": "Aftersound",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "animagus",
+		"name": "Animagus",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "ankramutt",
+		"name": "Ankramutt",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "arc",
+		"name": "Arc",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "atechreviews",
+		"name": "ATechReviews",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "arn",
+		"name": "audioAI",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "auricularesargentina",
+		"name": "Auriculares Argentina",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "aydn",
+		"name": "Aydn",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "bakkwatan",
+		"name": "Bakkwatan",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "bassyalexander",
+		"name": "bassy Alexander",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "bedrock",
+		"name": "Bedrock Reviews",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "breampike",
+		"name": "breampike",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "bryaudioreviews",
+		"name": "Bry Audio Reviews",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "bukanaudiophile",
+		"name": "BukanAudiophile",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "cammyfi",
+		"name": "CammyFi",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "dchpgall",
+		"name": "Dcinside Headphone Gallery",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "dhrme",
+		"name": "DHRME",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            },
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            }
+        ]
+	},
+	{
+		"username": "dl",
+		"name": "Dung Le",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "ducbloke",
+		"name": "DucBloke",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "ekaudio",
+		"name": "EKaudio",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "eliseaudio",
+		"name": "Elise Audio",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "fahryst",
+		"name": "Fahryst",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "eplv",
+		"name": "EPLV",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "freeryder05",
+		"name": "freeryder05",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "filk",
+		"name": "Filk",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/iems/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "gadgetrytech",
+		"name": "Gadgetry Tech",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/headsets/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "timmyv",
+		"name": "Gizaudio",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "harpo",
+		"name": "Harpo",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "hbb",
+		"name": "Hawaii Bad Boy",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "cqtek",
+		"name": "Hi End Portable",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "hobbytalk",
+		"name": "Hobby Talk",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "hore",
+		"name": "Hore",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "hu-fi",
+		"name": "Hu-Fi",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "ianfann",
+		"name": "ianfann",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "iemocean",
+		"name": "IEM Ocean",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "iemworld",
+		"name": "IEM World",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "jacstone",
+		"name": "Jacstone",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "jaytiss",
+		"name": "Jaytiss",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "kazi",
+		"name": "Kazi",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "kr0mka",
+		"name": "kr0mka",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "kuulokenurkka",
+		"name": "Kuulokenurkka",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "ish",
+		"name": "Kyle @ Den-Fi",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "listener",
+		"name": "listener",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/iems/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "lown-fi",
+		"name": "lown-fi",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "melatonin",
+		"name": "Melatonin",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "mmagtech",
+		"name": "MMagTech",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "musicafe",
+		"name": "MusiCafé",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "nymz",
+		"name": "nymz",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+    {
+		"username": "obodio",
+		"name": "OB Odio",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+    {
+		"username": "practiphile",
+		"name": "Practiphile",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+    {
+		"username": "pw",
+		"name": "Paul Wasabi",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "precog",
+		"name": "Precogvision",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "ragnarok",
+		"name": "Ragnarok",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "recode",
+		"name": "Recode",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "regancipher",
+		"name": "Regan Cipher",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "rg",
+		"name": "RikudouGoku",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "riz",
+		"name": "Riz",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "smirk",
+		"name": "Smirk",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "suporsalad",
+		"name": "Side Salad Audio",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": true
+            }
+        ]
+	},
+	{
+		"username": "superreview",
+		"name": "Super* Review",
+        "dbs": [
+            {
+                "type": "Earbuds",
+                "folder": "/earbuds/"
+            },
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": true
+            }
+        ]
+	},
+	{
+		"username": "tgx78",
+		"name": "tgx78",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "therollo9",
+		"name": "therollo9",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            },
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            }
+        ]
+	},
+	{
+		"username": "tonedeafmonk",
+		"name": "ToneDeafMonk",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "sai",
+		"name": "Unheard Lab",
+        "dbs": [
+            {
+                "type": "Headphones",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "scboy",
+		"name": "SCBoy",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "seanwee",
+		"name": "Sean Wee",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "soundcheck39",
+		"name": "Soundcheck39",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "tanchjim",
+		"name": "Tanchjim",
+        "dbs": [
+            {
+                "type": "Official",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "tedthepraimortis",
+		"name": "Ted's Squig Hoard",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "treblewellxtended",
+		"name": "Treble Well Xtended",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "vortexreviews",
+		"name": "Vortex Reviews",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "vsg",
+		"name": "VSG",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/",
+                "deltaReady": "true"
+            },
+            {
+                "type": "Headphones",
+                "folder": "/headphones/"
+            }
+        ]
+	},
+	{
+		"username": "yanyin",
+		"name": "Yanyin",
+        "dbs": [
+            {
+                "type": "Official",
+                "folder": "/"
+            }
+        ]
+	},
+	{
+		"username": "yoshiultra",
+		"name": "yoshi ultra",
+        "dbs": [
+            {
+                "type": "IEMs",
+                "folder": "/"
+            }
+        ]
+	}
+]

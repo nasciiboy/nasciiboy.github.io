@@ -161,9 +161,9 @@ doc.html(`
                         <option value="HSQ">HSQ</option>
                       </select>
                     </span>
-                    <span><input name="freq" type="number" min="20" max="20000" step="1" value="0" onclick="this.focus();this.select()"></input></span>
-                    <span><input name="gain" type="number" min="-40" max="40" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
-                    <span><input name="q" type="number" min="0" max="10" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="freq" inputmode="decimal" type="number" min="20" max="20000" step="1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="gain" inputmode="text" type="number" min="-40" max="40" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
+                    <span><input name="q" inputmode="decimal" type="number" min="0" max="10" step="0.1" value="0" onclick="this.focus();this.select()"></input></span>
                 </div>
               </div>
               <div class="filters-button">
@@ -173,8 +173,8 @@ doc.html(`
               </div>
               <div class="settings-row">
                 <span>AutoEQ Range</span>
-                <span><input name="autoeq-from" type="number" min="20" max="20000" step="1" value="20"></input></span>
-                <span><input name="autoeq-to" type="number" min="20" max="20000" step="1" value="20000"></input></span>
+                <span><input name="autoeq-from" inputmode="decimal" type="number" min="20" max="20000" step="1" value="20"></input></span>
+                <span><input name="autoeq-to" inputmode="decimal" type="number" min="20" max="20000" step="1" value="20000"></input></span>
               </div>
               <div class="filters-button">
                 <button class="autoeq">AutoEQ</button>
@@ -190,8 +190,8 @@ doc.html(`
               <h5>Tone Generator</h2>
               <div class="settings-row">
                 <span>Freq Range</span>
-                <span><input name="tone-generator-from" type="number" min="20" max="20000" step="1" value="20"></input></span>
-                <span><input name="tone-generator-to" type="number" min="20" max="20000" step="1" value="20000"></input></span>
+                <span><input name="tone-generator-from" inputmode="decimal" type="number" min="20" max="20000" step="1" value="20"></input></span>
+                <span><input name="tone-generator-to" inputmode="decimal" type="number" min="20" max="20000" step="1" value="20000"></input></span>
               </div>
               <div><input name="tone-generator-freq" type="range" min="0" max="1" step="0.0001" value="0" /></div>
               <div>
@@ -579,7 +579,7 @@ function saveGraph(ext) {
     showControls(false);
     fn(gr.node(), "graph."+ext, {scale:3})
         .then(()=>showControls(true));
-
+    
     // Analytics event
     if (analyticsEnabled) { pushEventTag("clicked_download", targetWindow); }
 }
@@ -835,6 +835,7 @@ let baseline0 = { p:null, l:null, fn:l=>l },
 let gpath = gr.insert("g",".dBScaler")
     .attr("fill","none")
     .attr("stroke-width",2.3)
+    .attr("class", "curves-g")
     .attr("mask","url(#graphFade)");
 function hl(p, h) {
     gpath.selectAll("path").filter(c=>c.p===p).classed("highlight",h);
@@ -1055,16 +1056,12 @@ function setBaseline(b, no_transition) {
     baseline = b;
     updateYCenter();
     if (no_transition) return;
-    clearLabels();
     gpath.selectAll("path")
         .transition().duration(500).ease(d3.easeQuad)
         .attr("d", drawLine);
     table.selectAll("tr").select(".button-baseline")
         .classed("selected", p=>p===baseline.p);
-
-    // Update user config
-    if (!userConfigApplicationActive) setUserConfig();
-
+    
     // Analytics event
     if (analyticsEnabled && b.p) { pushPhoneTag("baseline_set", b.p); }
 }
@@ -1087,7 +1084,7 @@ function setHover(elt, h) {
 // See if iframe gets CORS error when interacting with window.top
 try {
     let emb = window.location.href.includes('embed');
-
+    
     accessWindowTop = (window.top.location.href) ? true:false;
     targetWindow = emb ? window : window.top;
 } catch {
@@ -1111,7 +1108,7 @@ function addPhonesToUrl() {
         url = baseURL,
         names = activePhones.filter(p => !p.isDynamic).map(p => p.fileName),
         namesCombined = names.join(", ");
-
+    
     if (names.length) {
         url += "?share=" + encodeURI(names.join().replace(/ /g,"_"));
         title = namesCombined + " - " + title;
@@ -1125,6 +1122,11 @@ function addPhonesToUrl() {
     targetWindow.document.title = title;
     targetWindow.document.querySelector("meta[name='description']").setAttribute("content",baseDescription + ", including " + namesCombined +".");
 }
+
+function setModeEmbed() {
+    document.querySelector("body").setAttribute("embed-mode", "true");
+}
+
 function updatePaths(trigger) {
     clearLabels();
     let c = d3.merge(activePhones.map(p => p.activeCurves)),
@@ -1133,14 +1135,12 @@ function updatePaths(trigger) {
         .classed("sample", c=>c.p.samp)
         .attr("stroke", getColor_AC).call(redrawLine)
         .filter(c=>c.p.isTarget)
+        .attr("data-phone-name", c=>c.p.fullName)
         .attr("class", "target");
     if (targetDashed) t.style("stroke-dasharray", "6, 3");
     if (targetColorCustom) t.attr("stroke", targetColorCustom);
     if (ifURL && !trigger) addPhonesToUrl();
     if (stickyLabels) drawLabels();
-
-    // Update user config
-    if (trigger === undefined) setUserConfig();
 }
 let colorBar = p=>'url(\'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 8"><path d="M0 8v-8h1c0.05 1.5,-0.3 3,-0.16 5s0.1 2,0.15 3z" fill="'+getBgColor(p)+'"/></svg>\')';
 function updatePhoneTable(trigger) {
@@ -1179,7 +1179,9 @@ function updatePhoneTable(trigger) {
 
             channels.forEach(function(channel, i) {
                 let channelNum = i + 1,
-                    text = channel.join('\n');
+                    text = channel.reduce((acc, c) => {
+                        return acc.concat([Object.values(c).join('\t')]);
+                    }, []).join('\n'),
                     blob = new Blob([text], { type: 'text/plain' }),
                     url = URL.createObjectURL(blob),
                     exportLink = document.createElement('a');
@@ -1210,9 +1212,6 @@ function updatePhoneTable(trigger) {
             clearLabels();
             drawLabels();
         }
-
-        // Update user config
-        if (!userConfigApplicationActive) setUserConfig();
     }
     td().attr("class","button hideIcon")
         .attr("title", "Hide graph")
@@ -1525,7 +1524,7 @@ function setNorm(_, i, change) {
     activePhones.forEach(normalizePhone);
     if (baseline.p) { baseline = getBaseline(baseline.p); }
     updateYCenter();
-
+    
     if (!userConfigApplicationActive) {
         setUserConfig();
         updatePaths();
@@ -1567,6 +1566,9 @@ function showPhone(p, exclusive, suppressVariant, trigger) {
         removePhone(p);
         return;
     }
+    if (p.isTarget) {
+        exclusive = false;
+    }
     if (addPhoneSet) {
         exclusive = false;
         if (!addPhoneLock || cantCompare(activePhones,1,null,true)) {
@@ -1581,10 +1583,10 @@ function showPhone(p, exclusive, suppressVariant, trigger) {
             if (p.rawChannels) return;
             p.rawChannels = ch;
             showPhone(p, exclusive, suppressVariant, trigger);
-
+            
             // Scroll to selected
             if (trigger) { scrollToActive(); }
-
+            
             // Analytics event
             if (analyticsEnabled) { pushPhoneTag("phone_displayed", p, trigger); }
         });
@@ -1627,7 +1629,7 @@ function showPhone(p, exclusive, suppressVariant, trigger) {
         updateEQPhoneSelect();
     }
     if (!p.isTarget && alt_augment ) { augmentList(p); }
-
+    
     // Apply user config view settings
     if (typeof trigger !== "undefined") {
         userConfigApplyViewSettings(p.fileName);
@@ -1722,30 +1724,34 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
             : DIR+"phone_book.json?"+ new Date().getTime()).then(function (brands) {
     let brandMap = window.brandMap = {},
         inits = [],
-        initReq = typeof init_phones !== "undefined" ? init_phones : false;
+        initReq = typeof init_phones !== "undefined" ? [init_phones].flat() : false;
     loadFromShare = 0;
-
+    
     if (ifURL) {
         let url = targetWindow.location.href,
             par = "share=";
             emb = "embed";
         baseURL = url.split("?").shift();
-
+        
         if (url.includes(par) && url.includes(emb)) {
             initReq = decodeURIComponent(url.replace(/_/g," ").split(par).pop()).split(",");
             loadFromShare = 2;
+            
+            setModeEmbed();
         } else if (url.includes(par)) {
             initReq = decodeURIComponent(url.replace(/_/g," ").split(par).pop()).split(",");
             loadFromShare = 1;
+        } else if (url.includes(emb)) {
+            setModeEmbed();
         }
     }
-
+    
     // Apply user config to inits
     userConfigAppendInits(initReq);
-
+    
     let isInit = initReq ? f => initReq.indexOf(f) !== -1
                          : _ => false;
-
+    
     if (loadFromShare === 1) {
         initMode = "share";
     } else if (loadFromShare === 2) {
@@ -1911,11 +1917,11 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
         activePhones.forEach(p => { if (!p.isTarget) { p.id = getPhoneNumber(); } });
         colorPhones();
     });
-
+    
     doc.select("#theme").on("click", function () {
         themeChooser("change");
     });
-
+    
     userConfigApplyNormalization();
 });
 
@@ -2033,7 +2039,8 @@ gr.append("rect")
     .on("click", graphInteract(true));
 
 doc.select("#inspector").on("click", function () {
-    clearLabels(); stopInspect();
+    clearLabels();
+    stopInspect();
     d3.select(this).classed("selected", interactInspect = !interactInspect);
 });
 
@@ -2069,7 +2076,7 @@ function copyUrlInit() {
         setTimeout(function() {
             copyUrlButton.classList.remove("clicked");
         }, 600);
-
+        
         // Analytics event
         if (analyticsEnabled) { pushEventTag("clicked_copyUrl", targetWindow); }
     });
@@ -2081,7 +2088,7 @@ function themeChooser(command) {
     let docBody = document.querySelector("body"),
         darkClass = "dark-mode",
         darkModePref = localStorage.getItem("dark-mode-pref");
-
+    
     if ( darkModePref ) {
         if ( command === "change") {
             localStorage.removeItem("dark-mode-pref");
@@ -2099,11 +2106,11 @@ function themeChooser(command) {
 if ( darkModeButton ) {
     let themeButton = document.createElement("button"),
         miscTools = document.querySelector("div.miscTools");
-
+        
     themeButton.setAttribute("id", "theme");
     themeButton.textContent = "dark mode";
     miscTools.append(themeButton);
-
+    
     themeChooser();
 }
 
@@ -2111,7 +2118,7 @@ if ( darkModeButton ) {
 function mapDownloadFaux() {
     let downloadButton = document.querySelector("button#download"),
         downloadFaux = document.querySelector("button#download-faux");
-
+    
     downloadFaux.addEventListener("click", function() {
         downloadButton.click();
     });
@@ -2137,11 +2144,11 @@ function focusedListClicks() {
     });
 
     let brandsList = document.querySelector("div.scroll#brands");
-
+    
     brandsList.addEventListener("click", function(e) {
         let clickedElem = e.target,
             clickedElemIsBrand = clickedElem.matches("div.scroll#brands div");
-
+        
         if (clickedElemIsBrand) {
             setFocusedList("models");
             e.stopPropagation();
@@ -2156,7 +2163,7 @@ function focusedListSwipes() {
         listsContainer = document.querySelector("div.select"),
         swipableList = document.querySelector("div.scrollOuter[data-list=\"models\"]");
     touchDelta = 0;
-
+    
     horizontalSwipeTarget.addEventListener("touchstart", function(e) {
         selectedList = listsContainer.getAttribute("data-selected");
         touchStart = e.targetTouches[0].screenX;
@@ -2165,11 +2172,11 @@ function focusedListSwipes() {
             touchNow = e.targetTouches[0].screenX;
             touchDelta = touchNow - touchStart,
             touchDeltaNegative = 0 - touchDelta;
-
+            
             if ( selectedList === "models" && touchDelta > 0 && touchDelta < 100 ) {
                 swipableList.setAttribute("style","right: "+ touchDeltaNegative +"px;")
             }
-
+            
             if ( selectedList === "brands" && touchDelta < 0 && touchDelta > -100 ) {
                 swipableList.setAttribute("style","right: "+ touchDeltaNegative +"px;")
             }
@@ -2184,12 +2191,12 @@ function focusedListSwipes() {
         if ( touchDelta < -50 ) {
             listsContainer.setAttribute("data-selected","models");
         }
-
+        
         swipableList.setAttribute("style","")
         touchStart = 0;
         touchNow = 0;
         touchDelta = 0;
-
+        
         //horizontalSwipeTarget.removeEventListener("touchmove");
     });
 }
@@ -2215,9 +2222,9 @@ function setFocusedPanel() {
         phonesList = document.querySelector("div#phones"),
         graphBox = document.querySelector("div.graph-sizer"),
         mobileHelper = document.querySelector("tr.mobile-helper");
-
+    
     panelsContainer.setAttribute("data-focused-panel","secondary");
-
+    
     mobileHelper.addEventListener("click", function() {
         panelsContainer.setAttribute("data-focused-panel","secondary");
     });
@@ -2225,20 +2232,20 @@ function setFocusedPanel() {
     secondaryPanel.addEventListener("click", function() {
         panelsContainer.setAttribute("data-focused-panel","secondary");
     });
-
+    
     graphBox.addEventListener("click", function() {
         let previousState = panelsContainer.getAttribute("data-focused-panel");
-
+        
         if ( previousState === "primary") {
             panelsContainer.setAttribute("data-focused-panel","secondary");
         } else if ( previousState === "secondary" ) {
             panelsContainer.setAttribute("data-focused-panel","primary");
         }
     });
-
+    
     // Touch events
     let verticalSwipeTargets = document.querySelectorAll("div.selector-tabs, input.search");
-
+    
     verticalSwipeTargets.forEach(function(target) {
         target.addEventListener("touchstart", function(e) {
             focusedPanel = document.querySelector("main.main").getAttribute("data-focused-panel");
@@ -2271,7 +2278,7 @@ function setFocusedPanel() {
             touchNow = 0;
             touchDelta = 0;
         });
-
+    
         target.addEventListener("wheel", function(e) {
             let wheelDelta = e.deltaY;
 
@@ -2291,18 +2298,18 @@ setFocusedPanel();
 function blurFocus() {
     let inputFields = document.querySelectorAll("input"),
         body = document.querySelector("body");
-
+    
     inputFields.forEach(function(field) {
         field.addEventListener("keyup", function(e) {
             if (e.keyCode === 13) {
                 field.blur();
             }
         });
-
+        
         field.addEventListener("focus", function() {
             body.setAttribute("data-input-state","focus");
         });
-
+        
         field.addEventListener("blur", function() {
             body.setAttribute("data-input-state","blur");
         });
@@ -2572,7 +2579,7 @@ function addExtra() {
                 // Remove empty tail filters
                 let lastFilter = filters[filters.length-1];
                 if (!lastFilter.freq && !lastFilter.q && !lastFilter.gain) {
-                    filters.pop();
+                    filters.pop(); 
                 } else {
                     break;
                 }
@@ -2725,7 +2732,7 @@ function addExtra() {
             toneGeneratorPlayButton.innerText = "Stop";
         }
     });
-
+    
 }
 addExtra();
 
@@ -2733,7 +2740,7 @@ addExtra();
 function addAccessories() {
     let accessoriesBar = document.querySelector("div.accessories"),
         accessoriesContainer = document.createElement("aside");
-
+    
     accessoriesContainer.innerHTML = whichAccessoriesToUse;
     accessoriesBar.append(accessoriesContainer);
 }
@@ -2749,7 +2756,7 @@ function addHeader() {
         headerLogoImg = document.createElement("img"),
         headerLogoSpan = document.createElement("span"),
         linksList = document.createElement("ul");
-
+    
     headerButton.className = "header-button";
     headerLogoElem.className = "logo";
     headerLogoLink.setAttribute('href', site_url);
@@ -2760,7 +2767,7 @@ function addHeader() {
         headerLogoImg.setAttribute("src", headerLogoImgUrl);
         headerLogoLink.append(headerLogoImg);
     }
-
+    
     altHeaderElem.append(headerButton);
     headerLogoElem.append(headerLogoLink);
     altHeaderElem.setAttribute("data-links", "");
@@ -2768,24 +2775,24 @@ function addHeader() {
 
     altHeaderElem.className = "header";
     graphToolContainer.prepend(altHeaderElem);
-
+    
     linksList.className = "header-links";
     altHeaderElem.append(linksList);
-
+    
     headerLinks.forEach(function(link) {
         let linkContainerElem = document.createElement("li"),
             linkElem = document.createElement("a");
-
+        
         linkElem.setAttribute("href", link.url);
         if ( alt_header_new_tab ) { linkElem.setAttribute("target", "_blank"); }
         linkElem.textContent = link.name;
         linkContainerElem.append(linkElem);
         linksList.append(linkContainerElem);
     })
-
+    
     headerButton.addEventListener("click", function() {
         let headerLinksState = altHeaderElem.getAttribute("data-links");
-
+        
         if (headerLinksState === "expanded") {
             altHeaderElem.setAttribute("data-links", "collapsed");
         } else {
@@ -2803,15 +2810,15 @@ function addExternalLinks() {
         let setLabelHtml = document.createElement("span"),
             setLabelText = set.label,
             links = set.links;
-
+        
         setLabelHtml.textContent = setLabelText;
         externalLinksBar.append(setLabelHtml);
-
+        
         links.forEach(function(link) {
             let linkHtml = document.createElement("a"),
                 linkName = link.name,
                 linkUrl = link.url;
-
+            
             linkHtml.textContent = linkName;
             linkHtml.setAttribute("href", linkUrl);
             externalLinksBar.append(linkHtml);
@@ -2829,98 +2836,98 @@ function addTutorial() {
         buttonContainer = document.createElement("div"),
         descriptionContainer = document.createElement("div"),
         zoomButtons = document.querySelectorAll("div.zoom button");
-
+    
     overlayContainer.className = "tutorial-overlay";
     graphContainer.prepend(overlayContainer);
-
+    
     buttonContainer.className = "tutorial-buttons";
     descriptionContainer.className = "tutorial-description";
-
+    
     manageContainer.prepend(descriptionContainer);
     manageContainer.prepend(buttonContainer);
-
+    
     tutorialDefinitions.forEach(function(def) {
         let defOverlay = document.createElement("div"),
             defButton = document.createElement("button"),
             defDescription = document.createElement("article"),
             defDescriptionCopy = document.createElement("p");
-
+        
         defOverlay.setAttribute("tutorial-def", def.name);
         defOverlay.setAttribute("tutorial-on", "false");
         defOverlay.className = "overlay-segment";
         defOverlay.setAttribute("style", "flex-basis: "+ def.width +";")
         overlayContainer.append(defOverlay);
-
+        
         defButton.setAttribute("tutorial-def", def.name);
         defButton.setAttribute("tutorial-on", "false");
         defButton.className = "button-segment";
         defButton.textContent = def.name;
         buttonContainer.append(defButton);
-
+        
         defDescription.setAttribute("tutorial-def", def.name);
         defDescription.setAttribute("tutorial-on", "false");
         defDescription.className = "description-segment";
         defDescriptionCopy.innerHTML = def.description;
         defDescription.append(defDescriptionCopy);
         descriptionContainer.append(defDescription);
-
+        
         defButton.addEventListener("click", function() {
             let activeStatus = defButton.getAttribute("tutorial-on"),
                 activeTutorialElements = document.querySelectorAll("[tutorial-on='true']"),
                 activeOverlay = document.querySelector("div.overlay-segment[tutorial-on='true']"),
                 activeButton = document.querySelector("button.button-segment[tutorial-on='true']"),
                 activeDescription = document.querySelector("article.description-segment[tutorial-on='true']");
-
+            
             if (activeOverlay) { activeOverlay.setAttribute("tutorial-on", "false"); }
             if (activeButton) { activeButton.setAttribute("tutorial-on", "false"); }
-
+            
             if (activeStatus === "false") {
                 if (activeDescription) { activeDescription.setAttribute("tutorial-on", "false"); }
-
+                
                 defOverlay.setAttribute("tutorial-on", "true");
                 defButton.setAttribute("tutorial-on", "true");
                 defDescription.setAttribute("tutorial-on", "true");
-
+                
                 partsPrimary.setAttribute("tutorial-active", "true");
                 disableZoom();
-
+                
                 // Analytics event
                 if (analyticsEnabled) { pushEventTag("tutorial_activated", targetWindow, def.name); }
             } else {
                 partsPrimary.setAttribute("tutorial-active", "false");
             }
         });
-
+        
         defButton.addEventListener("mouseover", function() {
             defOverlay.setAttribute("tutorial-hover", "true");
         });
-
+        
         defButton.addEventListener("mouseout", function() {
             defOverlay.setAttribute("tutorial-hover", "false");
         });
-
+        
         defButton.addEventListener("touchend", function() {
             defOverlay.setAttribute("tutorial-hover", "false");
         });
     });
-
+    
     // Disable zoom if tutorial is engaged
     function disableZoom() {
         let activeZoomButton = document.querySelector("div.zoom button.selected");
-
+        
         if (activeZoomButton) { activeZoomButton.click(); }
     }
-
+    
     // Disable tutorial if zoom is engaged
     zoomButtons.forEach(function(button) {
         button.addEventListener("click", function() {
             let tutorialState = document.querySelector("section.parts-primary").getAttribute("tutorial-active");
-
+            
             if (button.classList.contains("selected") && tutorialState === "true") {
                 let activeOverlay = document.querySelector("div.overlay-segment[tutorial-on='true']"),
                     activeButton = document.querySelector("button.button-segment[tutorial-on='true']"),
                     activeDescription = document.querySelector("article.description-segment[tutorial-on='true']");
-
+                
                 document.querySelector("section.parts-primary").setAttribute("tutorial-active","false");
                 activeOverlay.setAttribute("tutorial-on", "false");
                 activeButton.setAttribute("tutorial-on", "false");
@@ -2951,11 +2958,11 @@ function toggleExpandCollapse() {
         graphBody = document.querySelector("body"),
         parentBody = window.top.document.querySelector("body"),
         expandCollapseButton = document.querySelector("button#expand-collapse");
-
-
+    
+    
     if ( graphIsIframe) { graphBody.setAttribute("data-graph-frame", "collapsed"); }
-
-
+    
+    
     if ( graphIsIframe && expandableOnly ) {
         const expandOnlyMax = ( expandableOnly === true ) ? 1000000:expandableOnly,
             expandOnlyStyle = document.createElement("style"),
@@ -3041,38 +3048,38 @@ function toggleExpandCollapse() {
                 }
             }
         `;
-
+        
         expandOnlyStyle.textContent = expandOnlyCss;
         expandOnlyStyle.setAttribute("type", "text/css");
         document.querySelector("body").append(expandOnlyStyle);
-
+        
         graphBody.setAttribute("data-expandable", "only");
     } else if ( graphIsIframe && expandable ) {
         graphBody.setAttribute("data-expandable", "true");
     }
-
+    
     const parentStyle = window.top.document.createElement("style"),
           parentCss = `
             :root {
                 --header-height: `+ headerHeight +`;
             }
-
+            
             body[data-graph-frame="expanded"] {
                 width: 100%;
                 height: 100%;
                 max-height: -webkit-fill-available;
                 overflow: hidden;
             }
-
+            
             body[data-graph-frame="expanded"] button.graph-frame-collapse {
                 display: inherit;
             }
-
+            
             body[data-graph-frame="expanded"] iframe#GraphTool {
                 position: fixed;
                 top: var(--header-height);
                 left: 0;
-
+                
                 width: 100% !important;
                 height: calc(100% - var(--header-height)) !important;
 
@@ -3110,14 +3117,14 @@ function toggleExpandCollapse() {
                     transform: scale(1.0);
                 }
             }`;
-
+    
     parentStyle.textContent = parentCss;
     parentStyle.setAttribute("type", "text/css");
     parentBody.append(parentStyle);
-
+    
     expandCollapseButton.addEventListener("click", function(e) {
         let frameState = document.querySelector("body").getAttribute("data-graph-frame");
-
+        
         if ( frameState === "expanded" ) {
             graphBody.setAttribute("data-graph-frame", "collapsed");
             parentBody.setAttribute("data-graph-frame", "collapsed");
@@ -3125,10 +3132,10 @@ function toggleExpandCollapse() {
             graphBody.setAttribute("data-graph-frame", "expanded");
             parentBody.setAttribute("data-graph-frame", "expanded");
         }
-
+        
         e.stopPropagation();
     });
-
+        
 }
 
 if ( expandable && accessDocumentTop ) { toggleExpandCollapse(); }
@@ -3137,14 +3144,14 @@ if ( expandable && accessDocumentTop ) { toggleExpandCollapse(); }
 function setUserConfig() {
     let urlObj = new URL(document.URL),
         pathClean = urlObj.pathname.replace(/\W/g, ""),
-        configName = pathClean.length > 0 ? "_" + pathClean : null,
+        configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
         configJson = {
             "phones": [],
             "normalMode": (norm_sel === 1) ? "Hz" : "dB",
             "normalValue": (norm_sel === 1) ? norm_fr : norm_phon
         },
         activeBaseline = baseline.p ? baseline.p.fileName : 0;
-
+    
     activePhones.forEach(function(phone) {
         let phoneJson = {},
             fullName = phone.fullName,
@@ -3153,7 +3160,7 @@ function setUserConfig() {
             isHidden = phone.hide ? phone.hide : false,
             isBaseline = fileName === activeBaseline ? true : false,
             isPinned = phone.pin ? phone.pin : false;
-
+        
         if (isTarget || isBaseline) {
             phoneJson.fullName = fullName;
             phoneJson.fileName = fileName;
@@ -3161,77 +3168,85 @@ function setUserConfig() {
             phoneJson.isHidden = isHidden;
             phoneJson.isBaseline = isBaseline;
             phoneJson.isPinned = isPinned;
-
+            
             configJson.phones.push(phoneJson);
         }
     });
-
+    
     localStorage.setItem("userConfig" + configName, JSON.stringify(configJson));
 }
 
 // Insert user config phones to inits
 function userConfigAppendInits(initReq) {
-    let urlObj = new URL(document.URL),
-        pathClean = urlObj.pathname.replace(/\W/g, ""),
-        configName = pathClean.length > 0 ? "_" + pathClean : null,
-        configJson = JSON.parse(localStorage.getItem("userConfig" + configName));
+    if (targetRestoreLastUsed) {
+        let urlObj = new URL(document.URL),
+            pathClean = urlObj.pathname.replace(/\W/g, ""),
+            configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
+            configJson = JSON.parse(localStorage.getItem("userConfig" + configName)),
+            configNumOfPhones = configJson ? configJson.phones.length : 0;
 
-    if (configJson) {
-        initReq.forEach(function(req, i) {
-            if (req.endsWith(' Target')) {
-                initReq.splice(i, 1);
-            }
-        });
+        if (configJson && configNumOfPhones) {
+            initReq.slice(0).forEach(function(item) {
+                if (item.endsWith(' Target')) {
+                    initReq.splice(initReq.indexOf(item), 1);
+                }
+            });
 
-        configJson.phones.forEach(function(phone) {
-            if (!initReq.includes(phone.fileName)) {
-                initReq.push(phone.fileName);
-            }
-        });
+            configJson.phones.forEach(function(phone) {
+                if (!initReq.includes(phone.fileName)) {
+                    initReq.push(phone.fileName);
+                }
+            });
+        }
     }
 }
 
 // Apply baseline and hide settings
 function userConfigApplyViewSettings(phoneInTable) {
-    userConfigApplicationActive = 1;
+    if (targetRestoreLastUsed) {
+        userConfigApplicationActive = 1;
 
-    let urlObj = new URL(document.URL),
-        pathClean = urlObj.pathname.replace(/\W/g, ""),
-        configName = pathClean.length > 0 ? "_" + pathClean : null,
-        configJson = JSON.parse(localStorage.getItem("userConfig" + configName));
+        let urlObj = new URL(document.URL),
+            pathClean = urlObj.pathname.replace(/\W/g, ""),
+            configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
+            configJson = JSON.parse(localStorage.getItem("userConfig" + configName));
 
-    if (configJson) {
-        let phone = configJson.phones.find(item => item.fileName === phoneInTable);
+        if (configJson) {
+            let phone = configJson.phones.find(item => item.fileName === phoneInTable);
 
-        if (typeof phone !== "undefined") {
-            let row = document.querySelector("tr[data-filename='"+ phone.fileName +"']"),
-                hideButton  = row.querySelector("td.hideIcon"),
-                baselineButton  = row.querySelector("td.button-baseline"),
-                pinButton = row.querySelector("td.button-pin");
+            if (typeof phone !== "undefined") {
+                let row = document.querySelector("tr[data-filename='"+ phone.fileName +"']"),
+                    hideButton  = row.querySelector("td.hideIcon"),
+                    baselineButton  = row.querySelector("td.button-baseline"),
+                    pinButton = row.querySelector("td.button-pin");
 
-            if (phone.isHidden && !hideButton.classList.contains("selected")) {
-                hideButton.click();
-            }
+                if (phone.isHidden && !hideButton.classList.contains("selected")) {
+                    hideButton.click();
+                }
 
-            if (phone.isBaseline && !baselineButton.classList.contains("selected")) {
-                baselineButton.click();
-            }
+                if (phone.isBaseline && !baselineButton.classList.contains("selected")) {
+                    baselineButton.click();
+                }
 
-            if (phone.isPinned && pinButton.getAttribute('data-pinned') !== "true") {
-                pinButton.click();
+                if (phone.isPinned && pinButton.getAttribute('data-pinned') !== "true") {
+                    pinButton.click();
+                }
             }
         }
-    }
 
-    userConfigApplicationActive = 0;
+        userConfigApplicationActive = 0;
+    }
 };
 
 // Apply normalization config
 function userConfigApplyNormalization() {
     userConfigApplicationActive = 1;
-
-    let configJson = localStorage.getItem("userConfig") ? JSON.parse(localStorage.getItem("userConfig")) : 0;
-
+    
+    let urlObj = new URL(document.URL),
+        pathClean = urlObj.pathname.replace(/\W/g, ""),
+        configName = pathClean.length > 0 ? "_" + pathClean + "_a" : "_a",
+        configJson = JSON.parse(localStorage.getItem("userConfig" + configName));
+    
     if ( configJson && configJson.normalMode === "Hz" ) {
         document.querySelector("input#norm-fr").value = configJson.normalValue;
         document.querySelector("input#norm-fr").dispatchEvent(new Event("change"));
@@ -3239,137 +3254,6 @@ function userConfigApplyNormalization() {
         document.querySelector("input#norm-phon").value = configJson.normalValue;
         document.querySelector("input#norm-phon").dispatchEvent(new Event("change"));
     }
-
+    
     userConfigApplicationActive = 0;
 }
-
-// Delta target behavior
-function deltaTargetMods() {
-    let deltaTargetsStyle = document.createElement('style'),
-        deltaTargetsCss = `
-            :root {
-                --icon-5128: url("data:image/svg+xml,%3Csvg width='600' height='200' viewBox='0 0 600 200' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_334_11)'%3E%3Crect x='10' y='10' width='580' height='180' stroke='black' stroke-width='20'/%3E%3Cpath d='M77.49 142.96C74.85 142.96 71.93 142.84 68.73 142.6C65.53 142.44 62.37 142.2 59.25 141.88C56.13 141.48 53.29 141 50.73 140.44V125.56C53.53 125.8 56.41 126.04 59.37 126.28C62.41 126.44 65.29 126.6 68.01 126.76C70.73 126.84 73.09 126.88 75.09 126.88C78.29 126.88 80.85 126.76 82.77 126.52C84.69 126.2 86.17 125.68 87.21 124.96C88.33 124.24 89.09 123.2 89.49 121.84C89.89 120.4 90.09 118.6 90.09 116.44C90.09 114.12 89.85 112.28 89.37 110.92C88.97 109.48 88.21 108.44 87.09 107.8C85.97 107.08 84.41 106.6 82.41 106.36C80.41 106.12 77.85 106 74.73 106C72.65 106 70.25 106.08 67.53 106.24C64.81 106.32 62.09 106.48 59.37 106.72C56.65 106.88 54.09 107.08 51.69 107.32V59.44H104.97V75.64H69.93V91.12C71.29 90.96 72.85 90.8 74.61 90.64C76.45 90.48 78.29 90.36 80.13 90.28C81.97 90.2 83.65 90.16 85.17 90.16C90.37 90.16 94.65 90.72 98.01 91.84C101.37 92.96 104.01 94.6 105.93 96.76C107.85 98.84 109.17 101.4 109.89 104.44C110.69 107.48 111.09 111 111.09 115C111.09 119.88 110.61 124.08 109.65 127.6C108.69 131.12 106.97 134.04 104.49 136.36C102.09 138.6 98.69 140.28 94.29 141.4C89.97 142.44 84.37 142.96 77.49 142.96ZM154.17 142V80.44L138.69 86.92V70.48L160.77 59.44H175.05V142H154.17ZM209.554 142V130.6C209.554 126.04 209.674 122.12 209.914 118.84C210.154 115.56 210.674 112.76 211.474 110.44C212.354 108.12 213.714 106.16 215.554 104.56C217.394 102.88 219.914 101.36 223.114 100L241.354 92.68C243.674 91.72 245.394 90.88 246.514 90.16C247.634 89.36 248.354 88.4 248.674 87.28C248.994 86.16 249.154 84.6 249.154 82.6C249.154 80.12 248.754 78.32 247.954 77.2C247.154 76 245.714 75.28 243.634 75.04C241.554 74.72 238.634 74.56 234.874 74.56C233.114 74.56 230.914 74.64 228.274 74.8C225.714 74.96 222.954 75.16 219.994 75.4C217.034 75.64 214.114 75.92 211.234 76.24V61.12C213.874 60.64 216.874 60.2 220.234 59.8C223.594 59.4 227.034 59.08 230.554 58.84C234.154 58.6 237.474 58.48 240.514 58.48C244.514 58.48 248.274 58.76 251.794 59.32C255.394 59.8 258.554 60.8 261.274 62.32C263.994 63.84 266.114 66.12 267.634 69.16C269.234 72.2 270.034 76.28 270.034 81.4C270.034 86.52 269.474 90.64 268.354 93.76C267.314 96.88 265.754 99.36 263.674 101.2C261.594 103.04 259.074 104.56 256.114 105.76L235.474 113.8C233.874 114.44 232.634 115.12 231.754 115.84C230.954 116.48 230.394 117.36 230.074 118.48C229.754 119.52 229.594 120.92 229.594 122.68V125.8H270.034V142H209.554ZM336.67 142.96C329.63 142.96 323.83 142.44 319.27 141.4C314.79 140.36 311.31 138.84 308.83 136.84C306.43 134.84 304.75 132.44 303.79 129.64C302.83 126.76 302.35 123.52 302.35 119.92C302.35 115.36 302.91 111.8 304.03 109.24C305.23 106.6 306.95 104.6 309.19 103.24C311.43 101.88 314.15 100.84 317.35 100.12V99.64C312.55 98.6 308.95 96.6 306.55 93.64C304.23 90.68 303.07 86.2 303.07 80.2C303.07 76.68 303.59 73.56 304.63 70.84C305.75 68.12 307.55 65.84 310.03 64C312.59 62.16 316.03 60.8 320.35 59.92C324.75 58.96 330.19 58.48 336.67 58.48C343.15 58.48 348.55 58.96 352.87 59.92C357.27 60.8 360.71 62.16 363.19 64C365.75 65.84 367.55 68.12 368.59 70.84C369.71 73.56 370.27 76.68 370.27 80.2C370.27 86.2 369.07 90.68 366.67 93.64C364.35 96.6 360.79 98.6 355.99 99.64V100.12C359.27 100.84 361.99 101.88 364.15 103.24C366.39 104.6 368.07 106.6 369.19 109.24C370.39 111.8 370.99 115.36 370.99 119.92C370.99 123.52 370.51 126.76 369.55 129.64C368.59 132.44 366.87 134.84 364.39 136.84C361.91 138.84 358.43 140.36 353.95 141.4C349.47 142.44 343.71 142.96 336.67 142.96ZM336.67 127.36C340.27 127.36 343.03 127.2 344.95 126.88C346.87 126.48 348.19 125.6 348.91 124.24C349.71 122.8 350.11 120.6 350.11 117.64C350.11 115.4 349.91 113.6 349.51 112.24C349.19 110.88 348.51 109.88 347.47 109.24C346.51 108.52 345.15 108.04 343.39 107.8C341.63 107.56 339.39 107.44 336.67 107.44C333.95 107.44 331.71 107.56 329.95 107.8C328.19 108.04 326.83 108.52 325.87 109.24C324.91 109.88 324.23 110.88 323.83 112.24C323.51 113.6 323.35 115.4 323.35 117.64C323.35 120.6 323.71 122.8 324.43 124.24C325.15 125.6 326.47 126.48 328.39 126.88C330.39 127.2 333.15 127.36 336.67 127.36ZM336.67 93.04C340.35 93.04 343.07 92.84 344.83 92.44C346.67 92.04 347.87 91.16 348.43 89.8C349.07 88.44 349.39 86.4 349.39 83.68C349.39 80.8 349.07 78.72 348.43 77.44C347.87 76.08 346.67 75.2 344.83 74.8C343.07 74.32 340.35 74.08 336.67 74.08C333.07 74.08 330.35 74.32 328.51 74.8C326.67 75.2 325.47 76.08 324.91 77.44C324.35 78.72 324.07 80.8 324.07 83.68C324.07 86.4 324.35 88.44 324.91 89.8C325.47 91.16 326.67 92.04 328.51 92.44C330.35 92.84 333.07 93.04 336.67 93.04Z' fill='black'/%3E%3Cg clip-path='url(%23clip1_334_11)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M400 0H415H430H570H584H600V200H584H570H430H415H400V0ZM454.114 144.592L455.01 146H544.738L545.762 144.336L499.81 51.792H497.25L454.114 144.592ZM516.194 127.824H481.25L498.146 90.192L516.194 127.824Z' fill='black'/%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_334_11'%3E%3Crect width='600' height='200' fill='white'/%3E%3C/clipPath%3E%3CclipPath id='clip1_334_11'%3E%3Crect width='200' height='200' fill='white' transform='translate(400)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-                --icon-5128-sm: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_328_2)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0H15H30H170H184H200V200H184H170H30H15H0V0ZM54.1143 144.592L55.0103 146H144.738L145.762 144.336L99.8103 51.792H97.2503L54.1143 144.592ZM116.194 127.824H81.2503L98.1463 90.192L116.194 127.824Z' fill='black'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_328_2'%3E%3Crect width='200' height='200' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-                --icon-5128-sm: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_343_25)'%3E%3Cpath d='M54.896 147.208L54 145.8L97.136 53H99.696L145.648 145.544L144.624 147.208H54.896ZM81.136 129.032H116.08L98.032 91.4L81.136 129.032Z' fill='black'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_343_25'%3E%3Crect width='200' height='200' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-            }
-
-            div.targetClass.delta-targets:before {
-                content: '';
-                display: block;
-                width: 108px;
-                height: 36px;
-                margin: 0 10px 0 0;
-
-                background-size: 100%;
-                background-position: center;
-                background-repeat: no-repeat;
-
-                background: linear-gradient(135deg, var(--background-color-contrast-more) 40%, var(--accent-color), var(--background-color-contrast-more) 50%);
-                background-size: 800% 800%;
-                animation: gradient-flash 6s ease-in-out infinite;
-
-                mask: var(--icon-5128);
-                -webkit-mask: var(--icon-5128);
-                mask-size: 100%;
-                mask-repeat: no-repeat;
-                mask-position: center;
-                -webkit-mask-size: 100%;
-                -webkit-mask-repeat: no-repeat;
-                -webkit-mask-position: center;
-            }
-
-            @keyframes gradient-flash {
-                0% {
-                    background-position: 0% 0%;
-                }
-                40% {
-                    background-position: 100% 100%;
-                }
-                40.1% {
-                    background-position: 0% 0%;
-                }
-                100% {
-                    background-position: 0% 0%;
-                }
-            }
-
-            div.targetClass.delta-targets div.targetLabel {
-                display: none;
-            }
-        `;
-
-    deltaTargetsStyle.setAttribute('type','text/css');
-    deltaTargetsStyle.textContent = deltaTargetsCss;
-    document.querySelector('body').append(deltaTargetsStyle);
-
-    let targetLabels = document.querySelectorAll('div.targetLabel span');
-
-    targetLabels.forEach(function(label) {
-        let labelText = label.textContent,
-            labelIsDelta = labelText.includes('Δ');
-
-        if (labelIsDelta) {
-            let targetCollection = label.closest('div.targetClass');
-
-            // Set class on Delta targets container & style
-            targetCollection.classList.add('delta-targets');
-
-            // Set baseline behavior on delta targets
-            let deltaTargets = targetCollection.querySelectorAll('div.target');
-
-            // Set up mutation observers
-            deltaTargets.forEach(function(target) {
-                let targetName = target.textContent;
-
-                var observer = new MutationObserver(function(mutations) {
-                    mutations.forEach(function(mutation) {
-                        if (mutation.target.getAttribute('style').length) {
-                            let targetInTable = document.querySelector('tr[data-filename="'+ targetName +' Target"]'),
-                                targetBaselineReady = targetInTable.querySelector('td.button-baseline:not(.selected)');
-
-                            if (targetBaselineReady) {
-                                targetBaselineReady.click();
-                            }
-                        }
-                    });
-                });
-
-                // Notify me of style changes
-                var observerConfig = {
-                    attributes: true,
-                    attributeFilter: ['style']
-                };
-
-                observer.observe(target, observerConfig);
-
-                // Set as baseline on init
-                activePhones.forEach(function(phone) {
-                    if (phone.dispName === targetName) {
-                        let targetInTable = document.querySelector('tr[data-filename="'+ targetName +' Target"]'),
-                            targetBaselineReady = targetInTable.querySelector('td.button-baseline:not(.selected)');
-
-                        if (targetBaselineReady) {
-                            targetBaselineReady.click();
-                        }
-                    }
-                });
-            });
-        }
-    });
-}
-
-window.addEventListener('load', function() {
-    //let squigReadyEvent = new Event('squig-ready');
-    //window.dispatchEvent(squigReadyEvent);
-
-    let deltaInterval = setInterval(initDeltaTargetMods, 200);
-
-    function initDeltaTargetMods() {
-        let targetLabelsCount = document.querySelectorAll('div.targetLabel').length;
-
-        if (targetLabelsCount) {
-            deltaTargetMods();
-            clearInterval(deltaInterval);
-        }
-    }
-});

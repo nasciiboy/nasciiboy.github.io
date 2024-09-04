@@ -1,18 +1,23 @@
-/* Primary color theme */
-:root {
-    --accent-color: hsl(0, 0%, 0%);
-    --accent-color-contrast: hsl(0, 0%, 55%);
 
-    --background-color: hsl(0, 0%, 96%);
-    --background-color-contrast: hsl(0, 0%, 90%);
-    --background-color-contrast-more: hsl(0, 0%, 65%);
-    --background-color-graph: hsl(0, 0%, 100%);
+/* If user has system preference for dark mode, this theme overrides the theme above. Optional */
+@media ( prefers-color-scheme: dark ) {
+}
+
+/* Color theme: Super* */
+:root {
+    --accent-color: hsl(210, 53%, 49%);
+    --accent-color-contrast: hsl(210, 50%, 40%);
     
-    --background-color-inputs: hsl(0, 0%, 100%);
+    --background-color: hsl(54, 5%, 99%);
+    --background-color-contrast: hsl(54, 5%, 95%);
+    --background-color-contrast-more: hsl(54, 0%, 75%);
+    --background-color-graph: hsl(54, 0%, 100%);
     
-    --font-color-primary: hsl(0, 0%, 10%);
-    --font-color-secondary: hsl(0, 0%, 100%);
-    --font-color-inputs: hsl(0, 0%, 50%);
+    --background-color-inputs: hsl(210, 10%, 90%);
+
+    --font-color-primary: hsl(210, 20%, 10%);
+    --font-color-secondary: hsl(210, 20%, 100%);
+    --font-color-inputs: hsl(210, 20%, 40%);
     
     --font-primary: 'Open Sans', sans-serif;
     --font-secondary: monospace;
@@ -25,36 +30,58 @@
     --header-menu-icon-color: hsl(0, 0%, 100%);
     
     --logo-filter: none;
-    --svg-filter: none;
+    --svg-filter: grayscale(1);
 }
 
+/* Color theme: Super* Dark */
 body.dark-mode {
-    --accent-color: hsl(0, 0%, 100%);
-    --accent-color-contrast: hsl(0, 0%, 50%);
-
-    --background-color: hsl(0, 0%, 6%);
-    --background-color-contrast: hsl(0, 0%, 15%);
-    --background-color-contrast-more: hsl(0, 0%, 30%);
-    --background-color-graph: hsl(0, 0%, 8%);
-
-    --background-color-inputs: hsl(0, 0%, 15%);
-
-    --font-color-primary: hsl(0, 0%, 80%);
-    --font-color-secondary: hsl(0, 0%, 0%);
-    --font-color-inputs: hsl(0, 0%, 60%);
-
+    --accent-color: hsl(54, 100%, 63%);
+    --accent-color-contrast: hsl(54, 100%, 40%);
+    
+    --background-color: hsl(215, 14%, 10%);
+    --background-color-contrast: hsl(215, 14%, 8%);
+    --background-color-contrast-more: hsl(215, 14%, 25%);
+    --background-color-graph: hsl(215, 14%, 7%);
+    --background-color-graph: hsl(215, 14%,5%);
+    
+    --background-color-inputs: hsl(215, 14%, 5%);
+    --font-color-primary: hsl(54, 11%, 87%);
+    --font-color-secondary: #000;
+    --font-color-inputs: hsl(215, 14%, 40%);
+    
     --font-primary: 'Open Sans', sans-serif;
     --font-secondary: monospace;
-
+    
     --scrollbar-color: 0,0,0;
     --scrollbar-accent: 255,255,255;
-
+        
     --header-color: hsl(215, 20%, 10%);
     --header-links-color: hsl(0, 0%, 100%);
     --header-menu-icon-color: hsl(0, 0%, 100%);
     
     --logo-filter: none;
-    --svg-filter: invert(1.0);
+    --svg-filter: invert(1.0) grayscale(1.0);
+}
+
+image.please-spin-me {
+    animation-name: super-stamp;
+    animation-duration: 1.0s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    
+    opacity: 0.25;
+}
+
+@keyframes super-stamp {
+    0% {
+        transform: rotate(0deg);
+    }
+    66% {
+        transform: rotate(760deg);
+    }
+    100% {
+        transform: rotate(720deg);
+    }
 }
 
 /*****
@@ -152,6 +179,60 @@ svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(23) text {
     }
 }
 
+/*
+header.header ul.header-links li:nth-child(2) a:after {
+    position: relative;
+    top: 0px;
+    right: -4px;
+    
+    content: 'New';
+    display: block;
+    padding: 2px 3px;
+    
+    background-color: transparent;
+    border: 1px solid var(--font-color-secondary);
+    border-radius: 3px;
+    
+    color: var(--font-color-secondary);
+    font-size: 8px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+*/
+
+/*
+header.header ul.header-links li:nth-last-child(1) a {
+    position: relative;
+}
+
+header.header ul.header-links li:nth-last-child(1) a:after {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    
+    content: '';
+    display: block;
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+*/
+
+@media (max-width: 1000px) {
+    header.header ul.header-links li:nth-child(1) a:after {
+        top: 3px;
+        right: 0;
+        margin: 0 14px;
+        
+        
+        border-color: var(--font-color-primary);
+        
+        color: var(--font-color-primary);
+    }
+}
+
 /***** Squiglink site address *****/
 
 image.wm-squiglink-logo {
@@ -165,4 +246,30 @@ text.wm-squiglink-address {
     font-size: 14px;
     
     filter: var(--svg-filter);
+}
+
+/***** Squiglink target styles *****/
+
+path[data-phone-name="IEF Comp Target"] {
+    display: none;
+}
+
+/*
+g.curves-g path.target:not([data-phone-name="Super 22 Target"]) {
+    stroke-dasharray: 20, 10 !important;
+    stroke-width: 1.5;
+    opacity: 0.5;
+}
+*/
+
+g.curves-g path:nth-last-child(2 of .target:not([data-phone-name="IEF Comp Target"])) {
+    stroke-dasharray: 20, 10 !important;
+    stroke-width: 1.5;
+    opacity: 0.5;
+}
+
+g.curves-g path:nth-child(3 of .target:not([data-phone-name="IEF Comp Target"])) {
+    stroke-dasharray: 3, 3 !important;
+    stroke-width: 1.5;
+    opacity: 0.5;
 }

@@ -1705,6 +1705,7 @@ tbody.curves > tr > td.item-line div.variantName {
     position: relative;
     top: auto !important;
     
+    width: auto !important;
     flex: calc(100% - 52px) 0 0;
     height: 50px;
     
@@ -1729,7 +1730,7 @@ tbody.curves > tr > td.item-line div.variantName[style*="color"] {
 
 tbody.curves > tr > td.item-line span.variantPopout {
     position: relative;
-    top: auto !important;
+    top: 7px !important;
     left: auto !important;
     
     box-sizing: border-box;
@@ -1792,6 +1793,7 @@ div.variant-names {
 div.variant-popouts {
     flex: 36px 0 0;
     padding: 7px 0 0 0;
+    padding: 0;
 }
 
 span.variantPopout {
@@ -3452,4 +3454,47 @@ Responsive styles *****/
         
         pointer-events: none;
     }
+}
+
+/*****
+Embed mode *****/
+body[embed-mode="true"] header.header {
+    display: none;
+}
+
+body[embed-mode="true"] section.parts-primary {
+    z-index: 3;
+
+    flex: 100vh 1 1 !important;
+    max-height: -webkit-fill-available;
+}
+
+body[embed-mode="true"] section.parts-secondary {
+    display: none;
+}
+
+body[embed-mode="true"] div.graph-sizer {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    max-height: -webkit-fill-available;
+    margin: 0;
+
+    background-color: var(--background-color);
+}
+
+body[embed-mode="true"] svg#fr-graph {
+    width: 100%;
+
+    pointer-events: none;
 }
