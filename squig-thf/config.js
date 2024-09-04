@@ -3,7 +3,7 @@ const init_phones = [
         "Harman OE 2018 Linear",
         "Diffuse Field Target"
       ],
-      DIR = "data/",                            // Directory where graph files are stored
+      DIR = "data/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "dB",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 60,                         // Sets default dB normalization point
