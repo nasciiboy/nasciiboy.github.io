@@ -1,7 +1,6 @@
 ﻿// Configuration options
 const init_phones = [
-        "Harman OE 2018 Linear",
-        "Diffuse Field Target"
+        "Harman OE 2018 Linear"
       ],
       DIR = "data/",                                // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
