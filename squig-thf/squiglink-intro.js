@@ -2,8 +2,6 @@ let introMode = 'prod', // 'prod' 'dev'
     urlParams = new URLSearchParams(window.location.search),
     embedMode = urlParams.has('embed');
 
-let cookiedomain = 'domain=' + window.location.hostname;
-
 let contentWelcome = [
         {
             'heading': 'Welcome to Squiglink',
@@ -553,7 +551,8 @@ function buildDom(hydrateWith, contentVar) {
 // Open the welcome screen
 function openWelcome(trigger, contentVar) {
     let content = contentVar,
-        lastWelcomeScreen = contentVar === 'contentWelcome' ? localStorage.getItem('squiglink-welcome') ? Number(localStorage.getItem('squiglink-welcome')) : 1 : localStorage.getItem('squiglink-welcome-eq') ? Number(localStorage.getItem('squiglink-welcome-eq')) : 1;
+        // lastWelcomeScreen = contentVar === 'contentWelcome' ? localStorage.getItem('squiglink-welcome') ? Number(localStorage.getItem('squiglink-welcome')) : 1 : localStorage.getItem('squiglink-welcome-eq') ? Number(localStorage.getItem('squiglink-welcome-eq')) : 1;
+        lastWelcomeScreen = 1,
         hydrateWith = contentVar === 'contentWelcome' ? lastWelcomeScreen < content.length ? lastWelcomeScreen : 1 : lastWelcomeScreen != 2 ? lastWelcomeScreen : 1;
 
     shade.setAttribute('data-state', 'open');
@@ -586,27 +585,13 @@ function closeWelcome() {
         shade.removeEventListener('animationend', removeShade);
     };
 
-    if (currentSource === 'contentWelcome') {
-        localStorage.setItem('squiglink-welcome', currentSlide);
-
-        if (introMode === 'prod') {
-            document.cookie = 'squiglink-welcome-closed=true;max-age=34560000;' + cookiedomain;
-            //console.log('Set prod cookie');
-        } else {
-            document.cookie = 'squiglink-welcome-closed=true;max-age=10';
-            console.log('Set dev cookie');
-        }
-    } else if (currentSource === 'contentEq') {
-        localStorage.setItem('squiglink-welcome-eq', currentSlide);
-
-        if (introMode === 'prod') {
-            document.cookie = 'squiglink-welcome-eq-closed=true;max-age=34560000;' + cookiedomain;
-            //console.log('Set prod cookie');
-        } else {
-            document.cookie = 'squiglink-welcome-eq-closed=true;max-age=10';
-            console.log('Set dev cookie');
-        }
-    }
+    // if (currentSource === 'contentWelcome') {
+    //     localStorage.setItem('squiglink-welcome', currentSlide);
+    //     document.cookie = 'squiglink-welcome-closed=true;max-age=34560000;';
+    // } else if (currentSource === 'contentEq') {
+    //     localStorage.setItem('squiglink-welcome-eq', currentSlide);
+    //     document.cookie = 'squiglink-welcome-eq-closed=true;max-age=34560000;';
+    // }
 
     pushEventTag('welcome_closed', window.top, 'Slide: ' + currentSource + ' ' + currentSlide, 'user');
 }
@@ -661,8 +646,7 @@ function hydrateContent(index, contentVar) {
     if (slideBack) {
         navBack.textContent = textBack;
         navBack.setAttribute('data-nav', slideBack);
-    }
-    else {
+    } else {
         navBack.textContent = '';
         navBack.setAttribute('data-nav', 0);
     }
@@ -671,8 +655,7 @@ function hydrateContent(index, contentVar) {
         navNext.textContent = textNext;
         navNext.setAttribute('data-nav', slideNext);
         container.setAttribute('data-content', index);
-    }
-    else {
+    } else {
         navNext.textContent = 'Done';
         navNext.setAttribute('data-nav', 'close');
         container.setAttribute('data-content', index);

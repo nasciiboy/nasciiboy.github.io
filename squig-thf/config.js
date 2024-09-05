@@ -35,9 +35,9 @@ const init_phones = [
       labelsPosition = "bottom-left",               // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels
 
-      analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
-      analyticsSite = "",                           // Site name for attributing analytics events to your site
-      analyticsGtmId = "",                          // GTM ID used for analytics. If you don't already have one, you'' need to create a Google Tag Manager account
+      analyticsEnabled = true,                      // Enables Google Analytics 4 measurement of site usage
+      analyticsSite = "squig-thf",                  // Site name for attributing analytics events to your site
+      analyticsGtmId = "G-BSCS0CN46C",              // GTM ID used for analytics. If you don't already have one, you'' need to create a Google Tag Manager account
       logAnalytics = false;                         // If true, events are logged in console
 
       exportableGraphs = true,                      // Enables export graph button
