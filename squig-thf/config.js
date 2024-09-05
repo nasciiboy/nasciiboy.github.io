@@ -38,7 +38,7 @@ const init_phones = [
       analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
       analyticsSite = "",                           // Site name for attributing analytics events to your site
       analyticsGtmId = "",                          // GTM ID used for analytics. If you don't already have one, you'' need to create a Google Tag Manager account
-      logAnalytics = true;                          // If true, events are logged in console
+      logAnalytics = false;                         // If true, events are logged in console
 
       exportableGraphs = true,                      // Enables export graph button
       extraEnabled = true,                          // Enable extra features
@@ -224,6 +224,29 @@ function setupGraphAnalytics() {
     }
 }
 setupGraphAnalytics();
+
+window.dataLayer = window.dataLayer || [];
+
+// For events not related to a specific phone, e.g. user clicked screenshot button
+function pushEventTag(eventName, targetWindow, other, trigger) {
+    let eventTrigger = trigger ? trigger : "user",
+        url = targetWindow.location.href,
+        par = "?share=",
+        value = 1,
+        activePhones = url.includes(par) ? decodeURI(url.replace(/_/g," ").split(par).pop().replace(/,/g, ", ")) : "null",
+        otherData = other ? other : "null";
+
+    window.dataLayer.push({
+        "event" : eventName,
+        "trigger" : eventTrigger,
+        "site": analyticsSite,
+        "activePhones": activePhones,
+        "other": otherData,
+        "value": value
+    });
+
+    if (logAnalytics) { console.log("Event:      "+ eventName +"\nTrigger:    "+ eventTrigger +"\nSite name:  "+ analyticsSite +"\nActive:     "+ activePhones +"\nOther:      "+ otherData); }
+}
 
 // If alt_header is enabled, these are the items added to the header
 let headerLogoText = "",

@@ -17,10 +17,6 @@ function setupGraphAnalytics() {
 }
 setupGraphAnalytics();
 
-window.dataLayer = window.dataLayer || [];
-
-
-
 // *************************************************************
 // Functions to fire events
 // *************************************************************
@@ -45,27 +41,6 @@ function pushPhoneTag(eventName, p, trigger) {
     });
 
     if (logAnalytics) { console.log("Event:      "+ eventName +"\nTrigger:    "+ eventTrigger +"\nSite:       "+ analyticsSite +"\nPhone:      "+ phoneBrand +" "+ phoneModel +"\nVariant:    " + phoneVariant); }
-}
-
-// For events not related to a specific phone, e.g. user clicked screenshot button
-function pushEventTag(eventName, targetWindow, other, trigger) {
-    let eventTrigger = trigger ? trigger : "user",
-        url = targetWindow.location.href,
-        par = "?share=",
-        value = 1,
-        activePhones = url.includes(par) ? decodeURI(url.replace(/_/g," ").split(par).pop().replace(/,/g, ", ")) : "null",
-        otherData = other ? other : "null";
-
-    window.dataLayer.push({
-        "event" : eventName,
-        "trigger" : eventTrigger,
-        "site": analyticsSite,
-        "activePhones": activePhones,
-        "other": otherData,
-        "value": value
-    });
-
-    if (logAnalytics) { console.log("Event:      "+ eventName +"\nTrigger:    "+ eventTrigger +"\nSite name:  "+ analyticsSite +"\nActive:     "+ activePhones +"\nOther:      "+ otherData); }
 }
 
 if (logAnalytics) { console.log("... Analytics initialized ... "); }
