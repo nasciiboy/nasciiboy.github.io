@@ -1239,7 +1239,7 @@ function addWelcomeCss() {
 
 
 function cookieWelcome(){
-    if (localStorage.getItem('squiglink-welcome-eq') == null) {
+    if (localStorage.getItem('squiglink-welcome') == null) {
         localStorage.setItem('squiglink-welcome', true);
         openWelcome('config', 'contentWelcome');
     }
