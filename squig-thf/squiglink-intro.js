@@ -671,7 +671,6 @@ function welcomeInit() {
     let launcher = document.createElement('button'),
         launcherContainer = document.createElement('div'),
         launcherParent = document.querySelector('div.tools'),
-        hasSeenWelcome = document.cookie.split(';').some((item) => item.trim().startsWith('squiglink-welcome-closed=')) ? 1 : 0,
         skipToEq = window.location.href.split('?').pop().includes('launch=eq');
 
     launcher.className = 'welcome-launcher';
@@ -685,10 +684,6 @@ function welcomeInit() {
         openWelcome('user', 'contentWelcome');
         e.stopPropagation();
     });
-
-    if (!hasSeenWelcome && !skipToEq) {
-        openWelcome('config', 'contentWelcome');
-    }
 }
 if (!embedMode) welcomeInit();
 
@@ -1241,3 +1236,12 @@ function addWelcomeCss() {
     welcomeStyle.textContent = welcomeCss;
     document.querySelector('body').append(welcomeStyle);
 }
+
+
+function cookieWelcome(){
+    if (localStorage.getItem('squiglink-welcome-eq') == null) {
+        localStorage.setItem('squiglink-welcome', true);
+        openWelcome('config', 'contentWelcome');
+    }
+}
+cookieWelcome();
