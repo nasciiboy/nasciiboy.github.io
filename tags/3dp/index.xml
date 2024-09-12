@@ -37,7 +37,7 @@ parametros relacionados con altura y posicion verticales (eje Z), se basan en ca
 capa mas pequeña recomendada para la comun boquilla &lt;strong&gt;0.4mm&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Los parametros relacionados con medidas horizontales, no tienen tales restricciones&lt;/p&gt;
 &lt;p&gt;Los Volumenes y los conductos que los comunican, son un tanto arbitrarios&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Tutorial para otro dia&amp;hellip; Para activar la personalizacon &lt;code&gt;Window -&amp;gt; Customizer&lt;/code&gt;
+&lt;p&gt;Tutorial para otro dia&amp;hellip; Para activar la personalizacion &lt;code&gt;Window -&amp;gt; Customizer&lt;/code&gt;
 cuando termine de modificar los parametros, desmarque la opcion &lt;strong&gt;DEBUG&lt;/strong&gt;,
 presione &lt;code&gt;F6&lt;/code&gt; para generar el modelo final y exporte con &lt;code&gt;F7&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;electrets&#34;&gt;Electrets&lt;/h2&gt;
