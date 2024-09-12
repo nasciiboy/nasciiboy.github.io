@@ -2,8 +2,8 @@
 <html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8">
-    <title>Genius</title>
-    <link href="https://nasciiboy.github.io/tags/genius/index.xml" rel="alternate" title="⋲ᴹ∧cₛ ℜø∁κ§" type="application/atom+xml">
+    <title>712</title>
+    <link href="" rel="alternate" title="⋲ᴹ∧cₛ ℜø∁κ§" type="application/atom+xml">
     <style> :root {
 
     --BGC      : #000000;
@@ -363,77 +363,76 @@ img:hover { border: .05em solid #fff; }
   <body>
     
 <main>
-  
-  
+  <div class="clear" ><a href="https://nasciiboy.github.io">/</a></span> <span><a href="https://nasciiboy.github.io/thf">thf</a></div>
 
-  <ul class="nav">
-    
-    <li><a href="https://nasciiboy.github.io/thf/">thfs</a></li>
-    
-    <li><a href="https://nasciiboy.github.io/post/">posts</a></li>
-    
-    <li><a href="https://nasciiboy.github.io/3dp/">3dps</a></li>
-    
-  </ul>
+  <h1>712</h1>
+  <p><strong>ESTO ES UN BORRADOR, PUBLICACION EN OBRAS</strong></p>
+<p>ES posible conseguir una medicion de Respuesta en frecuencia equivalente a la de
+un acoplador IEC 60318-4 mediante una impresora 3D y microfonos electret
+economicos? Esa es la intencion del &ldquo;acoplador 712&rdquo;</p>
+<p><img src="./712-01.jpg" alt=""></p>
+<p>En realidad se desea conseguir una serie de artilugios (modulares a poder ser)
+utiles para la medicion, construccion y modificacion de auriculares: un soporte
+de medicion de audifonos over ear, grabaciones binaurales iem/headphones, un
+soporte de audifonos y una herramienta para verificar la respuesta de solo
+bocinas. Un acoplador replicable en 3d es el punto de partida</p>
+<h2 id="modelo-3d-inicial">Modelo 3D Inicial</h2>
+<p><img src="./712_scad.png" alt=""></p>
+<p>Nada mejor para experimentar que un diseño paramentrico, nuevamente con <a href="https://openscad.org/">OpenScad</a>.
+Los archivos <a href="./712.zip">Aqui</a></p>
+<p>La idea es hacer el modelo lo mas amigable posible con la impresion. Todos los
+parametros relacionados con altura y posicion verticales (eje Z), se basan en capas
+(capas de impresion) definidas internamente como <strong>.12mm</strong> que es la altura de
+capa mas pequeña recomendada para la comun boquilla <strong>0.4mm</strong></p>
+<p>Los parametros relacionados con medidas horizontales, no tienen tales restricciones</p>
+<p>Los Volumenes y los conductos que los comunican, son un tanto arbitrarios&hellip;</p>
+<p>Tutorial para otro dia&hellip; Para activar la personalizacon <code>Window -&gt; Customizer</code>
+cuando termine de modificar los parametros, desmarque la opcion <strong>DEBUG</strong>,
+presione <code>F6</code> para generar el modelo final y exporte con <code>F7</code></p>
+<h2 id="electrets">Electrets</h2>
+<p><img src="./712-03.jpg" alt=""></p>
+<p>Encontre tres electrets cuya unica caracteristica conocida es el tamaño&hellip; la
+curva que produce y el nivel de entrada comparado con respecto al acoplador
+generico 711</p>
+<p><img src="./electret-00.jpg" alt=""></p>
+<p>Como referencia, en el clon 711 se tomo la fr del lado derecho del audifono WG
+T-One se introdujo la punta de silicon hasta el borde y calibro a 95dB SPL a
+1Khz</p>
+<p>En los modelos impresos se coloco el iem de la misma forma, el microfono se
+ajusta solo por la presion que ofrece el orificio impreso relativamente ajustado
+pero no hermetico</p>
+<p><img src="./electret-01.jpg" alt=""></p>
+<p>Para los microfonos a los que llamare <em>d60</em> (el pequeño, con diametro de 6mm) y <em>delgado</em> (diametro
+de 9.7 por 4.5 mm) se utilizo el mismo nivel de volumen en el amplificador, pues
+producian entre 95 y 96 dB. Para el microfono <em>gordo</em> (9.7 por 7 mm) ya que entregaba
+105db se redujo el volumen a un valor cercano a 90dB</p>
+<p><img src="./712-04.jpg" alt=""></p>
+<h2 id="pruebas">Pruebas</h2>
+<h3 id="712-volumen-1-y-2">712 Volumen 1 y 2</h3>
+<p>Las mediciones con alineacion a 1Khz del 712 con los Volumenes 1 y 2. Resaltada
+la respuesta del acoplador generico 711</p>
+<p><img src="./mics.jpg" alt=""></p>
+<p>Puede revisar mas a profundidad el resultado en nuestro <a href="https://nasciiboy.github.io/squig-thf/?share=712,712_d60,712_flaco,712_gordo">squig</a></p>
+<p>Se realizaron dos mediciones para cada prueba con dos microfonos de cada uno.</p>
+<p>En nuestro <a href="https://nasciiboy.github.io/squig-thf/?share=712,712_d60,712_flaco,712_gordo">squig</a>
+el microfono &ldquo;1&rdquo; se etiqueto como el lado <code>R</code>, el &ldquo;2&rdquo; como <code>L</code>, mostrando asi
+una media</p>
+<p><strong>Risas&hellip;</strong> ocurrio un error al calcular la longitud del primer modelo, era
+ligeramente mas largo. Como ve, los picos de resonancia estan desplazados</p>
+<p><img src="./712-long.jpg" alt=""></p>
+<h3 id="712-volumen-1-3">712 Volumen 1-3</h3>
+<h3 id="712-consclusiones">712 Consclusiones</h3>
 
-  <ul class="article">
-    
-    <li>
-      <p>
-        <span style="color:#888" >24 09 12</span> <a class="title" href="https://nasciiboy.github.io/thf/712/">712</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >24 08 25</span> <a class="title" href="https://nasciiboy.github.io/post/recursos/">Recursos</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >24 07 27</span> <a class="title" href="https://nasciiboy.github.io/thf/mediciones/">Mediciones</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >24 06 29</span> <a class="title" href="https://nasciiboy.github.io/post/cosmofono/">COSMOFONO</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >24 01 08</span> <a class="title" href="https://nasciiboy.github.io/3dp/nkh-gdur/guia-de-uso-rapido/">NASCII NKH – Guia de uso rapido</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >23 06 25</span> <a class="title" href="https://nasciiboy.github.io/3dp/nkh/nkh/">NASCII NKH</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >23 02 03</span> <a class="title" href="https://nasciiboy.github.io/3dp/ptg/ptg/">NASCII PTG</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >22 12 11</span> <a class="title" href="https://nasciiboy.github.io/3dp/artillery-z_mod/artillery-z_mod/">Artillery Z Mod</a>
-      </p>
-    </li>
-    
-    <li>
-      <p>
-        <span style="color:#888" >22 11 19</span> <a class="title" href="https://nasciiboy.github.io/post/rei/">Rei</a>
-      </p>
-    </li>
-    
-  </ul>
 
+  <div class="clear" class="center">
+    
+    <a class="previous" href="https://nasciiboy.github.io/thf/mediciones/">◀ Mediciones</a>
+    
+    
+  </div>
+
+
+  <div class="clear" ><a href="https://nasciiboy.github.io">/</a></span> <span><a href="https://nasciiboy.github.io/thf">thf</a></div>
 </main>
 
 
@@ -467,8 +466,6 @@ img:hover { border: .05em solid #fff; }
     <footer>
 <p>Licence: <em>GFDL 1.3</em>.
      Powered by <a href="https://gohugo.io/">Hugo</a>.
-  
-    <a rel="alternate" type="application/rss+xml" href="https://nasciiboy.github.io/tags/genius/index.xml" title="⋲ᴹ∧cₛ ℜø∁κ§">RSS</a>.
   
    Contact <b><a href="mailto:nasciiboy@gmail.com">nasciiboy@gmail.com</a></b>.
   

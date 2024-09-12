@@ -6,10 +6,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Sat, 29 Jun 2024 02:13:20 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 11:35:09 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3dp</title>
+      <link>https://nasciiboy.github.io/tags/3dp/</link>
+      <pubDate>Thu, 12 Sep 2024 11:35:09 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/3dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fonos</title>
+      <link>https://nasciiboy.github.io/tags/fonos/</link>
+      <pubDate>Thu, 12 Sep 2024 11:35:09 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/fonos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thf</title>
+      <link>https://nasciiboy.github.io/tags/thf/</link>
+      <pubDate>Thu, 12 Sep 2024 11:35:09 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/tags/thf/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cli</title>
@@ -17,15 +44,6 @@
       <pubDate>Sat, 29 Jun 2024 02:13:20 -0600</pubDate>
       
       <guid>https://nasciiboy.github.io/tags/cli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fonos</title>
-      <link>https://nasciiboy.github.io/tags/fonos/</link>
-      <pubDate>Sat, 29 Jun 2024 02:13:20 -0600</pubDate>
-      
-      <guid>https://nasciiboy.github.io/tags/fonos/</guid>
       <description></description>
     </item>
     

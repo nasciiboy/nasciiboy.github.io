@@ -1,0 +1,80 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thf on ⋲ᴹ∧cₛ ℜø∁κ§</title>
+    <link>https://nasciiboy.github.io/tags/thf/</link>
+    <description>Recent content in thf on ⋲ᴹ∧cₛ ℜø∁κ§</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>GPL v3.0</copyright>
+    <lastBuildDate>Thu, 12 Sep 2024 11:35:09 -0600</lastBuildDate>
+    
+        <atom:link href="https://nasciiboy.github.io/tags/thf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>712</title>
+      <link>https://nasciiboy.github.io/thf/712/</link>
+      <pubDate>Thu, 12 Sep 2024 11:35:09 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/thf/712/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;ESTO ES UN BORRADOR, PUBLICACION EN OBRAS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ES posible conseguir una medicion de Respuesta en frecuencia equivalente a la de
+un acoplador IEC 60318-4 mediante una impresora 3D y microfonos electret
+economicos? Esa es la intencion del &amp;ldquo;acoplador 712&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./712-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En realidad se desea conseguir una serie de artilugios (modulares a poder ser)
+utiles para la medicion, construccion y modificacion de auriculares: un soporte
+de medicion de audifonos over ear, grabaciones binaurales iem/headphones, un
+soporte de audifonos y una herramienta para verificar la respuesta de solo
+bocinas. Un acoplador replicable en 3d es el punto de partida&lt;/p&gt;
+&lt;h2 id=&#34;modelo-3d-inicial&#34;&gt;Modelo 3D Inicial&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./712_scad.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nada mejor para experimentar que un diseño paramentrico, nuevamente con &lt;a href=&#34;https://openscad.org/&#34;&gt;OpenScad&lt;/a&gt;.
+Los archivos &lt;a href=&#34;./712.zip&#34;&gt;Aqui&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;La idea es hacer el modelo lo mas amigable posible con la impresion. Todos los
+parametros relacionados con altura y posicion verticales (eje Z), se basan en capas
+(capas de impresion) definidas internamente como &lt;strong&gt;.12mm&lt;/strong&gt; que es la altura de
+capa mas pequeña recomendada para la comun boquilla &lt;strong&gt;0.4mm&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Los parametros relacionados con medidas horizontales, no tienen tales restricciones&lt;/p&gt;
+&lt;p&gt;Los Volumenes y los conductos que los comunican, son un tanto arbitrarios&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Tutorial para otro dia&amp;hellip; Para activar la personalizacon &lt;code&gt;Window -&amp;gt; Customizer&lt;/code&gt;
+cuando termine de modificar los parametros, desmarque la opcion &lt;strong&gt;DEBUG&lt;/strong&gt;,
+presione &lt;code&gt;F6&lt;/code&gt; para generar el modelo final y exporte con &lt;code&gt;F7&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;electrets&#34;&gt;Electrets&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./712-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Encontre tres electrets cuya unica caracteristica conocida es el tamaño&amp;hellip; la
+curva que produce y el nivel de entrada comparado con respecto al acoplador
+generico 711&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./electret-00.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Como referencia, en el clon 711 se tomo la fr del lado derecho del audifono WG
+T-One se introdujo la punta de silicon hasta el borde y calibro a 95dB SPL a
+1Khz&lt;/p&gt;
+&lt;p&gt;En los modelos impresos se coloco el iem de la misma forma, el microfono se
+ajusta solo por la presion que ofrece el orificio impreso relativamente ajustado
+pero no hermetico&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./electret-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Para los microfonos a los que llamare &lt;em&gt;d60&lt;/em&gt; (el pequeño, con diametro de 6mm) y &lt;em&gt;delgado&lt;/em&gt; (diametro
+de 9.7 por 4.5 mm) se utilizo el mismo nivel de volumen en el amplificador, pues
+producian entre 95 y 96 dB. Para el microfono &lt;em&gt;gordo&lt;/em&gt; (9.7 por 7 mm) ya que entregaba
+105db se redujo el volumen a un valor cercano a 90dB&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./712-04.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pruebas&#34;&gt;Pruebas&lt;/h2&gt;
+&lt;h3 id=&#34;712-volumen-1-y-2&#34;&gt;712 Volumen 1 y 2&lt;/h3&gt;
+&lt;p&gt;Las mediciones con alineacion a 1Khz del 712 con los Volumenes 1 y 2. Resaltada
+la respuesta del acoplador generico 711&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./mics.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Puede revisar mas a profundidad el resultado en nuestro &lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=712,712_d60,712_flaco,712_gordo&#34;&gt;squig&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Se realizaron dos mediciones para cada prueba con dos microfonos de cada uno.&lt;/p&gt;
+&lt;p&gt;En nuestro &lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=712,712_d60,712_flaco,712_gordo&#34;&gt;squig&lt;/a&gt;
+el microfono &amp;ldquo;1&amp;rdquo; se etiqueto como el lado &lt;code&gt;R&lt;/code&gt;, el &amp;ldquo;2&amp;rdquo; como &lt;code&gt;L&lt;/code&gt;, mostrando asi
+una media&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Risas&amp;hellip;&lt;/strong&gt; ocurrio un error al calcular la longitud del primer modelo, era
+ligeramente mas largo. Como ve, los picos de resonancia estan desplazados&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./712-long.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;712-volumen-1-3&#34;&gt;712 Volumen 1-3&lt;/h3&gt;
+&lt;h3 id=&#34;712-consclusiones&#34;&gt;712 Consclusiones&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
