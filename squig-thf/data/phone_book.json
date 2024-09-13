@@ -3,9 +3,9 @@
         "name":   "712",
         "phones": [
             {
-                "name": "3DP Volume 1&2",
-                "file": ["712", "712 d60", "712 flaco", "712 gordo", "Zero d60", "Zero flaco", "Zero gordo"],
-                "sufix": ["Target", "d 60", "flaco", "gordo", "Zero d60", "Zero flaco", "Zero gordo" ],
+                "name": "3DP",
+                "file": ["711", "712 d60", "712 flaco", "712 gordo", "712 d6 v1-3", "712 d6 cD7", "Zero d60", "Zero flaco", "Zero gordo" ],
+                "sufix": ["Target", "d60 Vol 1&2", "flaco Vol 1&2", "gordo Vol 1&2", "d6 v1-3", "d6 Vol 1&2 cD7", "Zero d60", "Zero flaco", "Zero gordo" ],
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
