@@ -64,13 +64,22 @@ producian entre 95 y 96 dB. Para el microfono &lt;em&gt;gordo&lt;/em&gt; (9.7 po
 la respuesta del acoplador generico 711&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./mics.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Se realizaron dos mediciones para cada prueba con dos microfonos de cada uno.&lt;/p&gt;
-&lt;p&gt;Puede revisar mas a profundidad el resultado en nuestro &lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=712,712_d60,712_flaco,712_gordo&#34;&gt;squig&lt;/a&gt;
-el microfono &amp;ldquo;1&amp;rdquo; se etiqueto como el lado &lt;code&gt;R&lt;/code&gt;, el &amp;ldquo;2&amp;rdquo; como &lt;code&gt;L&lt;/code&gt;, mostrando asi
+&lt;p&gt;Puede revisar mas a profundidad el resultado en nuestro &lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=711,712_d60,712_flaco,712_gordo&#34;&gt;squig&lt;/a&gt;.
+El microfono &amp;ldquo;1&amp;rdquo; se etiqueto como el lado &lt;code&gt;R&lt;/code&gt;, el &amp;ldquo;2&amp;rdquo; como &lt;code&gt;L&lt;/code&gt;, mostrando asi
 una media&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Risas&amp;hellip;&lt;/strong&gt; ocurrio un error al calcular la longitud del primer modelo, era
 ligeramente mas largo. Como ve, los picos de resonancia estan desplazados&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;./712-long.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Un pequeño experimento mas, que tal reducir el diametro interno del acoplador de 7.5 a 7?
+(&lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=711,712_d60,712_d6_cD7&#34;&gt;squig&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./712Vol1-2_cD7.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pequeño incremento debajo de 1KHz, pequeña bajada luego de 6KHz, no parece ser
+una buena ruta&lt;/p&gt;
 &lt;h3 id=&#34;712-volumen-1-3&#34;&gt;712 Volumen 1-3&lt;/h3&gt;
+&lt;p&gt;Añadiendo el tercer Volumen (como hace el clon) la respuesta debajo de 1k se acerca
+un poco al objetivo y tambien logra ese pequeño undimiento ~800Hz y se apega
+fielmente hasta 2.7Khz, Luego se mantiene igual a la verscion con volumen 1 y 2 (&lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=711,712_d6_v1-3,712_d60&#34;&gt;squig&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./712Vol_1-3_01.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;712-consclusiones&#34;&gt;712 Consclusiones&lt;/h3&gt;
 </description>
     </item>
