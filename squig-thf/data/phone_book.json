@@ -10,7 +10,17 @@
                 "reviewLink": "",
                 "price": "",
                 "shopLink": ""
+            },
+            {
+                "name": "V4-V9 mic 2",
+                "file": ["711", "712 V4", "712 V5", "712 V6", "712 V7", "712 V8", "712 V9" ],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
             }
+
+
         ]
     },
     {
@@ -48,6 +58,14 @@
             {
                 "name": "Qigom HD800",
                 "file": "NKH 50 Qigom HD800",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": "https://www.printables.com/es/model/518778-nascii-nkh-50"
+            },
+            {
+                "name": "Silk",
+                "file": ["NKH 50 Silk", "NKH 50 Silk New", "NKH 50 Silk o1", "NKH 50 Silk o1 c2", "NKH 50 Silk B-T"],
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
