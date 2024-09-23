@@ -64,8 +64,9 @@
                 "shopLink": "https://www.printables.com/es/model/518778-nascii-nkh-50"
             },
             {
-                "name": "Silk",
+                "name": "Cuyo",
                 "file": ["NKH 50 Silk", "NKH 50 Silk New", "NKH 50 Silk o1", "NKH 50 Silk o1 c2", "NKH 50 Silk B-T"],
+                "sufix": ["NKH 50 Cuyo"],
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
