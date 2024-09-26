@@ -51,7 +51,7 @@ const init_phones = [
 // Specify which targets to display
 const targets = [
 //    { type:"Δ" , files:["Δ 10dB","Δ JM-1","IEF Comp"] },
-    { type:"Harman", files:[ "Harman OE 2018 Linear", "Harman 2018", "Harman IE 2019 v2" ] },
+    { type:"Harman", files:[ "Harman OE 2018 Linear", "Harman 2018", "Harman 2013", "Harman IE 2019 v2" ] },
     { type:"Neutral",    files:[ "Diffuse Field","Free Field" ] },
     { type:"Reviewer",   files:[ "AA Neutral Diffuse" ] }
 ];
