@@ -3,17 +3,34 @@
         "name":   "712",
         "phones": [
             {
-                "name": "3DP",
-                "file": ["711", "712 d60", "712 flaco", "712 gordo", "712 d6 v1-3", "712 d6 cD7", "Zero d60", "Zero flaco", "Zero gordo" ],
-                "sufix": ["Target", "d60 Vol 1&2", "flaco Vol 1&2", "gordo Vol 1&2", "d6 v1-3", "d6 Vol 1&2 cD7", "Zero d60", "Zero flaco", "Zero gordo" ],
+                "name": "Target",
+                "file": ["711" ],
+                "sufix": ["Target" ],
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
                 "shopLink": ""
             },
             {
-                "name": "V4-V9 mic 2",
-                "file": ["711", "712 V4", "712 V5", "712 V6", "712 V7", "712 V8", "712 V9" ],
+                "name": "Base",
+                "file": ["712 d60", "712 flaco", "712 gordo", "712 d6 v1-3", "712 d6 cD7", "Zero d60", "Zero flaco", "Zero gordo" ],
+                "sufix": ["d60 Vol 1&2", "flaco Vol 1&2", "gordo Vol 1&2", "d6 v1-3", "d6 Vol 1&2 cD7", "Zero d60", "Zero flaco", "Zero gordo" ],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "Human C",
+                "file": ["712 hc1", "712 hc2" ],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "V4-V19",
+                "file": ["712 V4", "712 V5", "712 V6", "712 V7", "712 V8", "712 V9", "712 V10", "712 V10 d97", "712 V11", "712 V12", "712 V13", "712 V14", "712 V15", "712 V16", "712 V17", "712 V18", "712 V19"],
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",

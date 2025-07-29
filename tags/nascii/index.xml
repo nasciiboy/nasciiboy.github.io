@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nascii on ⋲ᴹ∧cₛ ℜø∁κ§</title>
+    <title>Nascii on ⋲ᴹ∧cₛ ℜø∁κ§</title>
     <link>https://nasciiboy.github.io/tags/nascii/</link>
-    <description>Recent content in nascii on ⋲ᴹ∧cₛ ℜø∁κ§</description>
+    <description>Recent content in Nascii on ⋲ᴹ∧cₛ ℜø∁κ§</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
@@ -359,7 +359,7 @@ variente del soporte para las almohadillas &lt;strong&gt;PAD-B&lt;/strong&gt; no
 puede modificar el codigo en &lt;code&gt;NKH.scad&lt;/code&gt;. Tambien podria intentar modificar los
 parametros tanto para el tamaño de las almohadillas, la altura interna de la
 cuerda dentro de estas o el tamaño del driver. SUERTE!&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;drivers&#34;&gt;Drivers&lt;/h2&gt;
 &lt;p&gt;Los modelos en printables incluyen algunos adaptadores de altavoces, si requiere
 un modelo personalizado, puede utilizar el siguiente proyecto&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;&lt;/a&gt;&lt;/p&gt;

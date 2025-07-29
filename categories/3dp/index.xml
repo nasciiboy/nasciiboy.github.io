@@ -6,10 +6,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <copyright>GPL v3.0</copyright>
-    <lastBuildDate>Mon, 08 Jan 2024 02:13:20 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2024 12:26:19 -0600</lastBuildDate>
     
         <atom:link href="https://nasciiboy.github.io/categories/3dp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DIY Links (headphones)</title>
+      <link>https://nasciiboy.github.io/3dp/diy-headphones-links/diy-heaphones/</link>
+      <pubDate>Thu, 31 Oct 2024 12:26:19 -0600</pubDate>
+      
+      <guid>https://nasciiboy.github.io/3dp/diy-headphones-links/diy-heaphones/</guid>
+      <description>&lt;h2 id=&#34;headphones&#34;&gt;Headphones&lt;/h2&gt;
+&lt;p&gt;Tofty Headphones 4: Aurorus Borealis Inspired &lt;a href=&#34;https://www.thingiverse.com/thing:5103331&#34;&gt;https://www.thingiverse.com/thing:5103331&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;P1 (Pork3D)
+&lt;a href=&#34;https://makerworld.com/en/models/731814&#34;&gt;https://makerworld.com/en/models/731814&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;stands&#34;&gt;Stands&lt;/h2&gt;
+&lt;p&gt;Schakka Zulu &lt;a href=&#34;https://www.thingiverse.com/thing:2380160&#34;&gt;https://www.thingiverse.com/thing:2380160&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Monster Mouth (2020) &lt;a href=&#34;https://www.thingiverse.com/thing:4445088&#34;&gt;https://www.thingiverse.com/thing:4445088&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Monster Mouth &lt;a href=&#34;https://www.thingiverse.com/thing:1657541&#34;&gt;https://www.thingiverse.com/thing:1657541&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tofty&amp;rsquo;s Wooden &lt;a href=&#34;https://www.thingiverse.com/thing:5276882/files&#34;&gt;https://www.thingiverse.com/thing:5276882/files&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Industrial Headphone Stand &lt;a href=&#34;https://makerworld.com/en/models/189326&#34;&gt;https://makerworld.com/en/models/189326&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Party Girl &lt;a href=&#34;https://www.printables.com/model/259240-party-girl-iem-in-ear-monitors-display-standholder&#34;&gt;https://www.printables.com/model/259240-party-girl-iem-in-ear-monitors-display-standholder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Female Statue &lt;a href=&#34;https://www.printables.com/model/243115-female-statue-headphone-stand-renaissance-style&#34;&gt;https://www.printables.com/model/243115-female-statue-headphone-stand-renaissance-style&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pole Dancer Sculpture &lt;a href=&#34;https://www.printables.com/model/466989-pole-dancer-sculpture-headphone-stand&#34;&gt;https://www.printables.com/model/466989-pole-dancer-sculpture-headphone-stand&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hand Sculpture &lt;a href=&#34;https://www.printables.com/model/921513-hand-sculpture-headphone-stand&#34;&gt;https://www.printables.com/model/921513-hand-sculpture-headphone-stand&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NASCII NKH – Guia de uso rapido</title>
@@ -359,7 +382,7 @@ variente del soporte para las almohadillas &lt;strong&gt;PAD-B&lt;/strong&gt; no
 puede modificar el codigo en &lt;code&gt;NKH.scad&lt;/code&gt;. Tambien podria intentar modificar los
 parametros tanto para el tamaño de las almohadillas, la altura interna de la
 cuerda dentro de estas o el tamaño del driver. SUERTE!&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;drivers&#34;&gt;Drivers&lt;/h2&gt;
 &lt;p&gt;Los modelos en printables incluyen algunos adaptadores de altavoces, si requiere
 un modelo personalizado, puede utilizar el siguiente proyecto&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -935,19 +958,17 @@ estan colocadas las ruedas en este modelo (como en el de Way2Do) quedan en exces
 ajustadas, con un error aproximado de .6mm, ja, ja&lt;/p&gt;
 &lt;p&gt;Aun asi, el diseño es sencillo y facil de reproducir, por lo que se utilizo como &amp;ldquo;plantilla&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Creo que la primer influencia es el video que enlaza en por &lt;a href=&#34;https://www.thingiverse.com/thing:4853171&#34;&gt;aca&lt;/a&gt;&lt;/p&gt;
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/mqSQhwqSzvg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mqSQhwqSzvg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;p&gt;A decir verdad, encuentro la propuesta exagerada y el sistema de imanes &amp;ldquo;poco
 confiable&amp;rdquo;, ademas que no muestran la &amp;ldquo;diferencia&amp;rdquo; en forma de impresiones. Pese
 a ello, es un video muy ilustrativo con ideas (para mi) nuevas&lt;/p&gt;
 &lt;p&gt;y adicionalmente&lt;/p&gt;
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/s8-e9McOoFA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/s8-e9McOoFA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;p&gt;La conclusion de lo anterior fue&amp;hellip; 4 ruedas, acoplador oldham, tuerca T POM
 antiretroceso y acoplador flexible&lt;/p&gt;
@@ -1018,7 +1039,7 @@ provocar que la pieza se despegase, tomelo en cuenta&lt;/p&gt;
 &lt;p&gt;Por cierto, durante las pruebas utilice un modelo impreso de la extrucion 2040
 V-Slot, puede encontrar ese y otros modelos interesantes aqui -&amp;gt;
 &lt;a href=&#34;https://www.thingiverse.com/thing:3973787&#34;&gt;https://www.thingiverse.com/thing:3973787&lt;/a&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;materiales&#34;&gt;Materiales&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/z-mod/zm-06.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Los enlaces son de afiliado a los materiales que he utilizado. Heche mano de su
 propio criterio y guiese por la reputacion, comentarios y experiencia en compras
@@ -1045,10 +1066,9 @@ acopladores flexibles para recolocar los &amp;ldquo;rigidos&amp;rdquo; originale
 &lt;p&gt;(si la vuelvo a desmontar, prometo tomar fotografias, realmente es un poco
 inutil detallar el proceso sin ellas, asi que unos pocos consejos. Pero&amp;hellip; mejor mire
 el siguiente video que al menos explica algunas cosas)&lt;/p&gt;
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/Y7AGsfoA3Kw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Y7AGsfoA3Kw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;p&gt;Para colocar los coples, utilice este &lt;a href=&#34;https://www.thingiverse.com/thing:3934158&#34;&gt;centrador&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Para colocar y apretar los acopladores oldham utilice su ingenio, no es tan
