@@ -958,17 +958,19 @@ estan colocadas las ruedas en este modelo (como en el de Way2Do) quedan en exces
 ajustadas, con un error aproximado de .6mm, ja, ja&lt;/p&gt;
 &lt;p&gt;Aun asi, el diseño es sencillo y facil de reproducir, por lo que se utilizo como &amp;ldquo;plantilla&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Creo que la primer influencia es el video que enlaza en por &lt;a href=&#34;https://www.thingiverse.com/thing:4853171&#34;&gt;aca&lt;/a&gt;&lt;/p&gt;
+
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mqSQhwqSzvg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/mqSQhwqSzvg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;A decir verdad, encuentro la propuesta exagerada y el sistema de imanes &amp;ldquo;poco
 confiable&amp;rdquo;, ademas que no muestran la &amp;ldquo;diferencia&amp;rdquo; en forma de impresiones. Pese
 a ello, es un video muy ilustrativo con ideas (para mi) nuevas&lt;/p&gt;
 &lt;p&gt;y adicionalmente&lt;/p&gt;
+
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/s8-e9McOoFA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/s8-e9McOoFA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;La conclusion de lo anterior fue&amp;hellip; 4 ruedas, acoplador oldham, tuerca T POM
 antiretroceso y acoplador flexible&lt;/p&gt;
@@ -1066,9 +1068,10 @@ acopladores flexibles para recolocar los &amp;ldquo;rigidos&amp;rdquo; originale
 &lt;p&gt;(si la vuelvo a desmontar, prometo tomar fotografias, realmente es un poco
 inutil detallar el proceso sin ellas, asi que unos pocos consejos. Pero&amp;hellip; mejor mire
 el siguiente video que al menos explica algunas cosas)&lt;/p&gt;
+
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Y7AGsfoA3Kw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Y7AGsfoA3Kw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Para colocar los coples, utilice este &lt;a href=&#34;https://www.thingiverse.com/thing:3934158&#34;&gt;centrador&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Para colocar y apretar los acopladores oldham utilice su ingenio, no es tan
