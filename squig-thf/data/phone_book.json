@@ -82,7 +82,7 @@
             },
             {
                 "name": "Cuyo",
-                "file": ["NKH 50 Silk", "NKH 50 Silk New", "NKH 50 Silk o1", "NKH 50 Silk o1 c2", "NKH 50 Silk B-T", "NKH 50 Cuyo SN3", "NKH 50 Cuyo SN3 110"],
+                "file": ["NKH 50 Silk", "NKH 50 Silk New", "NKH 50 Silk o1", "NKH 50 Silk o1 c2", "NKH 50 Silk B-T", "NHK 50 Cuyo SN2", "NHK 50 Cuyo SN2 100PT", "NHK 50 Cuyo SN2 110PT", "NKH 50 Cuyo SN3", "NKH 50 Cuyo SN3 110"],
                 "sufix": ["Cuyo"],
                 "reviewScore": "",
                 "reviewLink": "",
