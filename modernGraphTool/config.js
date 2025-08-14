@@ -10,7 +10,7 @@ const CONFIG = {
   // Default Normalization Type and Value.
   NORMALIZATION: {
     TYPE: "Hz",                                         // ("Hz" or "Avg" - 300~3000Hz Midrange Average Normalization)
-    HZ_VALUE: 500,                                      // This will be ignored if NORMALIZATION.TYPE is "Avg"
+    HZ_VALUE: 1000,                                     // This will be ignored if NORMALIZATION.TYPE is "Avg"
   },
   // Default Visualization Settings.
   VISUALIZATION: {
