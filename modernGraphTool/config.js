@@ -70,9 +70,9 @@ const CONFIG = {
       SIZE: "15px", FONT_FAMILY: "sans-serif", FONT_WEIGHT: "600", COLOR: "#000000", OPACITY: "0.4",
     },
     // You can even put multiple TEXT or IMAGE in Array. Randomly picked content will be rendered on every load.
-    { TYPE: "IMAGE", SIZE: "50px", LOCATION: "TOP_LEFT", POSITION: {UP: "0", DOWN: "15", LEFT: "46", RIGHT: "0"}, OPACITY: "0.2",
+    { TYPE: "IMAGE", SIZE: "124px", LOCATION: "TOP_LEFT", POSITION: {UP: "0", DOWN: "-47", LEFT: "3", RIGHT: "0"}, OPACITY: "0.2",
       CONTENT: [
-        "./assets/images/watermark.png",
+        "./assets/images/watermark.png"
       ]
     }
   ],
@@ -83,7 +83,7 @@ const CONFIG = {
     default: [
         { type:"Harman",      files:["Harman OE 2018 Linear", "Harman 2018", "Harman 2013" ] },
         { type:"Harman IE",   files:["Harman IE 2017v2", "Harman IE 2019v2" ] },
-        { type:"Neutral",     files:["Diffuse Field","Free Field", "ISO 11904-1 DF", "ISO 11904-2" ] },
+        { type:"Neutral",     files:["Diffuse Field","Free Field", "ISO 11904-1 DF", "ISO 11904-2" ] }
         // { type:"Δ",           files:["Universal ∆"] }
     ],
     // And add more languages as you want.
