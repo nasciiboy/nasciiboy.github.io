@@ -48,7 +48,7 @@ const CONFIG = {
   // URL Settings
   URL: {
     AUTO_UPDATE_URL: true,                              // This will automatically update URL when phone/target is changed.
-    COMPRESS_URL: true,                                 // Compresses URL with Base62 encoding
+    COMPRESS_URL: false,                                // Compresses URL with Base62 encoding
   },
   // Language Settings
   LANGUAGE: {
