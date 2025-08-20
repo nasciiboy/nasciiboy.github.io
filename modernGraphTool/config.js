@@ -120,8 +120,10 @@ const CONFIG = {
     // You MUST add 'http(s)://' to the URL Website PATH.
     LINK_LIST: {
       default: [
-        { TITLE: "Github", URL: "https://www.github.com" },
-        { TITLE: "Docs", URL: "https://potatosalad775.github.io/modernGraphTool/docs" },
+        { TITLE: "squig.link", URL: "https://tinnitus-hifi.squig.link/" },
+        { TITLE: "THF youtu", URL: "https://www.youtube.com/@TinnitusHiFi" },
+        { TITLE: "THF facebug", URL: "https://www.facebook.com/groups/1113067072770396/" },
+        { TITLE: "nascii blog", URL: "https://nasciiboy.github.io/" },
       ],
       i18n: {
         ko: [
