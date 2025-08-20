@@ -286,22 +286,13 @@ roscados, puede unirse con tornillos utilizando cianocrilato&lt;/p&gt;
 sugiere utilizar almohadillas de 105mm con una profundidad de 35mm&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-01.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBfZWFP&#34;&gt;almohadillas de 105mm anguladas&lt;/a&gt; (mas vibrante, menos posicionamiento y escenario)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Tambien puede optar por alguna variente &amp;ldquo;plana&amp;rdquo; si utiliza los modelos &lt;code&gt;PAD-B&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-046.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas de terciopelo de 100mm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Igualmente para la variante &amp;ldquo;plana&amp;rdquo; con igual sonoridad pero una mayor superficie de descanso de
-terciopelo con la parte externa en cuero sintetico perforado&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFJqvq3&#34;&gt;almohadillas de terciopelo de 100mm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFJqvq3&#34;&gt;almohadillas perforadas con terciopelo al frente de 100mm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;cianocrilato&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Soldadura epoxi&amp;rdquo; JB Weld KwikWeld. Es opcional, pero una buena forma de fijar
 los cables en los altavoces&lt;/li&gt;
@@ -425,86 +416,75 @@ puede modificar el codigo en &lt;code&gt;NKH.scad&lt;/code&gt;. Tambien podria i
 parametros tanto para el tamaño de las almohadillas, la altura interna de la
 cuerda dentro de estas o el tamaño del driver. SUERTE!&lt;/p&gt;
 &lt;h2 id=&#34;drivers&#34;&gt;Drivers&lt;/h2&gt;
-&lt;p&gt;Los modelos en printables incluyen algunos adaptadores de altavoces, si requiere
-un modelo personalizado, puede utilizar el siguiente proyecto&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;En general esta diadema proporciona un incremento en la sensacion de los
-graves con respecto al modelo PTG 75-100 sin ser tan &amp;ldquo;energetica&amp;rdquo; como el
-modelo 50-70&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-049.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Se han probado desde controladores rescatados de equipos economicos y la mayoria
-de los utilizados en el anterior diseño &lt;strong&gt;PTG&lt;/strong&gt;, todos ellos con resultados agradables&lt;/p&gt;
-&lt;p&gt;Aunque los resultados entre distintas fuentes y el gusto personal casi
-inequivocamente lo haran diferir de mis configuraciones, dejo algunas que me han
-agradado&lt;/p&gt;
+&lt;p&gt;A continuacion algunas conbinaciones de almohadillas, opciones del modelo
+impreso y drivers junto a su respuesta en frecuencia&lt;/p&gt;
+&lt;p&gt;Los modelos en printables ya incluyen algunos adaptadores para los drives, si requiere
+un modelo personalizado, puede utilizar este &lt;a href=&#34;https://www.printables.com/es/model/249019-customizable-speaker-spacer&#34;&gt;proyecto&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Importante:&lt;/strong&gt; Aunque coloque enlaces (y alguno sea de afiliado&amp;hellip;) no los tome como
 una fuente confible de suministros. Si bien en ellas he conseguido los altavoces
 para mis modelos personales, no han estado excentos de defecto, problemas
-en el embalaje o envio. Si sus unidades precentan problemas, proceda de forma
-razonable a colocar la mala calificacion y/o exigir su justo reembolso&lt;/p&gt;
-&lt;h3 id=&#34;leagginal-seda-cuyo&#34;&gt;Leagginal Seda (Cuyo)&lt;/h3&gt;
+en el embalaje o envio. Si sus unidades presentan problemas, proceda de forma
+razonable a exigir una justa devolucion y reenvolso&lt;/p&gt;
+&lt;h3 id=&#34;nkh-50-cuyo&#34;&gt;NKH 50 Cuyo&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Cuyo.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBGyuDP&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_onUEPwR&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas 100mm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFJqvq3&#34;&gt;almohadillas perforadas de terciopelo de 100mm o 110mm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;&lt;strong&gt;NKH 50&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=Harman_OE_2018_Linear_Target,NKH_50_Silk&#34;&gt;garabato&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;La eleccion segura con un sonido bastante cercano al de la serie 600&lt;/p&gt;
-&lt;p&gt;Balanceado, un pequeño realce en sudbajo y vocales.&lt;/p&gt;
-&lt;h3 id=&#34;qigom-soloqigom-4003-mamba&#34;&gt;Qigom Solo/Qigom 4003 (Mamba)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-mamba-nkh-plus3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Perfore uno de los afiradores y tape otro con masquin de la sugiente manera&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/Cuyo/silkCF.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La eleccion de las almohadillas &lt;a href=&#34;http://nasciiboy.github.io/squig-thf/?share=Harman_2018_Target,NHK_50_Cuyo_SN2,NHK_50_Cuyo_SN2_100PT,NHK_50_Cuyo_SN2_110PT&#34;&gt;modifica la firma&lt;/a&gt; y comodidad, las perforadas
+con terciopelo al frente son mas comodas&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/Cuyo/pads.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/Cuyo/SN2Linear.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;almohadillas de terciopelo de 100mm (SN2), perforadas con frente de terciopelo
+de 100mm (100PT) y 110mm (110PT)&lt;/p&gt;
+&lt;h3 id=&#34;nkh-50-mamba&#34;&gt;NKH 50 Mamba&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEJw3Q9&#34;&gt;Qigom Solo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFbIY33&#34;&gt;Qigom 4003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DEJw3Q9&#34;&gt;Driver Qigom Solo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DFbIY33&#34;&gt;Driver Qigom 4003&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;&lt;strong&gt;NKH 50&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=Harman_OE_2018_Linear_Target,NKH_50_Mamba_Solo,NKH_50_Mamba_4003&#34;&gt;garabatos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-067.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Utilice los adaptadores de driver &lt;code&gt;400&lt;/code&gt;, las almohadillas anchas de 105mm en el
-&lt;code&gt;PLA_PAD&lt;/code&gt; de 105mm.&lt;/p&gt;
-&lt;p&gt;El resultado es un conjunto neutral brillante ampliamente disfrutable, que no
-exige una amplificacion especializada con una de las bocinas mas economicas&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-071.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;qigom-hd800&#34;&gt;Qigom HD800&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DlO1CVR&#34;&gt;https://s.click.aliexpress.com/e/_DlO1CVR&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/518778-nascii-nkh-50&#34;&gt;&lt;strong&gt;NKH 50&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-080.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;frio y un poco metalico, quiza seria mi configuracion menos recomendable, pero
-tiene su encanto&lt;/p&gt;
-&lt;p&gt;Utilice, las almohadillas de terciopelo de 100 o 105mm en el
-pad-B correspondiente&lt;/p&gt;
-&lt;p&gt;En las imagenes se muestra el conjunto con almohadillas de 110mm,
-desafortunadamente resultan menos confortables que las de 100mm&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DELd5ax&#34;&gt;https://s.click.aliexpress.com/e/_DELd5ax&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-075.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;qigom-n90q-quimera&#34;&gt;Qigom N90Q (Quimera)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-quimera.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DkaezxR&#34;&gt;https://s.click.aliexpress.com/e/_DkaezxR&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;strong&gt;NKH Z65&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La configuracion de almohadillas serian anchas de 105mm en &lt;code&gt;PLA_PAD&lt;/code&gt; de 105mm&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-04.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;el sonido es &amp;ldquo;neutral calido&amp;rdquo;. El controlador es el mas costoso entre las
-recomendaciones, pero tambien mi preferido. Las diferencias no son abismales con
-respecto al beats solo 3, pero&amp;hellip; gustos&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-05.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;jcd-m-50-mamut&#34;&gt;JCD m 50 (Mamut)&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/banner/banner-mamut.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddn2Urt&#34;&gt;https://s.click.aliexpress.com/e/_Ddn2Urt&lt;/a&gt; (modelo m 50, revise con atencion la imagen)&lt;/p&gt;
-&lt;p&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;strong&gt;NKH Z65&lt;/strong&gt;&lt;/a&gt;.
-Adaptador &lt;code&gt;driver/494.stl&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-18.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;El mas mundano y economico de los controladores, con graves retumbantes, un
-sonido calido y sin ningun requerimiento especial de amplificacion&lt;/p&gt;
-&lt;p&gt;Los bajos son tan potentes que requiere utilizar almodillas compactas de
-terciopelo de 100mm en un &lt;code&gt;PLA_PAD-B&lt;/code&gt; o &lt;code&gt;PLA_PAD-BR&lt;/code&gt; de 105mm&lt;/p&gt;
+&lt;p&gt;Utilice los adaptadores de driver &lt;code&gt;400&lt;/code&gt;. El adaptador de almohadillas
+&lt;code&gt;PLA_PAD&lt;/code&gt; de 105mm y almohadillas anchas de 105mm. La eleccion del driver afecta
+ligeramente el resultado, aunque son bastante parecidos&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Mamba-fr.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;nkh-z75-quimera&#34;&gt;NKH Z75 Quimera&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DkaezxR&#34;&gt;Driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddl70ep&#34;&gt;almohadillas de 105mm x 35mm de ancho&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;strong&gt;NKH Z65&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=Harman_OE_2018_Linear_Target,NKH_Z65_Quimera&#34;&gt;garabato&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Almohadillas anchas de 105mm en &lt;code&gt;PLA_PAD/105-v2.stl&lt;/code&gt;. Adaptador de driver &lt;code&gt;n90q.stl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-Quimera-fr.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-03.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;nkh-75-mamut&#34;&gt;NKH 75 Mamut&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-20.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Disfrut!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-009.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Ddn2Urt&#34;&gt;Driver&lt;/a&gt; (modelo m 50)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas 100mm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modelo &lt;a href=&#34;https://www.printables.com/es/model/625625-nascii-nkh-z65&#34;&gt;&lt;strong&gt;NKH Z65&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=Harman_OE_2018_Linear_Target,NKH_Z65_Mamut&#34;&gt;garabato&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Adaptador &lt;code&gt;driver/494.stl&lt;/code&gt;, Adaptador de almahadillas &lt;code&gt;PLA_PAD-B&lt;/code&gt; o &lt;code&gt;PLA_PAD-BR&lt;/code&gt; de 105mm&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-mamut-fr.png&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-18.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;bonus&#34;&gt;Bonus&lt;/h2&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/B8H6d0chnA8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+&lt;p&gt;Disfrut!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-009.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
