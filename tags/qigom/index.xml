@@ -377,6 +377,10 @@ un conjunto ensamblado&lt;/p&gt;
 &lt;p&gt;Disfrut!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-008.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;materiales-y-equipo&#34;&gt;Materiales y equipo&lt;/h2&gt;
+&lt;p&gt;(Anotacion) Intento mantener actualizados los enlaces a los componentes, sin
+embargo solo a tiendas donde yo mismo los he conseguido, si no estan disponibles
+solo puede desearle suerte basandose en el nombre e imagenes. En cualquier caso,
+compre con precaucion, revise nombres, precio y reseñas.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Impresora 3D de filamento. Debe medir al menos 100x100 milimetros, aunque se
@@ -398,14 +402,15 @@ la cabeza&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;30cm de fleje de acero inoxidable redondeado sin perforaciones de
 aproximadamente 12.7mm de ancho y .8mm de altura. Este puede ser recortado de
-abrazaderas en modelos de 127mm, que cuentan con una longitud aproximada a los
-30cm.&lt;/p&gt;
+abrazaderas en modelos de 127mm, que cuentan con una longitud
+aproximada a los 30cm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-005.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/misc-03.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-005.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Para las barras que conectan las horquillas con la banda puede utilizar alguna
 de las siquientes opciones. En todos los casos el diametro de los modelos esta
-ajustado para 5mm. La longitud puede variar enormemente segun el usuario y
+ajustado a 5mm. La longitud puede variar enormemente segun el usuario y
 modelo a imprimir, se recomiendan al menos 10cm de longitud, aunque podrian
 ser suficientes 7cm. Al rededor de 12cm seria una medida &amp;ldquo;segura&amp;rdquo;&lt;/p&gt;
 &lt;ul&gt;
@@ -475,7 +480,7 @@ coneccion/desconeccion es mas comoda en la primera&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32993743992.html&#34;&gt;10 pares JST SM&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dnq7gdP&#34;&gt;100 Micro JST 1.25mm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_Dnq7gdP&#34;&gt;100 Micro JST 2P 1.25mm&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Para los cables jack de 3.5 hay tambien dos opciones. Particularmente prefiero
@@ -495,9 +500,9 @@ como orificios internos&lt;/p&gt;
 &lt;p&gt;Puede utilizar
 &lt;a href=&#34;https://www.printables.com/es/model/258716-prueba-de-tolerancia-interna&#34;&gt;este&lt;/a&gt;
 modelo para realizar una prueba de presicion&lt;/p&gt;
-&lt;p&gt;Los puntos criticos en cuanto a la presicion son dos. Primero que el cuerpo, la
-tapa trasera y/o el pad se rosquen con suavidad y al mismo tiempo sin apenas
-juego&lt;/p&gt;
+&lt;p&gt;Los puntos criticos en cuanto a la presicion son dos. Primero que la copa, tapa
+trasera y/o el soporte de almohadillas rosquen con suavidad y al mismo tiempo
+sin apenas holgura&lt;/p&gt;
 &lt;p&gt;Segundo. Debe requerir algo de esfuerzo introducir las barras dentro del puente
 de la banda. Una vez colocadas deben poder girar con un poco de esfuerzo y ser
 un tanto mas dificil el deslizamiento&lt;/p&gt;
@@ -506,13 +511,14 @@ un tanto mas dificil el deslizamiento&lt;/p&gt;
 &lt;li&gt;boquilla .4&lt;/li&gt;
 &lt;li&gt;capa .2&lt;/li&gt;
 &lt;li&gt;paredes 3-4&lt;/li&gt;
-&lt;li&gt;inferior 3&lt;/li&gt;
-&lt;li&gt;superior 4&lt;/li&gt;
+&lt;li&gt;inferior 3 capas&lt;/li&gt;
+&lt;li&gt;superior 4 capas&lt;/li&gt;
 &lt;li&gt;relleno 10-15% giroide (conectado)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Para mis impresiones utilizo una artillery genius y cura como laminador. En los
-perimetros externos la presicion es exacta, pero en los orificios internos tengo
-establecido un valor de &lt;code&gt;0.2&lt;/code&gt; (&lt;strong&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/strong&gt;)&lt;/p&gt;
+perimetros externos la presicion es exacta, pero en los orificios internos &lt;strong&gt;en
+mi maquina&lt;/strong&gt; tengo establecido un valor de &lt;code&gt;0.2&lt;/code&gt;
+(&lt;strong&gt;Personalizado&amp;gt;Paredes&amp;gt;Expansion Horizontal de Orificios&lt;/strong&gt;)&lt;/p&gt;
 &lt;p&gt;Si bien el PLA suele ser el filamento con mayor resistencia, tambien suele ser
 bastante quebradizo. Podria imprimir todos los modelos con PLA, pero la
 combinacion recomendada es imprimir el cuerpo (la copa) en PLA y
@@ -535,7 +541,7 @@ horquillas, pero en su impresora podrian no ser necesarios&lt;/p&gt;
 &lt;p&gt;Con la ayuda de unas pinzas de mecanico doble 1.5cm ambos extremos hacia el
 interior aproximadamente 70°&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-009.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Con las mismas pinzas (o un martillo) enderece los extremos ya doblados lo mas recto posible&lt;/p&gt;
+&lt;p&gt;Con las mismas pinzas (o un martillo) aplane los extremos ya doblados lo mas recto posible&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-010.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Introdusca el fleje dentro de los puentes&amp;hellip; en caso de no llegar al final,
 golpee el fleje contra el puente con mucha delicadeza&amp;hellip; el
@@ -554,31 +560,29 @@ en el medio&lt;/p&gt;
 superficie en contacto entre la banda flexible y la cabeza. Mientras mas
 superficie mas comodidad&lt;/p&gt;
 &lt;p&gt;Hay tres factores que afectan esta relacion, la longitud de la banda flexible,
-del fleje y que inclinacion tenga el puente con respeto al fleje. Asi tambien
+la longitud del fleje y que inclinacion tenga el puente con respeto al fleje. Asi tambien
 debe considerar que la banda flexible no entre directamente en contacto con el
 fleje ya colocado sobre la cabeza&lt;/p&gt;
 &lt;p&gt;aqui un ejemplo de ajuste &amp;ldquo;regular&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-007.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;aca un buen ajuste&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-008.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;(el archivo a imprimir es &lt;code&gt;headstrap-230&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;(con las medidas recomendadas y mi cabeza funciono el archivo &lt;code&gt;headstrap-230&lt;/code&gt;)&lt;/p&gt;
 &lt;p&gt;En el cuerpo de la copa retire los soportes y limpie a conciencia. Rosque el
 conector jack y asegure con la tuerca&lt;/p&gt;
 &lt;p&gt;Corte un poco de termofit (1 o 2~ centimentros) y coloquelo en los conectores
 JST hembra&lt;/p&gt;
-&lt;p&gt;Solde al conector jack. El conector mas largo y al centro es el
-extremo negativo, el que esta a la derecha de este corresponde al canal derecho
-de audio y es donde debe soldar el positivo en ambas copas por la propia
-configuracion de los cables que se utilizan&lt;/p&gt;
+&lt;p&gt;Solde los conectores al jack. El conector mas largo y al centro es el negativo,
+el que esta a la derecha de este corresponde al canal de audio. Replique
+exactamente igual en ambas copas&lt;/p&gt;
 &lt;p&gt;Deslice el termofit a la base del conector jack y aplique calor. Un encendedor
 sera suficiente&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/misc-013.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Lije ligeramente los pines de las horquillas (4/6mm)&lt;/p&gt;
 &lt;p&gt;Con mucho cuidado pero con firmeza y determinacion incerte los pines de
-la hoquilla en el cuerpo de la copa hasta el fondo. Puede lijar un poco mas,
-pero es recomendable que la union presente un poco de resistencia&lt;/p&gt;
+la hoquilla en el cuerpo de la copa hasta el fondo. Puede lijar un poco,
+pero es recomendable que la union presente algo de resistencia&lt;/p&gt;
 &lt;p&gt;Una vez colocada la hoquilla sostenga con firmeza lo mas cercano a los pines y
-haga girar la copa para desgastar material hasta que optenga el movimiento de su
+haga girar la copa para desgastar material hasta que consiga el movimiento de su
 agrado. Aplique un poco de aceite si hay rechinidos o para hacer mas suave el
 movimiento&lt;/p&gt;
 &lt;p&gt;Coloque un poco de cianocrilato en los extremos de las barras. Inserte las horquillas y
@@ -597,18 +601,18 @@ lado derecho o indicado de alguna forma&lt;/p&gt;
 a las bocinas, asi es como yo lo hago. El cianocrilato no es una buena opcion
 para esta union&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-068.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Inserte los controladores dentro de los adaptadores, si no se ajustan
-correctamente (quedan flojos) tiene dos opciones, primero corte secciones de
-masquin para engrosar el diametro de los controladores o aplique un poco de
-pegamento de contacto transparente&lt;/p&gt;
+&lt;p&gt;Si es el caso, inserte los drivers en de los adaptadores, si no se ajustan correctamente
+(quedan flojos) tiene dos opciones, primero corte secciones de masquin para
+engrosar el diametro de los controladores o aplique un poco de pegamento de
+contacto transparente&lt;/p&gt;
 &lt;p&gt;Los modelos de adaptadores vienen indicados en &amp;ldquo;milimetros&amp;rdquo;. En general si va a
 utilizar por ejemplo altavoces de 40mm, use el adaptador marcado como &lt;code&gt;395&lt;/code&gt;
-(39.5mm), si utiliza de 50 el &lt;code&gt;495&lt;/code&gt; y asi. Hay verciones precisas si tiene
-dudas, aunque seguramente necesite sujetar aplicando pegamento (de contacto
-transparente preferiblemente)&lt;/p&gt;
+(39.5mm), si utiliza de 50 el &lt;code&gt;495&lt;/code&gt; y asi, aunque tambien se incluyen versiones
+con medida exacta. En cualquier caso para asugurar la union, aplique pegamento
+de contacto (transparente preferiblemente)&lt;/p&gt;
 &lt;p&gt;El resto de componentes (rejilla, tapa y tapa de las almohadillas) solo
 requiere roscar&lt;/p&gt;
-&lt;p&gt;Conecte y disfrute&lt;/p&gt;
+&lt;p&gt;Conecte y pruebe&lt;/p&gt;
 &lt;h2 id=&#34;modelos&#34;&gt;Modelos&lt;/h2&gt;
 &lt;p&gt;A continuacion algunas conbinaciones de almohadillas, dimenciones del modelo
 impreso y (en su mayoria) drivers tal cual&lt;/p&gt;
@@ -666,7 +670,7 @@ particulares &lt;a href=&#34;https://nasciiboy.github.io/squig-thf/&#34;&gt;gara
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-059.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.printables.com/es/model/415621-nascii-ptg-60-80&#34;&gt;archivos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DBGyuDP&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_onUEPwR&#34;&gt;driver&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DcIqO9P&#34;&gt;almohadillas 80mm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://nasciiboy.github.io/squig-thf/?share=Harman_OE_2018_Linear_Target,PTG_60-80_Silk&#34;&gt;garabato&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
