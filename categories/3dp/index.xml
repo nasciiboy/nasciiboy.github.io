@@ -715,17 +715,19 @@ construccion robusta y un facil ensamblaje y modificacion&lt;/p&gt;
 complicaciones en su impresion. La union de las piezas se realiza mediante
 roscas, un poco de pegamento y un ajuste preciso&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-029.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;La mayor dificultad en los audifonos impresos se concentra en la resistencia del
-material utilizado en la diadema, que por lo general se termina partiendo. Se
-busco algo sencillo, barato y resistente. Para la diadema, se utiliza el fleje
-de abrazaderas de acero inoxidable. Para conectar las horquillas, barras
-cilindricas de 5mm tambien de acero.&lt;/p&gt;
+&lt;p&gt;La mayor dificultad al construir audifonos impresos se concentra en la
+resistencia del material, en especial cuando se somete a flexion o esfuerzo
+constante, pues las piezas se terminan quebrando.&lt;/p&gt;
+&lt;p&gt;Se busco algo sencillo, barato y resistente. Para la diadema, se utiliza un
+fleje de abrazaderas de acero inoxidable, es inoxidable, flexible, ligero y
+mantiene su forma&lt;/p&gt;
+&lt;p&gt;Para conectar las horquillas, barras cilindricas de 5mm tambien de acero.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-022.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Aunque se puede utilizar sin mas, es algo rudo colocar la banda metalica
-directamente en la cabeza&amp;hellip; y si bien es posible acolcharla por uno mismo,
-comprar un recubrimiento o adaptar una banda elastica, solo por mantener la
-sencilles, se utiliza una banda flexible (que no elastica) impresa en
-TPU que por estetica y robustez se une mediante tornillos&lt;/p&gt;
+directamente en la cabeza&amp;hellip; y si bien es posible agregarle algun relleno
+acolchado, comprar un recubrimiento o adaptar una banda elastica, solo por
+mantener la sencilles, se utiliza una banda flexible (que no elastica) impresa
+en TPU, aunque por motivos esteticos va unida mediante lindos tornillos&lt;/p&gt;
 &lt;p&gt;Las piezas impresas estan diseñadas en &lt;a href=&#34;https://openscad.org/&#34;&gt;OpenScad&lt;/a&gt;, lo que
 permite modificar y adaptar el modelo de forma parametrica mediante un programa
 de libre uso y distribucion, haciendo posible producir diseños para una infinidad
@@ -750,16 +752,12 @@ modificados sin aviso previo. Si desea conservar permanentemente la
 compativilidad de las piezas mantenga a buen resguardo los archivos que
 descargue&lt;/p&gt;
 &lt;p&gt;En caso de que cuente con alguna configuracion o componente que desee recomendar
-o publicitar puede revisar el fondo de la pagina. Igualmente, si vive en la
+o publicitar, puede revisar el fondo de la pagina. Igualmente, si vive en la
 republica Mexicana puede contactarme para adquirir piezas impresas, la carcasa o
 un conjunto ensamblado&lt;/p&gt;
 &lt;p&gt;Disfrut!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/PTG/PTG-008.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;materiales-y-equipo&#34;&gt;Materiales y equipo&lt;/h2&gt;
-&lt;p&gt;(Anotacion) Intento mantener actualizados los enlaces a los componentes, sin
-embargo solo a tiendas donde yo mismo los he conseguido, si no estan disponibles
-solo puedo desearle suerte buscando basado en el nombre e imagenes. En cualquier
-caso, compre con precaucion, revise nombres, precio y reseñas.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Impresora 3D de filamento. Debe medir al menos 100x100 milimetros, aunque se
@@ -792,6 +790,10 @@ de las siquientes opciones. En todos los casos el diametro de los modelos esta
 ajustado a 5mm. La longitud puede variar enormemente segun el usuario y
 modelo a imprimir, se recomiendan al menos 10cm de longitud, aunque podrian
 ser suficientes 7cm. Al rededor de 12cm seria una medida &amp;ldquo;segura&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;(Anotacion) Intento mantener actualizados los enlaces a los componentes, sin
+embargo solo a tiendas donde yo mismo los he conseguido, si no estan disponibles
+solo puedo desearle suerte buscando basado en el nombre e imagenes. En cualquier
+caso, compre con precaucion, revise nombres, precio y reseñas.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://es.aliexpress.com/item/32970588289.html&#34;&gt;Espaciador de aluminio m3x120&lt;/a&gt;&lt;/p&gt;
@@ -863,7 +865,7 @@ coneccion/desconeccion es mas comoda en la primera&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Para los cables jack de 3.5 hay tambien dos opciones. Particularmente prefiero
-la primera, pero la segunda tampoco ha presentado inconvenientes&lt;/p&gt;
+la primera, pero la segunda tampoco ha presentado inconvenientes.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://s.click.aliexpress.com/e/_DD4xwjJ&#34;&gt;Cable OPENHEART de 8 núcleos para auriculares, conector de 1 a 2 3,5mm&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://es.aliexpress.com/item/1005004039289320.html&#34;&gt;Cable de Audio Jack estéreo de 3,5mm de 1 a 2 3.5mm&lt;/a&gt;&lt;/li&gt;
@@ -912,8 +914,7 @@ mantener como una lamina flexible&lt;/p&gt;
 friccion hacen hartamante poco recomendable imprimir el cuerpo en este
 material&lt;/p&gt;
 &lt;p&gt;Las rejillas decorativas pueden imprimirse en cualquier material&lt;/p&gt;
-&lt;p&gt;Unicamente es necesario colocar soportes tocando la placa para el
-cuerpo&lt;/p&gt;
+&lt;p&gt;Solo el modelo de la copa (&lt;code&gt;body&lt;/code&gt;) necesita soportes&lt;/p&gt;
 &lt;p&gt;Se recomienda utilizar un borde de 2mm para los adaptadores de los drivers y las
 horquillas, pero en su impresora podrian no ser necesarios&lt;/p&gt;
 &lt;h2 id=&#34;ensamblaje&#34;&gt;Ensamblaje&lt;/h2&gt;
@@ -1088,10 +1089,11 @@ masquin&lt;/p&gt;
 tapando incrementalmente con masquin el papel de afinacion&lt;/p&gt;
 &lt;p&gt;Las almohadillas con mayor sello incrementan las frecuencias grabes y
 las mas porosas las disminuyen resaltando medios y agudos&lt;/p&gt;
-&lt;p&gt;Si utiliza una alhomadillas hermetica en conjunto con un controlador sin ningun
-espacio de &amp;ldquo;ventilacion&amp;rdquo; incrementara la sensacion de frecuencias bajas al
-maximo, aunque en mi propia experiencia encuentro esto bastante agobiante y de
-cierta manera creo que es malo para la salud, aunque no tenga pruebas de ello&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;Si utiliza alhomadillas con que generan un gran sello en conjunto con un
+controlador sin ningun espacio de &amp;ldquo;ventilacion&amp;rdquo; incrementara la sensacion de
+frecuencias bajas al maximo, aunque en mi propia experiencia encuentro esto
+bastante agobiante y de cierta manera creo que es malo para la salud, aunque no
+tenga pruebas de ello&amp;hellip;.&lt;/p&gt;
 &lt;p&gt;En un principio tenia planeado experimentar cambiando las rejillas por tapas
 cerradas con formas de domo, medios ovalos, patrones de relleno e incluso llegue
 a pensar en hacer algun &amp;ldquo;laberinto&amp;rdquo;, pero por alguna razon u otra fue una
