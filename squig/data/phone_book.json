@@ -65,19 +65,6 @@
         ]
     },
     {
-        "name":   "Jcally",
-        "phones": [
-            {
-                "name": "EP05 LCP DIY",
-                "file": "Jcally EP05 LCP DIY",
-                "reviewScore": "",
-                "reviewLink": "",
-                "price": "",
-                "shopLink": ""
-            }
-        ]
-    },
-    {
         "name":   "KZ",
         "phones": [
             {
@@ -119,6 +106,32 @@
                 "reviewLink": "",
                 "price": "",
                 "shopLink": ""
+            },
+            {
+                "name": "GP20",
+                "file": ["KZ PG20 bluethoo", "KZ PG20 wired"],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Pula",
+        "phones": [
+            {
+                "name": "Unicrom",
+                "file":
+                [
+                    "Pula Unicrom (puntas blancas blancas)",
+                    "Pula Unicrom (puntas azul blancas)",
+                    "Pula Unicrom (puntas blancas rojas)"
+                ],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
             }
         ]
     },
@@ -149,8 +162,34 @@
         ]
     },
     {
+        "name":   "Simgot",
+        "phones": [
+            {
+                "name": "EA500 LM",
+                "file":
+                [
+                    "Simgot EA500 LM (boquilla dorada)",
+                    "Simgot EA500 LM (boquilla negra)",
+                    "Simgot EA500 LM (boquilla roja)"
+                ],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
         "name":   "Tinnitus HiFi",
         "phones": [
+            {
+                "name": "Cuyo",
+                "file": "Tinnitus HiFi Cuyo",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
             {
                 "name": "Quimera",
                 "file": "Tinnitus HiFi Quimera",
@@ -233,19 +272,6 @@
         ]
     },
     {
-        "name":   "Vido",
-        "phones": [
-            {
-                "name": "Blue",
-                "file": "Vido Blue",
-                "reviewScore": "",
-                "reviewLink": "",
-                "price": "",
-                "shopLink": ""
-            }
-        ]
-    },
-    {
         "name":   "WG",
         "phones": [
             {
@@ -264,19 +290,6 @@
             {
                 "name": "RH-5Ma",
                 "file": "Yamaha RH-5Ma",
-                "reviewScore": "",
-                "reviewLink": "",
-                "price": "",
-                "shopLink": ""
-            }
-        ]
-    },
-    {
-        "name":   "Yincrow",
-        "phones": [
-            {
-                "name": "Calf",
-                "file": "Yincrow Calf",
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
