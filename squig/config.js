@@ -118,8 +118,6 @@ function setLayout() {
 }
 setLayout();
 
-
-
 // Set restricted mode
 function setRestricted() {
     if ( restricted ) {

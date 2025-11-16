@@ -430,25 +430,25 @@ internos&lt;/p&gt;
 &lt;a href=&#34;https://www.printables.com/es/model/258716-prueba-de-tolerancia-interna&#34;&gt;este&lt;/a&gt;
 modelo para realizar una prueba de presicion&lt;/p&gt;
 &lt;p&gt;Los puntos criticos en cuanto al ajuste son dos. Primero, el cuerpo y el soporte
-roscado para las almohadillas deben unirse suavidad y al mismo tiempo sin apenas
+roscado para las almohadillas deben unirse con suavidad y al mismo tiempo sin apenas
 juego&lt;/p&gt;
 &lt;p&gt;Segundo, insertar las barras el puente debe requerir algo de esfuerzo, para una
-vez colocadas girar con un poco de esfuerzo e impedir suficientemente el
-deslizamiento&lt;/p&gt;
+vez colocadas impedir el deslizamiento en altura sin aplicar fuerza, mientras
+permite el el giro con suavidad&lt;/p&gt;
 &lt;p&gt;Las piezas fueron impresas con la siguiente configuracion:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;boquilla .4, ancho de linea (en el laminador de .44)&lt;/li&gt;
 &lt;li&gt;capa .2&lt;/li&gt;
 &lt;li&gt;paredes 3-4&lt;/li&gt;
-&lt;li&gt;inferior 3&lt;/li&gt;
+&lt;li&gt;inferior 4&lt;/li&gt;
 &lt;li&gt;superior 4&lt;/li&gt;
-&lt;li&gt;relleno 10-15% giroide (conectado)&lt;/li&gt;
+&lt;li&gt;relleno 10% giroide (conectado)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-000.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;esta es una recomendacion &amp;ldquo;minima&amp;rdquo;, puede incrementar un poco la resistencia de
-las piezas aumentando el numero de paredes o con mayor porcentaje del relleno
-hasta generar una pieza solida, cosa que no incrementa demaciado el tiempo de
-impresion.&lt;/p&gt;
+&lt;p&gt;esta es una recomendacion &amp;ldquo;minima&amp;rdquo; y funcional, sin embargo para componentes
+como el puente y horquillas es recomendable una pieza &amp;ldquo;casi&amp;rdquo; solida, modificando
+el numero de paredes a 7&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/ps-005.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;En mi caso cuento con una artillery genius y por preferencia y conviccion uso
 cura como laminador. En los perimetros externos la presicion es exacta, pero en
 los orificios internos tengo establecido un valor de &lt;code&gt;0.2&lt;/code&gt; de expancion horizontal
@@ -553,6 +553,12 @@ ligeramente el resultado, aunque son bastante parecidos&lt;/p&gt;
 &lt;p&gt;Adaptador &lt;code&gt;driver/494.stl&lt;/code&gt;, Adaptador de almahadillas &lt;code&gt;PLA_PAD-B&lt;/code&gt; o &lt;code&gt;PLA_PAD-BR&lt;/code&gt; de 105mm&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-mamut-fr.png&#34; alt=&#34;&#34;&gt;
 &lt;img src=&#34;https://nasciiboy.github.io/img/3dp/NKH/NKH-Z65-18.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;montaje&#34;&gt;Montaje&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/z0YeftGOcHs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;bonus&#34;&gt;Bonus&lt;/h2&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;

@@ -26,6 +26,26 @@
         ]
     },
     {
+        "name":   "COLORFLY",
+        "phones": [
+            {
+                "name": "Silver Reference",
+                "file": [
+                    "COLORFLY Silver Reference (puntas amarillas m)",
+                    "COLORFLY Silver Reference (puntas azules s)"
+                ],
+                "suffix": [
+                    "(puntas amarillas m)",
+                    "(puntas azules s)"
+                ],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
         "name":   "Hidiz",
         "phones": [
             {
@@ -110,6 +130,28 @@
             {
                 "name": "GP20",
                 "file": ["KZ PG20 bluethoo", "KZ PG20 wired"],
+                "suffix": ["bluethoo", "wired"],
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "KB EAR",
+        "phones": [
+            {
+                "name": "Flash",
+                "file": "KB EAR Flash",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "KB02",
+                "file": "KB EAR KB02",
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
@@ -127,6 +169,12 @@
                     "Pula Unicrom (puntas blancas blancas)",
                     "Pula Unicrom (puntas azul blancas)",
                     "Pula Unicrom (puntas blancas rojas)"
+                ],
+                "suffix":
+                [
+                    "(puntas blancas blancas)",
+                    "(puntas azul blancas)",
+                    "(puntas blancas rojas)"
                 ],
                 "reviewScore": "",
                 "reviewLink": "",
@@ -171,6 +219,12 @@
                     "Simgot EA500 LM (boquilla dorada)",
                     "Simgot EA500 LM (boquilla negra)",
                     "Simgot EA500 LM (boquilla roja)"
+                ],
+                "suffix":
+                [
+                    "(boquilla dorada)",
+                    "(boquilla negra)",
+                    "(boquilla roja)"
                 ],
                 "reviewScore": "",
                 "reviewLink": "",
@@ -225,19 +279,6 @@
         ]
     },
     {
-        "name":   "Turtle Beach",
-        "phones": [
-            {
-                "name": "Stealth 300",
-                "file": "Turtle Beach Stealth 300",
-                "reviewScore": "",
-                "reviewLink": "",
-                "price": "",
-                "shopLink": ""
-            }
-        ]
-    },
-    {
         "name":   "Tripowin",
         "phones": [
             {
@@ -264,6 +305,32 @@
             {
                 "name": "MT1",
                 "file": "TRN MT1",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "TRUTHEAR",
+        "phones": [
+            {
+                "name": "PURE",
+                "file": "TRUTHEAR PURE",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Turtle Beach",
+        "phones": [
+            {
+                "name": "Stealth 300",
+                "file": "Turtle Beach Stealth 300",
                 "reviewScore": "",
                 "reviewLink": "",
                 "price": "",
