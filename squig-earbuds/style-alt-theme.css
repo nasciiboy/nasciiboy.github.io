@@ -1,0 +1,168 @@
+/* Primary color theme */
+:root {
+    --accent-color: hsl(0, 0%, 0%);
+    --accent-color-contrast: hsl(0, 0%, 55%);
+
+    --background-color: hsl(0, 0%, 96%);
+    --background-color-contrast: hsl(0, 0%, 90%);
+    --background-color-contrast-more: hsl(0, 0%, 65%);
+    --background-color-graph: hsl(0, 0%, 100%);
+    
+    --background-color-inputs: hsl(0, 0%, 100%);
+    
+    --font-color-primary: hsl(0, 0%, 10%);
+    --font-color-secondary: hsl(0, 0%, 100%);
+    --font-color-inputs: hsl(0, 0%, 50%);
+    
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+    
+    --scrollbar-color: 255,255,255;
+    --scrollbar-accent: 0,0,0;
+        
+    --header-color: hsl(215, 20%, 10%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: none;
+    --svg-filter: none;
+}
+
+body.dark-mode {
+    --accent-color: hsl(0, 0%, 100%);
+    --accent-color-contrast: hsl(0, 0%, 50%);
+
+    --background-color: hsl(0, 0%, 6%);
+    --background-color-contrast: hsl(0, 0%, 15%);
+    --background-color-contrast-more: hsl(0, 0%, 30%);
+    --background-color-graph: hsl(0, 0%, 8%);
+
+    --background-color-inputs: hsl(0, 0%, 15%);
+
+    --font-color-primary: hsl(0, 0%, 80%);
+    --font-color-secondary: hsl(0, 0%, 0%);
+    --font-color-inputs: hsl(0, 0%, 60%);
+
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: monospace;
+
+    --scrollbar-color: 0,0,0;
+    --scrollbar-accent: 255,255,255;
+
+    --header-color: hsl(215, 20%, 10%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: none;
+    --svg-filter: invert(1.0);
+}
+
+/*****
+Graph lite *****/
+
+/* Horizontal lines */
+
+svg#fr-graph > g:nth-of-type(3) > text {
+    fill: var(--font-color-primary);
+    font-size: 8px;
+    
+    opacity: 0.8;
+}
+
+svg#fr-graph > g:nth-of-type(3) g.tick line {
+    stroke: var(--background-color-contrast-more);
+    stroke-width: 1px;
+    
+    opacity: 0.2;
+}
+
+svg#fr-graph > g:nth-of-type(3) g.tick:nth-child(2n+1) line {
+    opacity: 0.1;
+}
+
+svg#fr-graph > g:nth-of-type(3) g.tick text {
+    fill: var(--font-color-primary);
+    font-size: 8px;
+    
+    opacity: 0.4;
+}
+
+svg#fr-graph > g:nth-of-type(3) g.tick:nth-child(2n+1) text {
+    display: none;
+}
+
+/* Vertical lines */
+svg#fr-graph > g:nth-of-type(4) g.tick line {
+    stroke: var(--background-color-contrast-more);
+    stroke-width: 1px;
+    
+    opacity: 0.2;
+}
+
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-of-type(1) line,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-last-of-type(1) line {
+    display: none;
+}
+
+svg#fr-graph > g:nth-of-type(4) g.tick text {
+    fill: var(--font-color-primary);
+    font-size: 8px;
+    
+    opacity: 0.4;
+}
+
+/***** For lite graph: Dark lines *****/
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(6) line,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(10) line,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(15) line,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(19) line,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(21) line,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(23) line {
+    opacity: 0.8;
+}
+
+/***** For lite graph: Dark labels *****/
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(6) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(10) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(15) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(19) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(21) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(23) text {
+    opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+/***** For lite graph: Dark labels *****/
+    svg#fr-graph > g:nth-of-type(3) g.tick text {
+        font-size: 150%;
+    }
+    
+    svg#fr-graph > g:nth-of-type(4) g.tick text {
+        display: none;
+    }
+    
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(6) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(10) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(15) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(19) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(21) text,
+svg#fr-graph > g:nth-of-type(4) g.tick:nth-child(23) text {
+        display: inherit;
+        font-size: 150%;
+    }
+}
+
+/***** Squiglink site address *****/
+
+image.wm-squiglink-logo {
+}
+
+text.wm-squiglink-address {
+    color: var(--font-color-primary);
+    color: magenta;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 14px;
+    
+    filter: var(--svg-filter);
+}

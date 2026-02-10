@@ -1,0 +1,109 @@
+[
+    {
+        "name":   "Jcally",
+        "phones": [
+            {
+                "name": "EP05 LCP DIY",
+                "file": "Jcally EP05 LCP DIY",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "NiceHCK",
+        "phones": [
+            {
+                "name": "Traceless",
+                "file": "NiceHCK Traceless",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "QKZ",
+        "phones": [
+            {
+                "name": "MDR",
+                "file": "QKZ MDR",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Senfer",
+        "phones": [
+            {
+                "name": "PT 2021",
+                "file": "Senfer PT 2021",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "PT 15 Ti-Peek-Pu DIY",
+                "file": "Senfer PT 15 Ti-Peek-Pu DIY",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Toneking",
+        "phones": [
+            {
+                "name": "Dendroaspis Viridis",
+                "file": "Toneking Dendroaspis Viridis",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Vido",
+        "phones": [
+            {
+                "name": "Blue",
+                "file": "Vido Blue",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            },
+            {
+                "name": "White",
+                "file": "Vido White",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
+        "name":   "Yincrow",
+        "phones": [
+            {
+                "name": "Calf",
+                "file": "Yincrow Calf",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    }
+]
