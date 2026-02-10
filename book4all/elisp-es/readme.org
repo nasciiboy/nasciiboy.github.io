@@ -1,0 +1,34 @@
+Esto es un fork de la traduccion de «An Introduction to Programming in Emacs Lisp»
+inicialmente parte del proyecto [[http://libremanuals.net/][libre manuals]] pero con un formato de
+marcas inestable, llamado "[[https://github.com/nasciiboy/morg/][morg]]"
+
+puede optener una copia del repositorio, mediante
+
+#+BEGIN_SRC sh
+  git clone https://gitlab.com/nasciiboy/elipo.git
+#+END_SRC
+
+o bien en formato [[https://gitlab.com/nasciiboy/elipo/-/archive/master/elipo-master.zip][zip]] o [[https://gitlab.com/nasciiboy/elipo/-/archive/master/elipo-master.tar][tar]]
+
+como repositorio alternativo, tambien puede clonarse desde [[notabug.org]]
+
+#+BEGIN_SRC sh
+  git clone https://notabug.org/nasciiboy/elipo.git
+#+END_SRC
+
+El repositorio incluye los siguientes ficheros
+
+- [[file:doclicense.txt][doclicense.txt]] - licencia
+- [[file:elisp.html][elisp.html]] - copia mono-pagina del manual de referencia de GNU Emacs Lisp
+- [[file:emacs.html][emacs.html]] - copia mono-pagina del manual de GNU Emacs
+- [[file:manual.css][manual.css]] - css para elisp.html y emacs.html
+- [[file:emacs-lisp-intro.morg][emacs-lisp-intro.morg]] - /AItPiEL/ en formato morg
+- [[file:emacs-lisp-intro.html][emacs-lisp-intro.html]] - exportacion html de /AItPiEL/
+- [[file:emacs-lisp-intro_es.morg][emacs-lisp-intro_es.morg]] - /AItPiEL/ (es) en formato morg
+- [[file:emacs-lisp-intro_es.html][emacs-lisp-intro_es.html]] - exportacion html (es) de /AItPiEL/
+- [[file:emacs-lisp-intro_es.porg][emacs-lisp-intro_es.porg]] - /AItPiEL/ fichero maestro de traduccion
+- [[file:worg-data][worg-data]] - css para exportacion html de /AItPiEL/
+
+*Vercion web* en [[https://nasciiboy.land/book4all/elipo/emacs-lisp-intro_es.html][español]] e [[https://nasciiboy.land/book4all/elipo/emacs-lisp-intro.html][ingles]]
+
+Para mas informacion: [[https://www.nasciiboy.land/emacs/elipo/]]
