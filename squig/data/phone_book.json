@@ -46,6 +46,19 @@
         ]
     },
     {
+        "name":   "DUNU",
+        "phones": [
+            {
+                "name": "Titan X",
+                "file": "Dunu Titan X",
+                "reviewScore": "",
+                "reviewLink": "",
+                "price": "",
+                "shopLink": ""
+            }
+        ]
+    },
+    {
         "name":   "Hidiz",
         "phones": [
             {
